@@ -1,4 +1,4 @@
-name: Build portable Windows app
+name: Build Windows ZIP app
 
 on:
   push:
@@ -64,14 +64,14 @@ jobs:
       - name: Run unit and content checks
         run: npm test
 
-      - name: Build portable Windows x64 executable
-        run: npm run build -- --publish never
+      - name: Build Windows x64 ZIP distribution
+        run: npm run build
 
       - name: Generate SHA-256 checksums
         shell: pwsh
         run: |
-          $artifacts = @(Get-ChildItem -LiteralPath 'dist' -Filter '*.exe' -File)
-          if ($artifacts.Count -eq 0) { throw 'No portable executable was produced.' }
+          $artifacts = @(Get-ChildItem -LiteralPath 'dist' -Filter '*.zip' -File | Sort-Object Name)
+          if ($artifacts.Count -eq 0) { throw 'No Windows ZIP distribution was produced.' }
           $checksums = foreach ($artifact in $artifacts) {
             $digest = (Get-FileHash -LiteralPath $artifact.FullName -Algorithm SHA256).Hash.ToLowerInvariant()
             "$digest  $($artifact.Name)"
@@ -83,11 +83,11 @@ jobs:
         with:
           name: P4G-Companion-windows-x64-${{ github.sha }}
           path: |
-            dist/*.exe
+            dist/*.zip
             dist/SHA256SUMS.txt
           if-no-files-found: error
           compression-level: 0
           retention-days: 14
 
-# Public releases use the exact portable artifact checked on the target Windows PC.
+# Public releases use the exact ZIP distribution checked on the target Windows PC.
 # CI builds remain downloadable review artifacts; they do not replace release assets.

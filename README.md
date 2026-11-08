@@ -22,13 +22,14 @@ The Windows overlay also uses a verified always-on-top level.
 
 ## Download and start
 
-1. Open [Releases](https://github.com/EdoXBroS12/P4G-Companion/releases) and download the portable Windows x64 `.exe` attached to the release you want.
-2. Run the downloaded file. No separate Node.js or Python installation is needed. The portable launcher may take a few seconds to extract its runtime on first launch.
-3. Use **IT / EN** in the header to choose a language. Open **Plan / Overlay** to prepare your session, or select an ending, the quest catalogue or Margaret’s guide.
+1. Open [Releases](https://github.com/EdoXBroS12/P4G-Companion/releases) and download **P4G_Companion_Windows.zip**.
+2. In Windows, choose **Extract All**. Keep the complete **P4G_Companion_Windows** folder with all of its files and subfolders.
+3. Open the extracted folder and run **P4G Companion.exe**. Keep the executable inside that folder; running it directly from the ZIP or moving only the EXE will leave required files behind. This is the desktop app; no browser, Node.js or Python installation is needed.
+4. Use **IT / EN** in the header to choose a language. Open **Plan / Overlay** to prepare your session, or select an ending, the quest catalogue or Margaret’s guide.
 
 If a release has not been published yet, use the source-build instructions below. GitHub’s **Source code** archives contain the project, not a ready-to-run app.
 
-The executable is currently unsigned. Windows SmartScreen or Smart App Control may warn about or block it according to your system’s security settings.
+The self-extracting launcher was blocked by Windows reputation checks on the tested PC. The app launched from its complete folder using the original Electron runtime; the ZIP supplies that folder. Packaging and file reputation can affect Windows’ decision; this result does not guarantee acceptance on every PC. SmartScreen or Smart App Control may still warn or block files according to local policy. No Windows security settings are changed by this distribution.
 
 ## What is included
 
@@ -84,7 +85,7 @@ The journal is a manual record. It does not read, edit or synchronise the game�
 
 Create a journal branch when you separate your in-game saves. A new branch copies the currently selected journal, including its session list; subsequent edits stay with that branch. It does not reconstruct an earlier checkpoint. Loading an old game save does not combine its quests, inventory or Persona progress with another save. Select the matching journal branch and check your current Persona levels before calculating triangular fusions.
 
-Progress is stored in the Windows user’s application-data folder. Open that folder from the app’s settings, or export/import the journal as JSON. The portable EXE and the journal are separate files: keeping an exported copy is useful when moving to another PC.
+Progress is stored in the Windows user’s application-data folder. Open that folder from the app’s settings, or export/import the journal as JSON. The extracted application folder and the journal are separate: keeping an exported copy is useful when moving to another PC.
 
 The guides, images and calculator work offline. Opening a web source uses your browser and requires an internet connection.
 
@@ -105,13 +106,13 @@ npm test
 npm run build
 ```
 
-The portable app is generated under `dist/`. For local development:
+The build prepares the complete Windows folder and generates **dist/P4G_Companion_Windows.zip**, with a **P4G_Companion_Windows/** container directory, plus **dist/SHA256SUMS.txt**. It verifies the ZIP contents against the prepared files. The default build does not create a self-extracting launcher. For local development:
 
 ```powershell
 npm start
 ```
 
-Dependency installation and the first packaging run need internet access. The GitHub Actions workflow runs the tests, builds the Windows executable and uploads a build artifact with checksums. It does **not** publish a GitHub Release; release publication is a separate maintainer step.
+Dependency installation and the first packaging run need internet access. The GitHub Actions workflow runs the tests, builds the Windows ZIP and uploads ZIP files with SHA-256 checksums. It does **not** publish a GitHub Release; release publication is a separate maintainer step.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for content corrections, translation work and isolated UI testing.
 

@@ -22,13 +22,14 @@ Corretto anche il livello di primo piano dell’overlay su Windows.
 
 ## Scaricare e avviare
 
-1. Apri [Releases](https://github.com/EdoXBroS12/P4G-Companion/releases) e scarica l’`.exe` portabile Windows x64 allegato alla versione desiderata.
-2. Avvia il file scaricato. Non serve installare separatamente Node.js o Python. Il primo avvio può richiedere qualche secondo per l’estrazione temporanea del programma.
-3. Scegli la lingua con **IT / EN** nell’intestazione. Apri **Piano / Overlay** per preparare la sessione oppure scegli un finale, il catalogo quest o la guida di Margaret.
+1. Apri [Releases](https://github.com/EdoXBroS12/P4G-Companion/releases) e scarica **P4G_Companion_Windows.zip**.
+2. In Windows scegli **Estrai tutto**. Conserva la cartella completa **P4G_Companion_Windows**, con tutti i suoi file e sottocartelle.
+3. Apri la cartella estratta e avvia **P4G Companion.exe**. Lascia l’eseguibile nella cartella: avviarlo direttamente dallo ZIP o spostare soltanto l’EXE lascia indietro i file necessari. È l’app desktop; non servono browser, Node.js o Python.
+4. Scegli la lingua con **IT / EN** nell’intestazione. Apri **Piano / Overlay** per preparare la sessione oppure scegli un finale, il catalogo quest o la guida di Margaret.
 
 Se non è ancora disponibile una release, usa le istruzioni di compilazione qui sotto. Gli archivi **Source code** di GitHub contengono il progetto, non un’app già pronta da avviare.
 
-L’eseguibile attualmente non ha una firma digitale dell’editore. Windows SmartScreen o Smart App Control possono mostrare un avviso o bloccarlo in base alle impostazioni di sicurezza del sistema.
+Il programma autoestraente è stato bloccato dai controlli di reputazione Windows sul PC di prova. L’app è stata avviata dalla cartella completa con il runtime originale di Electron; lo ZIP distribuisce quella cartella. Confezionamento e reputazione dei file possono influire sulla decisione di Windows: questo risultato non garantisce l’avvio su ogni PC. SmartScreen o Smart App Control possono ancora segnalare o bloccare file secondo le regole locali. La distribuzione non modifica le impostazioni di sicurezza di Windows.
 
 ## Contenuti
 
@@ -84,7 +85,7 @@ Il diario è un registro manuale: non legge, modifica o sincronizza i salvataggi
 
 Crea un ramo del diario quando separi i salvataggi nella partita. Il nuovo ramo copia il diario attualmente selezionato, inclusa la lista della sessione; le modifiche successive restano nel rispettivo ramo. Non ricostruisce un checkpoint precedente. Ricaricare un vecchio salvataggio non unisce quest, inventario o progressi delle Persona con quelli di un altro salvataggio. Seleziona il ramo corrispondente e verifica i livelli attuali prima di calcolare fusioni triangolari.
 
-I progressi vengono conservati nella cartella dati dell’utente Windows. Puoi aprirla dalle impostazioni oppure esportare e importare il diario in JSON. L’EXE portabile e il diario sono file separati: una copia esportata è utile per passare a un altro PC.
+I progressi vengono conservati nella cartella dati dell’utente Windows. Puoi aprirla dalle impostazioni oppure esportare e importare il diario in JSON. La cartella dell’app estratta e il diario sono separati: una copia esportata è utile per passare a un altro PC.
 
 Guide, immagini e calcolatore funzionano offline. I collegamenti alle fonti web aprono il browser e richiedono una connessione.
 
@@ -105,13 +106,13 @@ npm test
 npm run build
 ```
 
-L’app portabile viene generata in `dist/`. Per lo sviluppo locale:
+La compilazione prepara la cartella Windows completa e genera **dist/P4G_Companion_Windows.zip**, con la cartella contenitore **P4G_Companion_Windows/**, oltre a **dist/SHA256SUMS.txt**. Il contenuto dello ZIP viene verificato rispetto ai file preparati. La compilazione predefinita non crea un programma autoestraente. Per lo sviluppo locale:
 
 ```powershell
 npm start
 ```
 
-L’installazione delle dipendenze e la prima compilazione richiedono Internet. Il workflow GitHub Actions esegue i test, compila l’EXE Windows e carica un artefatto con checksum. **Non** pubblica una GitHub Release: la pubblicazione è un passaggio separato del manutentore.
+L’installazione delle dipendenze e la prima compilazione richiedono Internet. Il workflow GitHub Actions esegue i test, prepara lo ZIP Windows e carica gli ZIP con i checksum SHA-256. **Non** pubblica una GitHub Release: la pubblicazione è un passaggio separato del manutentore.
 
 Per correzioni, traduzioni e test dell’interfaccia con profili isolati, consulta [CONTRIBUTING.md](CONTRIBUTING.md).
 
