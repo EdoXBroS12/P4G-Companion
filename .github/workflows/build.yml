@@ -35,6 +35,9 @@ jobs:
       - name: Install locked dependencies
         run: npm ci
 
+      - name: Ensure the official Electron runtime is installed
+        run: node node_modules/electron/install.js
+
       - name: Run unit and content checks
         run: npm test
 

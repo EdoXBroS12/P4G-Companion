@@ -64,6 +64,7 @@ Usa **Windows x64 e Node.js 24**. Dalla cartella principale del repository, che 
 
 ```powershell
 npm ci
+node node_modules/electron/install.js
 npm test
 npm run build
 ```

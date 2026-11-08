@@ -64,6 +64,7 @@ Use **Windows x64 and Node.js 24**. Run these commands from the repository root,
 
 ```powershell
 npm ci
+node node_modules/electron/install.js
 npm test
 npm run build
 ```
