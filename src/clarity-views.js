@@ -19,7 +19,7 @@ export function createClarityViews(c) {
       <main class="content" id="content"></main></div></div>`;
   }
   function home(){
-    const next=(c.state.settings.personalContext?ROUTE_ORDER:['bad1','bad2',...ROUTE_ORDER]).map(id=>ENDING_CARDS.find(r=>r.id===id)).find(r=>!c.state.endings[r.id]);
+    const next=(c.state.settings.personalContext?[...ROUTE_ORDER,'bad1','bad2']:['bad1','bad2',...ROUTE_ORDER]).map(id=>ENDING_CARDS.find(r=>r.id===id)).find(r=>!c.state.endings[r.id]);
     const pos=c.profile().position, resume=pos&&ENDING_CARDS.find(r=>r.id===pos.routeId);
     const done=ENDING_CARDS.filter(r=>c.state.endings[r.id]).length;
     return hero('La tua seconda run,\nun passo alla volta.','Scegli che cosa vuoi fare. Ogni percorso tiene insieme solo le istruzioni che gli servono.','team.png','PERSONA 4 GOLDEN')+`
@@ -77,7 +77,7 @@ export function createClarityViews(c) {
       <label class="check-label"><input id="fusion-donor" type="checkbox" ${c.ui.fusionDonor?'checked':''}> Preferisci ingredienti che apprendono l’abilità richiesta</label>
       <p class="field-help">Le fusioni speciali restano visibili: la loro abilità può richiedere una catena intermedia.</p>
       <details class="disclosure-card fusion-advanced" ${different?'open':''}><summary>2. Modifica ingredienti, livelli o tipo di fusione</summary>
-        <div class="fusion-controls"><label>Persona da creare<select id="fusion-target">${c.engine.names.map(n=>`<option value="${n}" ${n===c.ui.fusionTarget?'selected':''}>${e(n)} · livello base ${c.engine.dem[n].lvl}</option>`).join('')}</select></label><label>Tipo di fusione<select id="fusion-kind">${[['all','Tutti i tipi'],['normal','Normale · 2 ingredienti'],['triple','Triangolare · 3 ingredienti'],['special','Speciale · ingredienti fissi']].map(([id,t])=>`<option value="${id}" ${c.ui.fusionKind===id?'selected':''}>${t}</option>`).join('')}</select></label><label>Deve contenere<input id="fusion-search" type="search" value="${e(c.ui.fusionSearch)}" placeholder="Nome dell’ingrediente"></label></div>
+        <div class="fusion-controls"><label>Persona da creare<select id="fusion-target">${c.engine.names.map(n=>`<option value="${n}" ${n===c.ui.fusionTarget?'selected':''}>${e(n)} · livello base ${c.engine.dem[n].lvl}</option>`).join('')}</select></label><label>Tipo di fusione<select id="fusion-kind">${[['all','Tutti i tipi'],['normal','Normale · 2 ingredienti'],['triple','Triangolare · 3 ingredienti'],['special','Speciale · ingredienti fissi']].map(([id,t])=>`<option value="${id}" ${c.ui.fusionKind===id?'selected':''}>${t}</option>`).join('')}</select></label><label>Deve contenere<input id="fusion-search" type="search" value="${rawEsc(c.ui.fusionSearch)}" placeholder="Nome dell’ingrediente"></label></div>
         <details class="disclosure-card"><summary>Livelli attuali delle tue Persona</summary><p class="field-help">Modifica solo le Persona che sono salite di livello. Il loro ordine può cambiare il risultato di una fusione triangolare. Questi valori appartengono al ramo del diario selezionato.</p><input type="search" id="level-search" placeholder="Cerca una Persona da modificare…"><div id="level-list" class="level-list"></div>${btn('Ripristina i livelli base','reset-levels')}</details>
         ${btn('Ricalcola con questi valori','calculate-fusion','','primary')}
       </details><p id="fusion-info" class="field-help" role="status">Calcolo delle ricette…</p></article>

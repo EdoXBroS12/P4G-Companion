@@ -7,7 +7,7 @@ const { pathToFileURL } = require('node:url');
 const { createHash } = require('node:crypto');
 
 const APP = path.resolve(__dirname, '..');
-const DATA = path.resolve(APP, '../Persona4Golden_Guide/data');
+const DATA = path.join(APP, 'content/data');
 const dataFiles = ['guide_content.json', 'endings_research.json', 'save_plan.json'];
 const hash = name => createHash('sha256').update(fs.readFileSync(path.join(DATA, name))).digest('hex');
 const beforeHashes = Object.fromEntries(dataFiles.map(name => [name, hash(name)]));

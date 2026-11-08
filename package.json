@@ -50,6 +50,7 @@
     },
     "portable": {
       "requestExecutionLevel": "user"
-    }
+    },
+    "electronDist": "node_modules/electron/dist"
   }
 }

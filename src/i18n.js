@@ -8,7 +8,18 @@ export function createI18n(){
     const exact=dictionary.get(normalized(original));if(exact)return exact;
     const questTitle=/^(Q\d+ · )(.+)$/.exec(original);if(questTitle)return questTitle[1]+t(questTitle[2]);
     const period=/^DIARIO \/ (.+)$/.exec(original);if(period)return 'JOURNAL / '+({'aprile-giugno':'April–June','luglio-agosto':'July–August','settembre-ottobre':'September–October','novembre-dicembre':'November–December','gennaio-febbraio':'January–February'}[period[1]]||period[1]);
+    const guideHeading=/^GUIDA \/ (.+)$/.exec(original);if(guideHeading)return 'GUIDE / '+({'PREPARAZIONE':'PREPARATION','SOCIAL LINK':'SOCIAL LINKS','UTILITY':'ACTIVITIES'}[guideHeading[1]]||guideHeading[1]);
+    const selectSearch=/^Cerca in (.+)$/.exec(original);if(selectSearch)return 'Search '+t(selectSearch[1]);
     const rules=[
+      [/^Ora stai cercando come creare (.+)\.$/,'You are now looking for a way to fuse $1.'],
+      [/^È un ingrediente intermedio\. La richiesta finale resta (.+) con (.+)\.$/,'This is an intermediate ingredient. The final request is still $1 with $2.'],
+      [/^Seleziona una voce: (.+)$/,'Choose an option: $1'],
+      [/^(\d+) voce · Invio per scegliere$/,'$1 option · Enter to select'],
+      [/^(\d+) voci · Invio per scegliere$/,'$1 options · Enter to select'],
+      [/^OPZIONE (.+)$/,'OPTION $1'],[/^PERCORSO (\d+)$/,'ROUTE $1'],
+      [/^(\d+)–(\d+) di (\d+)$/,'$1–$2 of $3'],
+      [/^Stato quest (\d+)$/,'Quest $1 status'],
+      [/^Illustrazione ([\s\S]+)$/,'Illustration: $1'],
       [/^Livello base (\d+) per una nuova fusione\. Una versione già registrata può essere evocata dal Compendium NG\+\.$/,'Base level $1 for a new fusion. A registered version can be summoned from the NG+ Compendium.'],
       [/^Passo\s+(\d+)\s+di\s+(\d+)$/,'Step $1 of $2'],
       [/^Passo\s*$/,'Step '],[/^\s*di\s+(\d+)$/,' of $1'],
@@ -41,10 +52,10 @@ export function createI18n(){
     if(!root)return;
     const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);let n;
     while((n=walker.nextNode()))nodeText(n);
-    for(const element of root.querySelectorAll('[placeholder],[title],[aria-label]')){
+    for(const element of root.querySelectorAll('[placeholder],[title],[aria-label],[alt]')){
       if(element.closest(skip))continue;
-      for(const attr of ['placeholder','title','aria-label']){
-        const value=element.getAttribute(attr);if(value){let attrs=originalAttrs.get(element);if(!attrs){attrs={};originalAttrs.set(element,attrs);}if(!(attr in attrs))attrs[attr]=value;const translated=t(attrs[attr]);if(value!==translated)element.setAttribute(attr,translated);}
+      for(const attr of ['placeholder','title','aria-label','alt']){
+        const value=element.getAttribute(attr);if(value){let attrs=originalAttrs.get(element);if(!attrs){attrs={};originalAttrs.set(element,attrs);}if(!attrs[attr]||value!==attrs[attr].output)attrs[attr]={source:value,output:value};const translated=t(attrs[attr].source);attrs[attr].output=translated;if(value!==translated)element.setAttribute(attr,translated);}
       }
     }
     document.documentElement.lang=language;
