@@ -1,0 +1,3028 @@
+{
+  "metadata": {
+    "title": "Persona 4 Golden — catalogo completo delle 69 quest",
+    "language": "it",
+    "edition": "Persona 4 Golden (numerazione occidentale)",
+    "research_date": "2026-11-08",
+    "player_date": "22/05/2011",
+    "player_context": "New Game+; Kanji completato secondo il giocatore. Nessuna quest viene presunta accettata o conclusa.",
+    "date_format": "DD/MM; gennaio–marzo appartengono al 2012",
+    "translation_note": "I nomi italiani sono traduzioni descrittive redazionali, non una trascrizione garantita della localizzazione ufficiale.",
+    "deadline_policy": "Una data di sblocco non è una scadenza. deadline indica un termine operativo conservativo quando segnalato; leggere sempre deadline_note.",
+    "floor_policy": "I piani indicati sono zone di ricerca confrontate; quando le fonti divergono si privilegia un piano presente in più elenchi. Layout e gruppi nemici sono casuali.",
+    "completion_rule": "Spunta soltanto dopo che il registro quest mostra Completed. Ricaricare un salvataggio vecchio annulla le quest concluse dopo quel salvataggio.",
+    "global_rules": [
+      "Prima di entrare nella TV, parla con tutti gli NPC delle richieste attualmente sbloccate e controlla il registro.",
+      "I materiali ordinari come Silver Lump, Fashionable Dishes, Proof of Passion, Orichalcum e Golden Chains si possono conservare in anticipo; i drop dedicati spesso richiedono la quest attiva.",
+      "Non vendere automaticamente tutti i materiali a Daidara. Le quantità per costruire un equipaggiamento vanno invece vendute intenzionalmente.",
+      "La data di completamento di un dungeon non anticipa necessariamente lo sblocco delle quest legate al suo calendario.",
+      "Non tutte le missioni consumano tempo, ma entrare nella TV, pescare, costruire modellini e fare salire Hermit usano periodi del giorno.",
+      "Prima delle vacanze e prima della fine del tempo libero consegna le quest scolastiche; la data limite generale non garantisce la presenza di ogni NPC."
+    ]
+  },
+  "sources": {
+    "RPG": {
+      "title": "RPG Site — Persona 4 Golden Quests",
+      "url": "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards"
+    },
+    "GFAQ": {
+      "title": "GameFAQs — Hurricanehaon, Activities (Golden)",
+      "url": "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities"
+    },
+    "NEO": {
+      "title": "Neoseeker — Golden Quest Guide",
+      "url": "https://www.neoseeker.com/p4golden/Quest_Guide"
+    },
+    "STEAM": {
+      "title": "Steam — Uruhara/Volmer, Quests Guide",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2132194286"
+    },
+    "HXC": {
+      "title": "hXcHector — Persona 4 Golden Quests",
+      "url": "https://www.hxchector.com/persona-4-golden-walkthrough/quests/"
+    },
+    "FW": {
+      "title": "Final Weapon — P4G Quests Guide",
+      "url": "https://finalweapon.net/2023/01/18/persona-4-golden-p4g-quests-guide/"
+    },
+    "GFQ": {
+      "title": "GameFAQs — Uruhara, Quest Guide",
+      "url": "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/67176"
+    },
+    "NPC": {
+      "title": "Steam — NPC Dialogue Calendar, P4G Edition",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2425834890"
+    },
+    "NPCI": {
+      "title": "Steam — NPC Dialogue Calendar image archive",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2425829122"
+    },
+    "GFJAN": {
+      "title": "GameFAQs — 100% guide 81937, January",
+      "url": "https://gamefaqs.gamespot.com/xbox-series-x/370653-persona-4-golden/faqs/81937/january"
+    },
+    "GFJUN": {
+      "title": "GameFAQs — 100% guide 81937, June",
+      "url": "https://gamefaqs.gamespot.com/xbox-series-x/370653-persona-4-golden/faqs/81937/june"
+    },
+    "GFK": {
+      "title": "GameFAQs — KADFC, Golden walkthrough",
+      "url": "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/65282"
+    },
+    "GF69": {
+      "title": "GameFAQs — riscontro giocatori sul prerequisito Q49 di Q69",
+      "url": "https://gamefaqs.gamespot.com/boards/641695-persona-4-golden/64783685"
+    },
+    "GFCOST": {
+      "title": "GameFAQs — Costume Guide, Gekkou Uniforms e scomparsa di Kashiwagi",
+      "url": "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/65828/costume-sets"
+    },
+    "WGEKKOU": {
+      "title": "Megami Tensei Wiki — Gekkou Uniform, sezione Golden",
+      "url": "https://megatenwiki.com/wiki/Gekkou_Uniform"
+    },
+    "FISH": {
+      "title": "GameFAQs — Bugs, Fishing and Shiroku Pub",
+      "url": "https://gamefaqs.gamespot.com/xbox-series-x/370653-persona-4-golden/faqs/81937/bugs-fishing-and-shiroku-pub"
+    },
+    "SGCASTLE": {
+      "title": "Samurai Gamers — Golden Yukiko Castle, enemy table",
+      "url": "https://samurai-gamers.com/persona-4-golden/p4g-yukikos-castle-dungeon-guide/"
+    },
+    "SGBATH": {
+      "title": "Samurai Gamers — Golden Steamy Bathhouse, enemy table",
+      "url": "https://samurai-gamers.com/persona-4-golden/p4g-steamy-bathhouse-dungeon-guide/"
+    },
+    "WDEMON": {
+      "title": "Megami Tensei Wiki — Acquire a Demon Statue",
+      "url": "https://www.megatenwiki.com/wiki/Acquire_a_Demon_Statue"
+    },
+    "WCAT": {
+      "title": "Megami Tensei Wiki — Cat Needs Food Badly",
+      "url": "https://www.megatenwiki.com/wiki/Cat_Needs_Food_Badly"
+    },
+    "WCLOTH": {
+      "title": "Megami Tensei Wiki — Golden Cloth",
+      "url": "https://megatenwiki.com/wiki/Golden_Cloth"
+    },
+    "WVIDAR": {
+      "title": "Megami Tensei Wiki — Vidar Boots, Golden section",
+      "url": "https://megatenwiki.com/wiki/Vidar%27s_Boots"
+    },
+    "WMONDO": {
+      "title": "Megami Tensei Wiki — Mondo Stone",
+      "url": "https://megamitensei.fandom.com/wiki/Mondo_Stone"
+    },
+    "WPET": {
+      "title": "Megami Tensei Wiki — Find My Pet",
+      "url": "https://www.megatenwiki.com/wiki/Find_My_Pet"
+    },
+    "WVOID": {
+      "title": "Megami Tensei Wiki — Void Quest enemy table",
+      "url": "https://megamitensei.fandom.com/wiki/Void_Quest"
+    },
+    "STEAMC": {
+      "title": "Steam — Complete Quest Guide",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2129879556"
+    },
+    "WQ2": {
+      "title": "Megami Tensei Wiki — scheda Q2",
+      "url": "https://www.megatenwiki.com/wiki/The_Girl_on_the_Rooftop"
+    },
+    "WQ4": {
+      "title": "Megami Tensei Wiki — scheda Q4",
+      "url": "https://www.megatenwiki.com/wiki/Acquire_an_Angel_Statue"
+    },
+    "WQ5": {
+      "title": "Megami Tensei Wiki — scheda Q5",
+      "url": "https://www.megatenwiki.com/wiki/Acquire_a_Demon_Statue"
+    },
+    "WQ6": {
+      "title": "Megami Tensei Wiki — scheda Q6",
+      "url": "https://www.megatenwiki.com/wiki/Acquire_a_Ritz_Wire"
+    },
+    "WQ13": {
+      "title": "Megami Tensei Wiki — scheda Q13",
+      "url": "https://www.megatenwiki.com/wiki/I_Wish_I_Didn't_Fear_Cats"
+    },
+    "WQ16": {
+      "title": "Megami Tensei Wiki — scheda Q16",
+      "url": "https://www.megatenwiki.com/wiki/Desk_Refurbishing"
+    },
+    "WQ17": {
+      "title": "Megami Tensei Wiki — scheda Q17",
+      "url": "https://www.megatenwiki.com/wiki/Extracurricular_Activities"
+    },
+    "WQ20": {
+      "title": "Megami Tensei Wiki — scheda Q20",
+      "url": "https://www.megatenwiki.com/wiki/Please_Feed_the_Cat"
+    },
+    "WQ21": {
+      "title": "Megami Tensei Wiki — scheda Q21",
+      "url": "https://www.megatenwiki.com/wiki/Feed_the_Cat"
+    },
+    "WQ22": {
+      "title": "Megami Tensei Wiki — scheda Q22",
+      "url": "https://www.megatenwiki.com/wiki/Cat_Needs_Food_Badly"
+    },
+    "WQ23": {
+      "title": "Megami Tensei Wiki — scheda Q23",
+      "url": "https://www.megatenwiki.com/wiki/Acquire_an_Old_Key"
+    },
+    "WQ24": {
+      "title": "Megami Tensei Wiki — scheda Q24",
+      "url": "https://www.megatenwiki.com/wiki/Acquire_Coal"
+    },
+    "WQ25": {
+      "title": "Megami Tensei Wiki — scheda Q25",
+      "url": "https://www.megatenwiki.com/wiki/100%25_Inaba-Grown_Cabbage"
+    },
+    "WQ26": {
+      "title": "Megami Tensei Wiki — scheda Q26",
+      "url": "https://www.megatenwiki.com/wiki/Acquire_a_Crooked_Cross"
+    },
+    "WQ27": {
+      "title": "Megami Tensei Wiki — scheda Q27",
+      "url": "https://www.megatenwiki.com/wiki/Acquire_a_Charmed_Veil"
+    },
+    "WQ28": {
+      "title": "Megami Tensei Wiki — scheda Q28",
+      "url": "https://www.megatenwiki.com/wiki/Desk_Refurbishing_Part_2"
+    },
+    "WQ29": {
+      "title": "Megami Tensei Wiki — scheda Q29",
+      "url": "https://www.megatenwiki.com/wiki/Acquire_a_Horn"
+    },
+    "WQ31": {
+      "title": "Megami Tensei Wiki — scheda Q31",
+      "url": "https://www.megatenwiki.com/wiki/The_Cleaning_Club's_Passion"
+    },
+    "WQ32": {
+      "title": "Megami Tensei Wiki — scheda Q32",
+      "url": "https://www.megatenwiki.com/wiki/Acquire_Inaba_Trout"
+    },
+    "WQ33": {
+      "title": "Megami Tensei Wiki — scheda Q33",
+      "url": "https://www.megatenwiki.com/wiki/Acquire_a_Silver_Lump"
+    },
+    "WQ34": {
+      "title": "Megami Tensei Wiki — scheda Q34",
+      "url": "https://www.megatenwiki.com/wiki/Acquire_Hard_Boots"
+    },
+    "WQ38": {
+      "title": "Megami Tensei Wiki — scheda Q38",
+      "url": "https://www.megatenwiki.com/wiki/Harvest_Two_Types_of_Corn"
+    },
+    "WQ39": {
+      "title": "Megami Tensei Wiki — scheda Q39",
+      "url": "https://www.megatenwiki.com/wiki/Acquire_an_Eternal_Lamp"
+    },
+    "WQ40": {
+      "title": "Megami Tensei Wiki — scheda Q40",
+      "url": "https://www.megatenwiki.com/wiki/Acquire_Some_Fashionable_Dishes"
+    },
+    "WQ43": {
+      "title": "Megami Tensei Wiki — scheda Q43",
+      "url": "https://www.megatenwiki.com/wiki/Experiments_in_Telepathy"
+    },
+    "WQ45": {
+      "title": "Megami Tensei Wiki — scheda Q45",
+      "url": "https://www.megatenwiki.com/wiki/A_Test_Of_Literary_Memory"
+    },
+    "WQ46": {
+      "title": "Megami Tensei Wiki — scheda Q46",
+      "url": "https://www.megatenwiki.com/wiki/Desk_Refurbishing_Part_3"
+    },
+    "WQ47": {
+      "title": "Megami Tensei Wiki — scheda Q47",
+      "url": "https://www.megatenwiki.com/wiki/Find_Me_Something_to_Wear"
+    },
+    "WQ48": {
+      "title": "Megami Tensei Wiki — scheda Q48",
+      "url": "https://www.megatenwiki.com/wiki/Acquire_a_Crystal_Ball"
+    },
+    "WQ49": {
+      "title": "Megami Tensei Wiki — scheda Q49",
+      "url": "https://www.megatenwiki.com/wiki/Acquire_a_Training_Shell"
+    },
+    "WQ50": {
+      "title": "Megami Tensei Wiki — scheda Q50",
+      "url": "https://www.megatenwiki.com/wiki/Acquire_a_High-Speed_Gear"
+    },
+    "WQ51": {
+      "title": "Megami Tensei Wiki — scheda Q51",
+      "url": "https://www.megatenwiki.com/wiki/Acquire_Fine_Coal"
+    },
+    "WQ54": {
+      "title": "Megami Tensei Wiki — scheda Q54",
+      "url": "https://www.megatenwiki.com/wiki/Find_My_Pet"
+    },
+    "WQ56": {
+      "title": "Megami Tensei Wiki — scheda Q56",
+      "url": "https://www.megatenwiki.com/wiki/The_Girl_on_the_Rooftop_Part_2"
+    },
+    "WQ57": {
+      "title": "Megami Tensei Wiki — scheda Q57",
+      "url": "https://www.megatenwiki.com/wiki/Desk_Refurbishing_Part_4"
+    },
+    "WQ58": {
+      "title": "Megami Tensei Wiki — scheda Q58",
+      "url": "https://www.megatenwiki.com/wiki/Acquire_an_Old_Ore"
+    },
+    "WQ59": {
+      "title": "Megami Tensei Wiki — scheda Q59",
+      "url": "https://www.megatenwiki.com/wiki/Acquire_a_Modest_Lamp"
+    },
+    "WQ60": {
+      "title": "Megami Tensei Wiki — scheda Q60",
+      "url": "https://www.megatenwiki.com/wiki/Acquire_Samegawa's_Guardian"
+    },
+    "WQ61": {
+      "title": "Megami Tensei Wiki — scheda Q61",
+      "url": "https://www.megatenwiki.com/wiki/Find_My_Pet_Part_2"
+    },
+    "WQ62": {
+      "title": "Megami Tensei Wiki — scheda Q62",
+      "url": "https://www.megatenwiki.com/wiki/Extracurricular_Activities_Part_3"
+    },
+    "WQ63": {
+      "title": "Megami Tensei Wiki — scheda Q63",
+      "url": "https://www.megatenwiki.com/wiki/Acquire_Golden_Chains"
+    }
+  },
+  "quests": [
+    {
+      "id": 1,
+      "name_en": "Who's the Riddle Master!?",
+      "name_it": "Chi è il maestro degli indovinelli?",
+      "available_from": "18/04",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "aprile-giugno",
+      "prerequisites": [],
+      "npc": "Funky Student",
+      "location": "Yasogami • Classroom Building 3F",
+      "objective": "Rispondi al quiz: Group A → They’re top 6 flag colors. Se sbagli, riprova un altro giorno.",
+      "item": null,
+      "enemy": null,
+      "dungeon": null,
+      "floors": null,
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Chest Key ×3",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Sblocca Q42→Q55→Q64. La numerazione delle opzioni è omessa: riconosci il contenuto."
+      ],
+      "sources": [
+        "RPG",
+        "GFAQ",
+        "NEO"
+      ],
+      "checked": false,
+      "sort_key": 110418,
+      "source_urls": [
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://www.neoseeker.com/p4golden/Quest_Guide"
+      ],
+      "checklist_label": "☐ Q01 · Who's the Riddle Master!?"
+    },
+    {
+      "id": 2,
+      "name_en": "The Girl on the Rooftop",
+      "name_it": "La ragazza sul tetto",
+      "available_from": "25/04",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "aprile-giugno",
+      "prerequisites": [],
+      "npc": "Male Student",
+      "location": "Yasogami • aula 2-2",
+      "objective": "Accetta dal ragazzo; parla alla ragazza dai capelli lunghi sul tetto e chiedi dei suoi hobby in tre giornate diverse, poi riferisci al ragazzo.",
+      "item": null,
+      "enemy": null,
+      "dungeon": null,
+      "floors": null,
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Goho-M ×1",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "La ragazza non compare con la pioggia. Serve in seguito per Q56."
+      ],
+      "sources": [
+        "WQ2",
+        "RPG",
+        "GFAQ",
+        "NEO"
+      ],
+      "checked": false,
+      "sort_key": 110425,
+      "source_urls": [
+        "https://www.megatenwiki.com/wiki/The_Girl_on_the_Rooftop",
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://www.neoseeker.com/p4golden/Quest_Guide"
+      ],
+      "checklist_label": "☐ Q02 · The Girl on the Rooftop"
+    },
+    {
+      "id": 3,
+      "name_en": "Acquire Mori Ranmaru Shochu",
+      "name_it": "Recupera il Mori Ranmaru Shochu",
+      "available_from": "01/05",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "aprile-giugno",
+      "prerequisites": [],
+      "npc": "Man",
+      "location": "Samegawa Flood Plain • sentiero",
+      "objective": "Nel mondo TV parla a Yosuke per tornare al Twisted Shopping District; esamina il centro del negozio Konishi e recupera la bottiglia. Consegnala al richiedente.",
+      "item": "Mori Ranmaru",
+      "enemy": null,
+      "dungeon": "Twisted Shopping District • Konishi Liquors",
+      "floors": "Area unica",
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "¥4.000",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [],
+      "sources": [
+        "RPG",
+        "GFAQ",
+        "NEO"
+      ],
+      "checked": false,
+      "sort_key": 110501,
+      "source_urls": [
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://www.neoseeker.com/p4golden/Quest_Guide"
+      ],
+      "checklist_label": "☐ Q03 · Acquire Mori Ranmaru Shochu"
+    },
+    {
+      "id": 4,
+      "name_en": "Acquire an Angel Statue",
+      "name_it": "Recupera una statua angelica",
+      "available_from": "02/05",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "aprile-giugno",
+      "prerequisites": [],
+      "npc": "Timid Female Student",
+      "location": "Yasogami • aula 2-2",
+      "objective": "Accetta la quest, sconfiggi Avenger Knight normale e consegna la statua. Non è il miniboss già battuto al 5F.",
+      "item": "Angel Statue ×1",
+      "enemy": "Avenger Knight",
+      "dungeon": "Yukiko’s Castle",
+      "floors": "7F; anche evocato da Positive King",
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Chest Key ×3",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Accetta prima la richiesta: i drop specifici della quest in genere non compaiono prima. Rientra nel dungeon già completato; non basta aver sconfitto il boss.",
+        "Sblocca Q26→Q27."
+      ],
+      "sources": [
+        "WQ4",
+        "RPG",
+        "GFAQ",
+        "SGCASTLE"
+      ],
+      "checked": false,
+      "sort_key": 110502,
+      "source_urls": [
+        "https://www.megatenwiki.com/wiki/Acquire_an_Angel_Statue",
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://samurai-gamers.com/persona-4-golden/p4g-yukikos-castle-dungeon-guide/"
+      ],
+      "checklist_label": "☐ Q04 · Acquire an Angel Statue"
+    },
+    {
+      "id": 5,
+      "name_en": "Acquire a Demon Statue",
+      "name_it": "Recupera una statua demoniaca",
+      "available_from": "02/05",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "aprile-giugno",
+      "prerequisites": [],
+      "npc": "Shady Student",
+      "location": "Yasogami • Classroom Building 2F",
+      "objective": "Accetta subito, raccogli una Demon Statue da Magical Magus e consegnala allo studente prima delle vacanze estive.",
+      "item": "Demon Statue ×1",
+      "enemy": "Magical Magus",
+      "dungeon": "Yukiko’s Castle",
+      "floors": "5–7F; cerca 6–7F",
+      "deadline": "25/07",
+      "deadline_note": "PRUDENZIALE: consegna entro 25/07. Fonti discordanti: wiki fino al 26/07; guide storiche 31/08. Le vacanze rendono inaffidabile aspettare agosto. Non presentiamo il 31/08 come appuntamento sicuro.",
+      "reward": "Dokudami Tea ×3",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Accetta prima la richiesta: i drop specifici della quest in genere non compaiono prima. Rientra nel dungeon già completato; non basta aver sconfitto il boss."
+      ],
+      "sources": [
+        "WQ5",
+        "GFAQ",
+        "STEAM",
+        "HXC",
+        "WDEMON",
+        "SGCASTLE"
+      ],
+      "checked": false,
+      "sort_key": 110502,
+      "source_urls": [
+        "https://www.megatenwiki.com/wiki/Acquire_a_Demon_Statue",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2132194286",
+        "https://www.hxchector.com/persona-4-golden-walkthrough/quests/",
+        "https://www.megatenwiki.com/wiki/Acquire_a_Demon_Statue",
+        "https://samurai-gamers.com/persona-4-golden/p4g-yukikos-castle-dungeon-guide/"
+      ],
+      "checklist_label": "☐ Q05 · Acquire a Demon Statue"
+    },
+    {
+      "id": 6,
+      "name_en": "Acquire a Ritz Wire",
+      "name_it": "Recupera un filo Ritz",
+      "available_from": "02/05",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "aprile-giugno",
+      "prerequisites": [],
+      "npc": "Male Student",
+      "location": "Yasogami • Practice Building 1F, vicino al laboratorio",
+      "objective": "Recupera Ritz Wire dal nemico indicato e torna dallo studente.",
+      "item": "Ritz Wire ×1",
+      "enemy": "Heat Balance",
+      "dungeon": "Yukiko’s Castle",
+      "floors": "6–7F",
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Olympic Tape ×1",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Accetta prima la richiesta: i drop specifici della quest in genere non compaiono prima. Rientra nel dungeon già completato; non basta aver sconfitto il boss.",
+        "Sblocca Q33→Q58."
+      ],
+      "sources": [
+        "WQ6",
+        "RPG",
+        "GFAQ",
+        "SGCASTLE"
+      ],
+      "checked": false,
+      "sort_key": 110502,
+      "source_urls": [
+        "https://www.megatenwiki.com/wiki/Acquire_a_Ritz_Wire",
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://samurai-gamers.com/persona-4-golden/p4g-yukikos-castle-dungeon-guide/"
+      ],
+      "checklist_label": "☐ Q06 · Acquire a Ritz Wire"
+    },
+    {
+      "id": 7,
+      "name_en": "I Wish for Love",
+      "name_it": "Desidero trovare l’amore",
+      "available_from": "06/05",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "aprile-giugno",
+      "prerequisites": [
+        "Hermit rango 1, avviato automaticamente il 05/05"
+      ],
+      "npc": "Fox → studentessa innamorata",
+      "location": "Tatsuhime Shrine → Yasogami, 1F e poi 2F",
+      "objective": "Accetta l’ema dalla Volpe. Parla alla ragazza all’ingresso scolastico; il giorno successivo ritrovala al 2F e scegli I read it. Torna un’altra giornata per la conferma; riferisci alla Volpe.",
+      "item": null,
+      "enemy": null,
+      "dungeon": null,
+      "floors": null,
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Hermit rango 2",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Accettare l’ema non consuma il pomeriggio; il passaggio di rango con la Volpe sì. La catena può richiedere molti giorni."
+      ],
+      "sources": [
+        "GFAQ",
+        "STEAM",
+        "HXC",
+        "FW"
+      ],
+      "checked": false,
+      "sort_key": 110506,
+      "source_urls": [
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2132194286",
+        "https://www.hxchector.com/persona-4-golden-walkthrough/quests/",
+        "https://finalweapon.net/2023/01/18/persona-4-golden-p4g-quests-guide/"
+      ],
+      "checklist_label": "☐ Q07 · I Wish for Love"
+    },
+    {
+      "id": 8,
+      "name_en": "I Wish I Didn't Crave Snacks",
+      "name_it": "Vorrei non desiderare spuntini",
+      "available_from": null,
+      "availability_note": "Dopo Q7 e dopo il passaggio di Hermit al rango 2; nessuna data fissa indipendente.",
+      "period": "aprile-giugno",
+      "prerequisites": [
+        "Q7 completata",
+        "Hermit rango 2"
+      ],
+      "npc": "Fox → Slim Woman",
+      "location": "Tatsuhime Shrine → Shopping District South",
+      "objective": "Parla alla donna, chiedi a Chie degli spuntini e ottieni Meat Gum; torna dalla donna, poi dalla Volpe. Cerca Chie sul tetto della scuola quando disponibile.",
+      "item": "Meat Gum ×1",
+      "enemy": null,
+      "dungeon": null,
+      "floors": null,
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Hermit rango 3",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [],
+      "sources": [
+        "STEAM",
+        "HXC",
+        "FW"
+      ],
+      "checked": false,
+      "sort_key": 110506.08,
+      "source_urls": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2132194286",
+        "https://www.hxchector.com/persona-4-golden-walkthrough/quests/",
+        "https://finalweapon.net/2023/01/18/persona-4-golden-p4g-quests-guide/"
+      ],
+      "checklist_label": "☐ Q08 · I Wish I Didn't Crave Snacks"
+    },
+    {
+      "id": 9,
+      "name_en": "We Wish Our Dog Would Return",
+      "name_it": "Vorremmo che tornasse il nostro cane",
+      "available_from": null,
+      "availability_note": "Dopo Q8 e Hermit rango 3; il cane richiede incontri in giorni diversi.",
+      "period": "aprile-giugno",
+      "prerequisites": [
+        "Q8 completata",
+        "Hermit rango 3"
+      ],
+      "npc": "Fox → cane smarrito",
+      "location": "Tatsuhime Shrine → Riverbank / Shopping District North",
+      "objective": "Trova il cane al Samegawa Riverbank. Nei giorni successivi cercalo anche nel quartiere commerciale nord e parlargli con calma (Talk to it gently). Quando si fida, dagli uno Steak Skewer e riferisci alla Volpe.",
+      "item": "Steak Skewer (Souzai Daigaku)",
+      "enemy": null,
+      "dungeon": null,
+      "floors": null,
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Hermit rango 4",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [],
+      "sources": [
+        "STEAM",
+        "HXC",
+        "FW"
+      ],
+      "checked": false,
+      "sort_key": 110506.09,
+      "source_urls": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2132194286",
+        "https://www.hxchector.com/persona-4-golden-walkthrough/quests/",
+        "https://finalweapon.net/2023/01/18/persona-4-golden-p4g-quests-guide/"
+      ],
+      "checklist_label": "☐ Q09 · We Wish Our Dog Would Return"
+    },
+    {
+      "id": 10,
+      "name_en": "I Wish I Had Friends",
+      "name_it": "Vorrei avere degli amici",
+      "available_from": null,
+      "availability_note": "Dopo Q9 e Hermit rango 4; richiede più giornate.",
+      "period": "aprile-giugno",
+      "prerequisites": [
+        "Q9 completata",
+        "Hermit rango 4",
+        "Accesso serale a Nanako"
+      ],
+      "npc": "Fox → Lonely Boy",
+      "location": "Tatsuhime Shrine → Samegawa Flood Plain",
+      "objective": "Dai al bambino un Prize Sticker da un ordine di Tanaka. Torna il giorno seguente: desidera un altro adesivo. La sera chiedi a Nanako degli adesivi e ottieni il Tankiriman Sticker. Portalo al bambino; torna ancora per la conferma, poi dalla Volpe.",
+      "item": "Prize Sticker + Tankiriman Sticker",
+      "enemy": null,
+      "dungeon": null,
+      "floors": null,
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Hermit rango 5",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Falla prima di novembre: Nanako sparisce temporaneamente per la storia. Se sei già oltre, la sua disponibilità ritorna nel periodo invernale; non confondere l’interruzione con una quest già completata."
+      ],
+      "sources": [
+        "STEAM",
+        "HXC",
+        "FW"
+      ],
+      "checked": false,
+      "sort_key": 110506.1,
+      "source_urls": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2132194286",
+        "https://www.hxchector.com/persona-4-golden-walkthrough/quests/",
+        "https://finalweapon.net/2023/01/18/persona-4-golden-p4g-quests-guide/"
+      ],
+      "checklist_label": "☐ Q10 · I Wish I Had Friends"
+    },
+    {
+      "id": 11,
+      "name_en": "I Wish My Life Had Meaning Again",
+      "name_it": "Vorrei che la mia vita avesse di nuovo un senso",
+      "available_from": null,
+      "availability_note": "Dopo Q10 e Hermit rango 5.",
+      "period": "aprile-giugno",
+      "prerequisites": [
+        "Q10 completata",
+        "Hermit rango 5"
+      ],
+      "npc": "Fox → Haggard Man",
+      "location": "Tatsuhime Shrine → Shopping District North",
+      "objective": "Offriti di costruire il modellino dell’uomo. Lavora al tavolo della tua camera ogni sera finché è finito, poi consegnalo e torna dalla Volpe.",
+      "item": "Unfinished Model → MF-06S Brahman",
+      "enemy": null,
+      "dungeon": null,
+      "floors": null,
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Hermit rango 6; nuovo Unfinished Model",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Riserva quattro sere per prudenza: le guide divergono fra tre e quattro sessioni. Termina quando il gioco conferma il modellino completato."
+      ],
+      "sources": [
+        "STEAM",
+        "HXC",
+        "FW",
+        "GFAQ"
+      ],
+      "checked": false,
+      "sort_key": 110506.11,
+      "source_urls": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2132194286",
+        "https://www.hxchector.com/persona-4-golden-walkthrough/quests/",
+        "https://finalweapon.net/2023/01/18/persona-4-golden-p4g-quests-guide/",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities"
+      ],
+      "checklist_label": "☐ Q11 · I Wish My Life Had Meaning Again"
+    },
+    {
+      "id": 12,
+      "name_en": "I Wish I Was Better at Speaking",
+      "name_it": "Vorrei parlare meglio",
+      "available_from": null,
+      "availability_note": "Dopo Q11 e Hermit rango 6; necessita più visite scolastiche.",
+      "period": "aprile-giugno",
+      "prerequisites": [
+        "Q11 completata",
+        "Hermit rango 6",
+        "Understanding 3, Expression 3 e Courage 3: preparazione conservativa per tutte le risposte"
+      ],
+      "npc": "Fox → Awkward Girl",
+      "location": "Tatsuhime Shrine → tetto della scuola",
+      "objective": "Parla alla ragazza sul tetto nei giorni senza pioggia. Aiutala a parlare: Do you need help speaking? → Give her lessons. Torna il giorno seguente e suggerisci Apologize to her. Dopo la conferma, riferisci alla Volpe.",
+      "item": null,
+      "enemy": null,
+      "dungeon": null,
+      "floors": null,
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Hermit rango 7",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "In NG+ controlla comunque le statistiche sociali: non presumere che siano già massime."
+      ],
+      "sources": [
+        "GFAQ",
+        "STEAM",
+        "HXC",
+        "FW"
+      ],
+      "checked": false,
+      "sort_key": 110506.12,
+      "source_urls": [
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2132194286",
+        "https://www.hxchector.com/persona-4-golden-walkthrough/quests/",
+        "https://finalweapon.net/2023/01/18/persona-4-golden-p4g-quests-guide/"
+      ],
+      "checklist_label": "☐ Q12 · I Wish I Was Better at Speaking"
+    },
+    {
+      "id": 13,
+      "name_en": "I Wish I Didn't Fear Cats",
+      "name_it": "Vorrei non temere i gatti",
+      "available_from": null,
+      "availability_note": "Dopo Q12 e Hermit rango 7.",
+      "period": "aprile-giugno",
+      "prerequisites": [
+        "Q12 completata",
+        "Hermit rango 7",
+        "Q20 completata: rende disponibile il gatto davanti a casa Dojima"
+      ],
+      "npc": "Fox → Ailurophobe",
+      "location": "Tatsuhime Shrine → Samegawa Flood Plain",
+      "objective": "Chiedi all’uomo dei gatti. Fuori da casa Dojima interagisci con il gatto e porta l’uomo a vederlo. Il giorno dopo dagli un Red Goldfish; incontralo ancora per concludere, quindi torna dalla Volpe.",
+      "item": "Red Goldfish ×1",
+      "enemy": null,
+      "dungeon": null,
+      "floors": null,
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Hermit rango 8",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Conserva un Red Goldfish invece di usarli tutti come recupero SP o scambiarli al santuario."
+      ],
+      "sources": [
+        "WQ13",
+        "STEAM",
+        "HXC",
+        "FW"
+      ],
+      "checked": false,
+      "sort_key": 110506.13,
+      "source_urls": [
+        "https://www.megatenwiki.com/wiki/I_Wish_I_Didn't_Fear_Cats",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2132194286",
+        "https://www.hxchector.com/persona-4-golden-walkthrough/quests/",
+        "https://finalweapon.net/2023/01/18/persona-4-golden-p4g-quests-guide/"
+      ],
+      "checklist_label": "☐ Q13 · I Wish I Didn't Fear Cats"
+    },
+    {
+      "id": 14,
+      "name_en": "I Wish My Wallet Would Return",
+      "name_it": "Vorrei ritrovare il portafoglio",
+      "available_from": null,
+      "availability_note": "Dopo Q13 e Hermit rango 8.",
+      "period": "aprile-giugno",
+      "prerequisites": [
+        "Q13 completata",
+        "Hermit rango 8"
+      ],
+      "npc": "Fox → Wallet Misplacer",
+      "location": "Tatsuhime Shrine → Samegawa Flood Plain",
+      "objective": "Parla alla donna presso il cestino. Scendi al Riverbank e cerca nei cespugli vicino al cartello ai piedi delle scale: Round Wallet. Mostralo alla donna; è sbagliato. Cerca quindi nei cespugli fuori dall’entrata del santuario: Square Wallet. Consegnalo e riferisci alla Volpe.",
+      "item": "Round Wallet → Square Wallet",
+      "enemy": null,
+      "dungeon": null,
+      "floors": null,
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Hermit rango 9",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [],
+      "sources": [
+        "STEAM",
+        "HXC",
+        "FW"
+      ],
+      "checked": false,
+      "sort_key": 110506.14,
+      "source_urls": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2132194286",
+        "https://www.hxchector.com/persona-4-golden-walkthrough/quests/",
+        "https://finalweapon.net/2023/01/18/persona-4-golden-p4g-quests-guide/"
+      ],
+      "checklist_label": "☐ Q14 · I Wish My Wallet Would Return"
+    },
+    {
+      "id": 15,
+      "name_en": "The Shichiri Beach Guardian",
+      "name_it": "Il guardiano della spiaggia di Shichiri",
+      "available_from": null,
+      "availability_note": "Dopo Q14 e Hermit rango 9; anche scooter/spiaggia e pesca sono necessari.",
+      "period": "aprile-giugno",
+      "prerequisites": [
+        "Q14 completata",
+        "Hermit rango 9",
+        "Shichiri Beach sbloccata",
+        "Canna da pesca e retino"
+      ],
+      "npc": "Fox → Fishing Old Man",
+      "location": "Tatsuhime Shrine → Samegawa Riverbank → Shichiri Beach",
+      "objective": "Sblocca la spiaggia con lo scooter; prova a pescare lì, poi chiedi al vecchio del fiume la canna e il Guardian. Pesca un Guardian con Inaba Jewel Beetle e mostraglielo per ottenere la canna da mare. Chiedi delle esche marine, pesca Sea Guardian con Genji Beetle, mostralo al vecchio e torna dalla Volpe.",
+      "item": "Guardian + Sea Guardian (da mostrare)",
+      "enemy": null,
+      "dungeon": null,
+      "floors": null,
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Hermit rango 10; pesca marina disponibile",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Le esche rare richiedono che il vecchio ne abbia parlato. La pioggia aumenta le probabilità; inverno/neve offre altre finestre. Grandi cerchi e spruzzi segnalano Guardian. Se mancano, ritira l’esca prima dell’abboccata e rilancia.",
+        "Mostra i pesci prima di consumarli: servono anche per Q60 e per la Mondo Stone di Q67. Vedi scheda pesca."
+      ],
+      "sources": [
+        "STEAM",
+        "NEO",
+        "HXC",
+        "FISH"
+      ],
+      "checked": false,
+      "sort_key": 110506.15,
+      "source_urls": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2132194286",
+        "https://www.neoseeker.com/p4golden/Quest_Guide",
+        "https://www.hxchector.com/persona-4-golden-walkthrough/quests/",
+        "https://gamefaqs.gamespot.com/xbox-series-x/370653-persona-4-golden/faqs/81937/bugs-fishing-and-shiroku-pub"
+      ],
+      "checklist_label": "☐ Q15 · The Shichiri Beach Guardian"
+    },
+    {
+      "id": 16,
+      "name_en": "Desk Refurbishing",
+      "name_it": "Rimetti a nuovo il banco",
+      "available_from": "18/05",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "aprile-giugno",
+      "prerequisites": [],
+      "npc": "Homely Student",
+      "location": "Yasogami • Practice Building 2F",
+      "objective": "Raccogli Fitting Board e consegnala alla studentessa.",
+      "item": "Fitting Board ×1",
+      "enemy": "Laughing Table",
+      "dungeon": "Yukiko’s Castle",
+      "floors": "3–6F; cerca 5–6F",
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Royal Jelly ×5",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Accetta prima la richiesta: i drop specifici della quest in genere non compaiono prima. Rientra nel dungeon già completato; non basta aver sconfitto il boss.",
+        "Catena Q16→Q28→Q46→Q57."
+      ],
+      "sources": [
+        "WQ16",
+        "RPG",
+        "GFAQ",
+        "SGCASTLE"
+      ],
+      "checked": false,
+      "sort_key": 110518,
+      "source_urls": [
+        "https://www.megatenwiki.com/wiki/Desk_Refurbishing",
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://samurai-gamers.com/persona-4-golden/p4g-yukikos-castle-dungeon-guide/"
+      ],
+      "checklist_label": "☐ Q16 · Desk Refurbishing"
+    },
+    {
+      "id": 17,
+      "name_en": "Extracurricular Activities",
+      "name_it": "Attività extrascolastiche",
+      "available_from": "18/05",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "aprile-giugno",
+      "prerequisites": [],
+      "npc": "Ms. Sofue",
+      "location": "Yasogami • Classroom Building 2F",
+      "objective": "Accetta dalla professoressa e consegna il Suspicious Pole.",
+      "item": "Suspicious Pole ×1",
+      "enemy": "Trance Twins",
+      "dungeon": "Yukiko’s Castle",
+      "floors": "3F, 4F, 6F; cerca 4F",
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Pulsating Stone ×2",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Accetta prima la richiesta: i drop specifici della quest in genere non compaiono prima. Rientra nel dungeon già completato; non basta aver sconfitto il boss.",
+        "Catena Q17→Q44→Q62."
+      ],
+      "sources": [
+        "WQ17",
+        "RPG",
+        "GFAQ",
+        "SGCASTLE"
+      ],
+      "checked": false,
+      "sort_key": 110518,
+      "source_urls": [
+        "https://www.megatenwiki.com/wiki/Extracurricular_Activities",
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://samurai-gamers.com/persona-4-golden/p4g-yukikos-castle-dungeon-guide/"
+      ],
+      "checklist_label": "☐ Q17 · Extracurricular Activities"
+    },
+    {
+      "id": 18,
+      "name_en": "Book Exchange",
+      "name_it": "Scambio di libri",
+      "available_from": "23/05",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "aprile-giugno",
+      "prerequisites": [],
+      "npc": "Avid Reader",
+      "location": "Shopping District South • davanti alla libreria Yomenaido",
+      "objective": "Consegna un Peach Seed al lettore. Si trova comunemente nei forzieri normali; controlla prima l’inventario.",
+      "item": "Peach Seed ×1",
+      "enemy": null,
+      "dungeon": null,
+      "floors": null,
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Libro The Gentle Way",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Primo appuntamento utile dopo la tua data del 22/05. Avvia la catena libri Q18→Q20→Q34→Q40→Q45."
+      ],
+      "sources": [
+        "RPG",
+        "GFAQ",
+        "NEO"
+      ],
+      "checked": false,
+      "sort_key": 110523,
+      "source_urls": [
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://www.neoseeker.com/p4golden/Quest_Guide"
+      ],
+      "checklist_label": "☐ Q18 · Book Exchange"
+    },
+    {
+      "id": 19,
+      "name_en": "Tissue Distribution Agent",
+      "name_it": "Addetto alla distribuzione di fazzoletti",
+      "available_from": "11/06",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "aprile-giugno",
+      "prerequisites": [
+        "Okina City sbloccata con lo scooter"
+      ],
+      "npc": "Movie Theater Worker",
+      "location": "Okina City • davanti a 30 Frame",
+      "objective": "Accetta i fazzoletti e parla con tutti i passanti fermi nell’area per distribuirli. Quando il gioco conferma che hai finito, torna dall’addetto.",
+      "item": null,
+      "enemy": null,
+      "dungeon": null,
+      "floors": null,
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "¥5.000",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "La data è il primo sblocco teorico; l’accesso effettivo dipende dalle uscite in scooter."
+      ],
+      "sources": [
+        "RPG",
+        "GFAQ",
+        "NEO"
+      ],
+      "checked": false,
+      "sort_key": 110611,
+      "source_urls": [
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://www.neoseeker.com/p4golden/Quest_Guide"
+      ],
+      "checklist_label": "☐ Q19 · Tissue Distribution Agent"
+    },
+    {
+      "id": 20,
+      "name_en": "Please Feed the Cat",
+      "name_it": "Per favore, dai da mangiare al gatto",
+      "available_from": "03/06",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "aprile-giugno",
+      "prerequisites": [
+        "Q18 completata"
+      ],
+      "npc": "Avid Reader",
+      "location": "Shopping District South → Samegawa Flood Plain",
+      "objective": "Accetta dal lettore; dai un pesce al gatto sul sentiero del Samegawa, sul lato sinistro. Torna dal lettore per registrare la consegna.",
+      "item": "Un pesce qualsiasi",
+      "enemy": null,
+      "dungeon": null,
+      "floors": null,
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Libro The Punk’s Way",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Non coincide con aver semplicemente nutrito il gatto prima di accettare. Avvia Q21 e Q22 parlando di nuovo al gatto."
+      ],
+      "sources": [
+        "WQ20",
+        "RPG",
+        "GFAQ",
+        "NEO"
+      ],
+      "checked": false,
+      "sort_key": 110603,
+      "source_urls": [
+        "https://www.megatenwiki.com/wiki/Please_Feed_the_Cat",
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://www.neoseeker.com/p4golden/Quest_Guide"
+      ],
+      "checklist_label": "☐ Q20 · Please Feed the Cat"
+    },
+    {
+      "id": 21,
+      "name_en": "Feed the Cat",
+      "name_it": "Nutri il gatto",
+      "available_from": "03/06",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "aprile-giugno",
+      "prerequisites": [
+        "Q20 completata"
+      ],
+      "npc": "Cat",
+      "location": "Samegawa Flood Plain • sentiero, lato sinistro",
+      "objective": "Dopo Q20 parla al gatto e continua a dargli pesci nelle giornate disponibili finché ricevi Antibiotic Gel e la quest risulta completata.",
+      "item": "Pesci; i Guardian accelerano il progresso",
+      "enemy": null,
+      "dungeon": null,
+      "floors": null,
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Antibiotic Gel ×1",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Non confondere questo gatto con Minori-chan di Q61 al Riverbank. Le guide divergono sul conteggio 7/8/9: non usare un numero fisso come prova di completamento. Fa fede la ricompensa e il registro quest."
+      ],
+      "sources": [
+        "WQ21",
+        "NEO",
+        "STEAM",
+        "GFAQ",
+        "HXC"
+      ],
+      "checked": false,
+      "sort_key": 110603,
+      "source_urls": [
+        "https://www.megatenwiki.com/wiki/Feed_the_Cat",
+        "https://www.neoseeker.com/p4golden/Quest_Guide",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2132194286",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://www.hxchector.com/persona-4-golden-walkthrough/quests/"
+      ],
+      "checklist_label": "☐ Q21 · Feed the Cat"
+    },
+    {
+      "id": 22,
+      "name_en": "Cat Needs Food Badly",
+      "name_it": "Il gatto ha davvero fame",
+      "available_from": "03/06",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "aprile-giugno",
+      "prerequisites": [
+        "Q21 completata"
+      ],
+      "npc": "Cat",
+      "location": "Samegawa Flood Plain • sentiero, lato sinistro",
+      "objective": "Avvia dopo Q21 dando ancora un pesce. Raggiungi 20 pesci equivalenti, contando quello che avvia la richiesta; un Guardian vale cinque. Continua finché ricevi Soma e il registro segna completato.",
+      "item": "20 pesci equivalenti; Guardian = 5",
+      "enemy": null,
+      "dungeon": null,
+      "floors": null,
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Soma ×1",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Non sono sette pasti: questa indicazione appare erroneamente in alcune guide. La progressione richiede visite; comincia presto e non spendere i pesci riservati per Q15/Q60/Q67."
+      ],
+      "sources": [
+        "WQ22",
+        "WCAT",
+        "FW",
+        "NEO",
+        "STEAM"
+      ],
+      "checked": false,
+      "sort_key": 110603,
+      "source_urls": [
+        "https://www.megatenwiki.com/wiki/Cat_Needs_Food_Badly",
+        "https://www.megatenwiki.com/wiki/Cat_Needs_Food_Badly",
+        "https://finalweapon.net/2023/01/18/persona-4-golden-p4g-quests-guide/",
+        "https://www.neoseeker.com/p4golden/Quest_Guide",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2132194286"
+      ],
+      "checklist_label": "☐ Q22 · Cat Needs Food Badly"
+    },
+    {
+      "id": 23,
+      "name_en": "Acquire an Old Key",
+      "name_it": "Recupera una vecchia chiave",
+      "available_from": "05/06",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "aprile-giugno",
+      "prerequisites": [],
+      "npc": "Old Woman",
+      "location": "Samegawa Flood Plain • presso le scale",
+      "objective": "Ottieni Old Key dal nemico e riportala alla donna.",
+      "item": "Old Key ×1",
+      "enemy": "Bribed Fuzz",
+      "dungeon": "Steamy Bathhouse",
+      "floors": "1–2F",
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Knowledge e Courage aumentano",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Accetta prima la richiesta: i drop specifici della quest in genere non compaiono prima. Rientra nel dungeon già completato; non basta aver sconfitto il boss.",
+        "Si sblocca dopo la scadenza del dungeon di Kanji, non automaticamente quando lo completi."
+      ],
+      "sources": [
+        "WQ23",
+        "RPG",
+        "GFAQ",
+        "NEO"
+      ],
+      "checked": false,
+      "sort_key": 110605,
+      "source_urls": [
+        "https://www.megatenwiki.com/wiki/Acquire_an_Old_Key",
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://www.neoseeker.com/p4golden/Quest_Guide"
+      ],
+      "checklist_label": "☐ Q23 · Acquire an Old Key"
+    },
+    {
+      "id": 24,
+      "name_en": "Acquire Coal",
+      "name_it": "Recupera del carbone",
+      "available_from": "05/06",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "aprile-giugno",
+      "prerequisites": [],
+      "npc": "Loud Old Man",
+      "location": "Shopping District North • presso il santuario",
+      "objective": "Ottieni Coal dal nemico e consegnalo all’uomo.",
+      "item": "Coal ×1",
+      "enemy": "Selfish Basalt",
+      "dungeon": "Steamy Bathhouse",
+      "floors": "5–7F; cerca 6F",
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "¥15.000",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Accetta prima la richiesta: i drop specifici della quest in genere non compaiono prima. Rientra nel dungeon già completato; non basta aver sconfitto il boss.",
+        "Sblocca Q51. I piani 7–8 di alcune guide appartengono a dati dell’originale."
+      ],
+      "sources": [
+        "WQ24",
+        "RPG",
+        "GFAQ",
+        "SGBATH"
+      ],
+      "checked": false,
+      "sort_key": 110605,
+      "source_urls": [
+        "https://www.megatenwiki.com/wiki/Acquire_Coal",
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://samurai-gamers.com/persona-4-golden/p4g-steamy-bathhouse-dungeon-guide/"
+      ],
+      "checklist_label": "☐ Q24 · Acquire Coal"
+    },
+    {
+      "id": 25,
+      "name_en": "100% Inaba-Grown Cabbage",
+      "name_it": "Cavoli coltivati al 100% a Inaba",
+      "available_from": "05/06",
+      "availability_note": "05/06 secondo GameFAQs/Steam/Final Weapon; RPG Site indica 07/06. Controlla dal 05/06, poi ripassa: non è una scadenza.",
+      "period": "aprile-giugno",
+      "prerequisites": [
+        "Orto disponibile"
+      ],
+      "npc": "Fussy Housewife",
+      "location": "Junes • ingresso reparto grandi magazzini",
+      "objective": "Compra Cabbage Seedling dalla venditrice, piantala nell’orto e accumula tre Hiranya Cabbage. Consegnali alla casalinga.",
+      "item": "Hiranya Cabbage ×3",
+      "enemy": null,
+      "dungeon": null,
+      "floors": null,
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Sharp Shovel (arma di Yu)",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Compra i semi quando disponibili e ripeti la coltura se il raccolto non basta. Conserva almeno tre cavoli; non usarli come curativi."
+      ],
+      "sources": [
+        "WQ25",
+        "GFAQ",
+        "STEAM",
+        "FW",
+        "RPG"
+      ],
+      "checked": false,
+      "sort_key": 110605,
+      "source_urls": [
+        "https://www.megatenwiki.com/wiki/100%25_Inaba-Grown_Cabbage",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2132194286",
+        "https://finalweapon.net/2023/01/18/persona-4-golden-p4g-quests-guide/",
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards"
+      ],
+      "checklist_label": "☐ Q25 · 100% Inaba-Grown Cabbage"
+    },
+    {
+      "id": 26,
+      "name_en": "Acquire a Crooked Cross",
+      "name_it": "Recupera una croce storta",
+      "available_from": "07/06",
+      "availability_note": "07/06 nelle tabelle Golden aggregate; 08/06 nel calendario e nella scheda specifica. Controlla dal 07/06 e ripassa l’08/06 se non compare.",
+      "period": "aprile-giugno",
+      "prerequisites": [
+        "Q4 completata"
+      ],
+      "npc": "Timid Female Student",
+      "location": "Yasogami • aula 2-2",
+      "objective": "Dopo Q4 accetta la nuova richiesta e consegna Crooked Cross.",
+      "item": "Crooked Cross ×1",
+      "enemy": "Tranquil Idol",
+      "dungeon": "Steamy Bathhouse",
+      "floors": "7–8F",
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Ointment ×3",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Accetta prima la richiesta: i drop specifici della quest in genere non compaiono prima. Rientra nel dungeon già completato; non basta aver sconfitto il boss."
+      ],
+      "sources": [
+        "WQ26",
+        "RPG",
+        "GFAQ",
+        "SGBATH"
+      ],
+      "checked": false,
+      "sort_key": 110607,
+      "source_urls": [
+        "https://www.megatenwiki.com/wiki/Acquire_a_Crooked_Cross",
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://samurai-gamers.com/persona-4-golden/p4g-steamy-bathhouse-dungeon-guide/"
+      ],
+      "checklist_label": "☐ Q26 · Acquire a Crooked Cross"
+    },
+    {
+      "id": 27,
+      "name_en": "Acquire a Charmed Veil",
+      "name_it": "Recupera un velo incantato",
+      "available_from": "12/07",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "luglio-agosto",
+      "prerequisites": [
+        "Q26 completata"
+      ],
+      "npc": "Timid Female Student",
+      "location": "Yasogami • aula 2-2",
+      "objective": "Dopo Q26 ottieni Charmed Veil e consegnalo alla studentessa.",
+      "item": "Charmed Veil ×1",
+      "enemy": "Liberating Idol",
+      "dungeon": "Marukyu Striptease",
+      "floors": "5–10F; cerca 6F",
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Chest Key ×5",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Accetta prima la richiesta: i drop specifici della quest in genere non compaiono prima. Rientra nel dungeon già completato; non basta aver sconfitto il boss."
+      ],
+      "sources": [
+        "WQ27",
+        "RPG",
+        "GFAQ",
+        "NEO"
+      ],
+      "checked": false,
+      "sort_key": 110712,
+      "source_urls": [
+        "https://www.megatenwiki.com/wiki/Acquire_a_Charmed_Veil",
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://www.neoseeker.com/p4golden/Quest_Guide"
+      ],
+      "checklist_label": "☐ Q27 · Acquire a Charmed Veil"
+    },
+    {
+      "id": 28,
+      "name_en": "Desk Refurbishing, Part 2",
+      "name_it": "Rimetti a nuovo il banco, parte 2",
+      "available_from": "08/06",
+      "availability_note": "07/06 in Steam/Final Weapon, 08/06 in RPG Site e GameFAQs. Pianifica dall’08/06; se disponibile prima puoi accettarla.",
+      "period": "aprile-giugno",
+      "prerequisites": [
+        "Q16 completata"
+      ],
+      "npc": "Homely Student",
+      "location": "Yasogami • Practice Building 2F",
+      "objective": "Accetta la seconda richiesta e raccogli Reflecting Board.",
+      "item": "Reflecting Board ×1",
+      "enemy": "Crying Table",
+      "dungeon": "Steamy Bathhouse",
+      "floors": "9–10F",
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Snuff Soul ×2",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Accetta prima la richiesta: i drop specifici della quest in genere non compaiono prima. Rientra nel dungeon già completato; non basta aver sconfitto il boss."
+      ],
+      "sources": [
+        "WQ28",
+        "RPG",
+        "GFAQ",
+        "NEO"
+      ],
+      "checked": false,
+      "sort_key": 110608,
+      "source_urls": [
+        "https://www.megatenwiki.com/wiki/Desk_Refurbishing_Part_2",
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://www.neoseeker.com/p4golden/Quest_Guide"
+      ],
+      "checklist_label": "☐ Q28 · Desk Refurbishing, Part 2"
+    },
+    {
+      "id": 29,
+      "name_en": "Acquire a Horn",
+      "name_it": "Recupera un corno",
+      "available_from": "09/06",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "aprile-giugno",
+      "prerequisites": [],
+      "npc": "Aging Housewife",
+      "location": "Shopping District South • vicino a Shiroku",
+      "objective": "Recupera Grand Horn e consegnalo alla donna.",
+      "item": "Grand Horn ×1",
+      "enemy": "Grave Beetle",
+      "dungeon": "Steamy Bathhouse",
+      "floors": "9–10F",
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "¥18.000",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Accetta prima la richiesta: i drop specifici della quest in genere non compaiono prima. Rientra nel dungeon già completato; non basta aver sconfitto il boss."
+      ],
+      "sources": [
+        "WQ29",
+        "RPG",
+        "GFAQ",
+        "NEO"
+      ],
+      "checked": false,
+      "sort_key": 110609,
+      "source_urls": [
+        "https://www.megatenwiki.com/wiki/Acquire_a_Horn",
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://www.neoseeker.com/p4golden/Quest_Guide"
+      ],
+      "checklist_label": "☐ Q29 · Acquire a Horn"
+    },
+    {
+      "id": 30,
+      "name_en": "Please Find My Younger Twin",
+      "name_it": "Trova la mia gemella minore",
+      "available_from": "09/06",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "aprile-giugno",
+      "prerequisites": [],
+      "npc": "Older Twin",
+      "location": "Shopping District South • davanti a Daidara",
+      "objective": "Parla alla gemella maggiore; cerca l’altra sul lato sinistro del Samegawa Flood Plain, presso il gazebo. Parla con lei e torna dalla prima.",
+      "item": null,
+      "enemy": null,
+      "dungeon": null,
+      "floors": null,
+      "deadline": "16/11",
+      "deadline_note": "TERMINE OPERATIVO SICURO: completa e consegna entro 16/11, prima della nebbia. Le guide indicano prima del 17/11; non aspettare il 17. Per Q53 il termine esatto non è uniformemente documentato: trattala con la stessa prudenza.",
+      "reward": "Goho-M ×5",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Sblocca due rami: Q35→Q36→Q52 e Q43. Porta avanti entrambi per arrivare a Q53."
+      ],
+      "sources": [
+        "RPG",
+        "GFAQ",
+        "NEO"
+      ],
+      "checked": false,
+      "sort_key": 110609,
+      "source_urls": [
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://www.neoseeker.com/p4golden/Quest_Guide"
+      ],
+      "checklist_label": "☐ Q30 · Please Find My Younger Twin"
+    },
+    {
+      "id": 31,
+      "name_en": "The Cleaning Club's Passion",
+      "name_it": "La passione del club delle pulizie",
+      "available_from": "11/06",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "aprile-giugno",
+      "prerequisites": [
+        "Okina sbloccata",
+        "Lavoro Hospital Janitor accettato; Diligence 3"
+      ],
+      "npc": "Graduating Student",
+      "location": "Yasogami • Classroom Building 3F",
+      "objective": "Vendi sei Golden Cloth a Daidara e compra Iai Katana. Scambiala con l’Artisan Apprentice al Practice Building 2F per Cleaning Mop. Accetta il lavoro ospedaliero, compra Cleaning Uniform da Croco Fur a Okina (¥14.800); mostra entrambi allo studente del 3F.",
+      "item": "Golden Cloth ×6 → Iai Katana → Cleaning Mop; Cleaning Uniform",
+      "enemy": "Phantom Mage",
+      "dungeon": "Yukiko’s Castle",
+      "floors": "4–6F; cerca 5–6F",
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Bamboo Broom (arma di Yu)",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Iai Katana inizia con I maiuscola, non con L. Alcune guide dicono dieci Golden Cloth: la tabella materiale indica sei. Se il negozio non la propone, verifica di aver venduto il materiale giusto."
+      ],
+      "sources": [
+        "WQ31",
+        "RPG",
+        "NEO",
+        "FW",
+        "WCLOTH",
+        "SGCASTLE"
+      ],
+      "checked": false,
+      "sort_key": 110611,
+      "source_urls": [
+        "https://www.megatenwiki.com/wiki/The_Cleaning_Club's_Passion",
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://www.neoseeker.com/p4golden/Quest_Guide",
+        "https://finalweapon.net/2023/01/18/persona-4-golden-p4g-quests-guide/",
+        "https://megatenwiki.com/wiki/Golden_Cloth",
+        "https://samurai-gamers.com/persona-4-golden/p4g-yukikos-castle-dungeon-guide/"
+      ],
+      "checklist_label": "☐ Q31 · The Cleaning Club's Passion"
+    },
+    {
+      "id": 32,
+      "name_en": "Acquire Inaba Trout",
+      "name_it": "Recupera una trota di Inaba",
+      "available_from": "14/06",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "aprile-giugno",
+      "prerequisites": [],
+      "npc": "Old Man Daidara",
+      "location": "Daidara Metalworks • Shopping District South",
+      "objective": "Porta una Inaba Trout pescata nel fiume. Puoi conservarne una dall’offerta televisiva del 05/06.",
+      "item": "Inaba Trout ×1 (pesce)",
+      "enemy": null,
+      "dungeon": null,
+      "floors": null,
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Inaba Trout (arma di Yosuke)",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Il premio ha lo stesso nome del pesce ma è un’arma. Non confonderli."
+      ],
+      "sources": [
+        "WQ32",
+        "RPG",
+        "GFAQ",
+        "NPC"
+      ],
+      "checked": false,
+      "sort_key": 110614,
+      "source_urls": [
+        "https://www.megatenwiki.com/wiki/Acquire_Inaba_Trout",
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2425834890"
+      ],
+      "checklist_label": "☐ Q32 · Acquire Inaba Trout"
+    },
+    {
+      "id": 33,
+      "name_en": "Acquire a Silver Lump",
+      "name_it": "Recupera un grumo d’argento",
+      "available_from": "30/06",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "aprile-giugno",
+      "prerequisites": [
+        "Q6 completata"
+      ],
+      "npc": "Male Student",
+      "location": "Yasogami • Practice Building 1F",
+      "objective": "Consegna un Silver Lump: è un materiale normale, raccoglibile anche prima della richiesta.",
+      "item": "Silver Lump ×1",
+      "enemy": "Silver Dice",
+      "dungeon": "Marukyu Striptease",
+      "floors": "5–8F e 10F; cerca 8F",
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Uplifting Radio ×2",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "NON vendere l’unico Silver Lump a Daidara. Non serve aspettare la quest per conservarlo."
+      ],
+      "sources": [
+        "WQ33",
+        "RPG",
+        "GFAQ",
+        "GFJUN"
+      ],
+      "checked": false,
+      "sort_key": 110630,
+      "source_urls": [
+        "https://www.megatenwiki.com/wiki/Acquire_a_Silver_Lump",
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://gamefaqs.gamespot.com/xbox-series-x/370653-persona-4-golden/faqs/81937/june"
+      ],
+      "checklist_label": "☐ Q33 · Acquire a Silver Lump"
+    },
+    {
+      "id": 34,
+      "name_en": "Acquire Hard Boots",
+      "name_it": "Recupera degli stivali robusti",
+      "available_from": "03/07",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "luglio-agosto",
+      "prerequisites": [
+        "Q20 completata"
+      ],
+      "npc": "Avid Reader",
+      "location": "Shopping District South • libreria",
+      "objective": "Vendi cinque Thick Hide a Daidara per sbloccare Hard Boots; compra l’arma e consegnala al lettore.",
+      "item": "Thick Hide ×5 → Hard Boots",
+      "enemy": "Dancing Hand",
+      "dungeon": "Steamy Bathhouse",
+      "floors": "5–8F; cerca 7–8F",
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Libro Guide to Pests + ¥5.000",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Le pelli vanno vendute per fabbricare l’arma, non consegnate direttamente al lettore. Il numero dieci in alcune vecchie guide è errato per Golden."
+      ],
+      "sources": [
+        "WQ34",
+        "RPG",
+        "GFAQ",
+        "NEO"
+      ],
+      "checked": false,
+      "sort_key": 110703,
+      "source_urls": [
+        "https://www.megatenwiki.com/wiki/Acquire_Hard_Boots",
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://www.neoseeker.com/p4golden/Quest_Guide"
+      ],
+      "checklist_label": "☐ Q34 · Acquire Hard Boots"
+    },
+    {
+      "id": 35,
+      "name_en": "Carbon Copy",
+      "name_it": "Una copia identica",
+      "available_from": "13/07",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "luglio-agosto",
+      "prerequisites": [
+        "Q30 completata"
+      ],
+      "npc": "Younger Twin",
+      "location": "Samegawa Riverbank",
+      "objective": "Accetta dalla gemella minore, ottieni Flower Brooch e consegnala.",
+      "item": "Flower Brooch ×1",
+      "enemy": "Soul Dancer",
+      "dungeon": "Marukyu Striptease",
+      "floors": "1–3F",
+      "deadline": "16/11",
+      "deadline_note": "TERMINE OPERATIVO SICURO: completa e consegna entro 16/11, prima della nebbia. Le guide indicano prima del 17/11; non aspettare il 17. Per Q53 il termine esatto non è uniformemente documentato: trattala con la stessa prudenza.",
+      "reward": "Value Medicine ×3",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Accetta prima la richiesta: i drop specifici della quest in genere non compaiono prima. Rientra nel dungeon già completato; non basta aver sconfitto il boss."
+      ],
+      "sources": [
+        "RPG",
+        "GFAQ",
+        "NEO"
+      ],
+      "checked": false,
+      "sort_key": 110713,
+      "source_urls": [
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://www.neoseeker.com/p4golden/Quest_Guide"
+      ],
+      "checklist_label": "☐ Q35 · Carbon Copy"
+    },
+    {
+      "id": 36,
+      "name_en": "Carbon Copy, Part 2",
+      "name_it": "Una copia identica, parte 2",
+      "available_from": "22/08",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "luglio-agosto",
+      "prerequisites": [
+        "Q35 completata"
+      ],
+      "npc": "Younger Twin",
+      "location": "Samegawa Riverbank",
+      "objective": "Raccogli Leaf Pochette dopo aver accettato la richiesta e consegnala alla gemella.",
+      "item": "Leaf Pochette ×1",
+      "enemy": "Blind Cupid",
+      "dungeon": "Void Quest",
+      "floors": "Capitoli 3–4",
+      "deadline": "16/11",
+      "deadline_note": "TERMINE OPERATIVO SICURO: completa e consegna entro 16/11, prima della nebbia. Le guide indicano prima del 17/11; non aspettare il 17. Per Q53 il termine esatto non è uniformemente documentato: trattala con la stessa prudenza.",
+      "reward": "Macca Leaf ×3",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Accetta prima la richiesta: i drop specifici della quest in genere non compaiono prima. Rientra nel dungeon già completato; non basta aver sconfitto il boss."
+      ],
+      "sources": [
+        "RPG",
+        "GFAQ",
+        "NEO"
+      ],
+      "checked": false,
+      "sort_key": 110822,
+      "source_urls": [
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://www.neoseeker.com/p4golden/Quest_Guide"
+      ],
+      "checklist_label": "☐ Q36 · Carbon Copy, Part 2"
+    },
+    {
+      "id": 37,
+      "name_en": "Pining for Stylish Formalwear",
+      "name_it": "Voglia di un completo elegante",
+      "available_from": "16/07",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "luglio-agosto",
+      "prerequisites": [
+        "Okina City sbloccata"
+      ],
+      "npc": "Woman with Heavy Makeup",
+      "location": "Okina City",
+      "objective": "Trova Gentleman’s Tux in un forziere dorato di Yukiko’s Castle e mostralo alla donna. Porta Chest Key.",
+      "item": "Gentleman’s Tux",
+      "enemy": null,
+      "dungeon": "Yukiko’s Castle",
+      "floors": "Forzieri chiusi; cerca 3F, 4F, 6F, 7F",
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Royal Jelly ×3",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "La comparsa dell’equipaggiamento è casuale. Non è il costume scolastico."
+      ],
+      "sources": [
+        "RPG",
+        "GFAQ",
+        "SGCASTLE"
+      ],
+      "checked": false,
+      "sort_key": 110716,
+      "source_urls": [
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://samurai-gamers.com/persona-4-golden/p4g-yukikos-castle-dungeon-guide/"
+      ],
+      "checklist_label": "☐ Q37 · Pining for Stylish Formalwear"
+    },
+    {
+      "id": 38,
+      "name_en": "Harvest Two Types of Corn",
+      "name_it": "Raccogli due tipi di mais",
+      "available_from": "25/07",
+      "availability_note": "24/07 nella scheda specifica e calendario Samurai Gamers, 25/07 in RPG Site/GameFAQs. Controlla dal 24/07; ripassa il 25/07 se manca.",
+      "period": "luglio-agosto",
+      "prerequisites": [
+        "Q32 completata"
+      ],
+      "npc": "Old Man Daidara",
+      "location": "Daidara Metalworks",
+      "objective": "Compra Barrier Corn, coltivalo e conserva un Tetracorn e un Makaracorn; consegna entrambi. Se manca un tipo, ripeti la coltura.",
+      "item": "Tetracorn ×1 + Makaracorn ×1",
+      "enemy": null,
+      "dungeon": null,
+      "floors": null,
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Grilled Corn (arma di Yosuke)",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Il titolo richiede entrambi i risultati della coltivazione; non basta consegnare due pannocchie dello stesso tipo."
+      ],
+      "sources": [
+        "WQ38",
+        "RPG",
+        "GFAQ",
+        "NEO"
+      ],
+      "checked": false,
+      "sort_key": 110725,
+      "source_urls": [
+        "https://www.megatenwiki.com/wiki/Harvest_Two_Types_of_Corn",
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://www.neoseeker.com/p4golden/Quest_Guide"
+      ],
+      "checklist_label": "☐ Q38 · Harvest Two Types of Corn"
+    },
+    {
+      "id": 39,
+      "name_en": "Acquire an Eternal Lamp",
+      "name_it": "Recupera una lampada eterna",
+      "available_from": "22/08",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "luglio-agosto",
+      "prerequisites": [],
+      "npc": "Refreshed Old Man",
+      "location": "Samegawa Flood Plain • vicino al cartello",
+      "objective": "Raccogli Eternal Lamp dopo l’accettazione e consegnala all’uomo.",
+      "item": "Eternal Lamp ×1",
+      "enemy": "Amenti Raven",
+      "dungeon": "Void Quest",
+      "floors": "Capitoli 3–4; cerca 4",
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "¥30.000",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Accetta prima la richiesta: i drop specifici della quest in genere non compaiono prima. Rientra nel dungeon già completato; non basta aver sconfitto il boss.",
+        "Sblocca Q59."
+      ],
+      "sources": [
+        "WQ39",
+        "RPG",
+        "GFAQ",
+        "NEO"
+      ],
+      "checked": false,
+      "sort_key": 110822,
+      "source_urls": [
+        "https://www.megatenwiki.com/wiki/Acquire_an_Eternal_Lamp",
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://www.neoseeker.com/p4golden/Quest_Guide"
+      ],
+      "checklist_label": "☐ Q39 · Acquire an Eternal Lamp"
+    },
+    {
+      "id": 40,
+      "name_en": "Acquire Some Fashionable Dishes",
+      "name_it": "Recupera stoviglie alla moda",
+      "available_from": "09/08",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "luglio-agosto",
+      "prerequisites": [
+        "Q34 completata"
+      ],
+      "npc": "Avid Reader",
+      "location": "Shopping District South • libreria",
+      "objective": "Conserva tre Fashionable Dishes e consegnali al lettore dopo Q34. Sono materiali ordinari: puoi accumularli prima di agosto.",
+      "item": "Fashionable Dishes ×3",
+      "enemy": "Sky Balance",
+      "dungeon": "Marukyu Striptease",
+      "floors": "9–10F",
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Libro Picross Rules! + ¥10.000",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "NON venderli a Daidara. RPG Site chiama il libro Riddlemania; il nome verificato nel walkthrough inglese è Picross Rules!."
+      ],
+      "sources": [
+        "WQ40",
+        "GFAQ",
+        "GFJUN",
+        "STEAM",
+        "RPG"
+      ],
+      "checked": false,
+      "sort_key": 110809,
+      "source_urls": [
+        "https://www.megatenwiki.com/wiki/Acquire_Some_Fashionable_Dishes",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://gamefaqs.gamespot.com/xbox-series-x/370653-persona-4-golden/faqs/81937/june",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2132194286",
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards"
+      ],
+      "checklist_label": "☐ Q40 · Acquire Some Fashionable Dishes"
+    },
+    {
+      "id": 41,
+      "name_en": "What Was That in the Movies?",
+      "name_it": "Che cos’era quella cosa nel film?",
+      "available_from": "02/09",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "settembre-ottobre",
+      "prerequisites": [
+        "Okina City sbloccata"
+      ],
+      "npc": "Film Buff Girl",
+      "location": "Okina City • davanti al cinema",
+      "objective": "Parla alla ragazza, chiedi a Ms. Sofue al Classroom Building 2F della scuola il riferimento storico del film, quindi torna alla ragazza.",
+      "item": null,
+      "enemy": null,
+      "dungeon": null,
+      "floors": null,
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Mystical Scarab ×1",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [],
+      "sources": [
+        "RPG",
+        "GFAQ",
+        "NEO"
+      ],
+      "checked": false,
+      "sort_key": 110902,
+      "source_urls": [
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://www.neoseeker.com/p4golden/Quest_Guide"
+      ],
+      "checklist_label": "☐ Q41 · What Was That in the Movies?"
+    },
+    {
+      "id": 42,
+      "name_en": "Riddle Senpai Returns!",
+      "name_it": "Il senpai degli indovinelli è tornato!",
+      "available_from": "02/09",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "settembre-ottobre",
+      "prerequisites": [
+        "Q1 completata"
+      ],
+      "npc": "Funky Student",
+      "location": "Yasogami • Classroom Building 3F",
+      "objective": "Quiz: Group A → Human motion → Group B → They’re all indefinite articles.",
+      "item": null,
+      "enemy": null,
+      "dungeon": null,
+      "floors": null,
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Snuff Soul ×1",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [],
+      "sources": [
+        "NEO",
+        "GFK",
+        "RPG"
+      ],
+      "checked": false,
+      "sort_key": 110902,
+      "source_urls": [
+        "https://www.neoseeker.com/p4golden/Quest_Guide",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/65282",
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards"
+      ],
+      "checklist_label": "☐ Q42 · Riddle Senpai Returns!"
+    },
+    {
+      "id": 43,
+      "name_en": "Experiments in Telepathy",
+      "name_it": "Esperimenti di telepatia",
+      "available_from": "05/09",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "settembre-ottobre",
+      "prerequisites": [
+        "Q30 completata"
+      ],
+      "npc": "Older Twin",
+      "location": "Shopping District South • vicino alla libreria",
+      "objective": "Ascolta la gemella maggiore, parla alla minore al Samegawa Riverbank e torna dalla maggiore. La risposta dell’esperimento non blocca la ricompensa.",
+      "item": null,
+      "enemy": null,
+      "dungeon": null,
+      "floors": null,
+      "deadline": "16/11",
+      "deadline_note": "TERMINE OPERATIVO SICURO: completa e consegna entro 16/11, prima della nebbia. Le guide indicano prima del 17/11; non aspettare il 17. Per Q53 il termine esatto non è uniformemente documentato: trattala con la stessa prudenza.",
+      "reward": "Dokudami Tea ×5",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Avanza questo ramo insieme a Q35/Q36/Q52: serve per Q53."
+      ],
+      "sources": [
+        "WQ43",
+        "RPG",
+        "GFAQ",
+        "NEO"
+      ],
+      "checked": false,
+      "sort_key": 110905,
+      "source_urls": [
+        "https://www.megatenwiki.com/wiki/Experiments_in_Telepathy",
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://www.neoseeker.com/p4golden/Quest_Guide"
+      ],
+      "checklist_label": "☐ Q43 · Experiments in Telepathy"
+    },
+    {
+      "id": 44,
+      "name_en": "Extracurricular Activities, Part 2",
+      "name_it": "Attività extrascolastiche, parte 2",
+      "available_from": "20/09",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "settembre-ottobre",
+      "prerequisites": [
+        "Q17 completata"
+      ],
+      "npc": "Ms. Sofue",
+      "location": "Yasogami • Classroom Building 2F",
+      "objective": "Dopo Q17 raccogli Culurium da Steel Machine e consegnalo alla professoressa.",
+      "item": "Culurium ×1",
+      "enemy": "Steel Machine",
+      "dungeon": "Void Quest",
+      "floors": "Capitoli 8–9",
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Mystical Scarab ×2",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Accetta prima la richiesta: i drop specifici della quest in genere non compaiono prima. Rientra nel dungeon già completato; non basta aver sconfitto il boss.",
+        "Il drop normale è Tungsten: non confonderlo con Culurium. Il capitolo 10 riportato da alcune guide è il piano del boss."
+      ],
+      "sources": [
+        "GFAQ",
+        "NEO",
+        "WVOID"
+      ],
+      "checked": false,
+      "sort_key": 110920,
+      "source_urls": [
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://www.neoseeker.com/p4golden/Quest_Guide",
+        "https://megamitensei.fandom.com/wiki/Void_Quest"
+      ],
+      "checklist_label": "☐ Q44 · Extracurricular Activities, Part 2"
+    },
+    {
+      "id": 45,
+      "name_en": "A Test of Literary Memory",
+      "name_it": "Una prova di memoria letteraria",
+      "available_from": "26/09",
+      "availability_note": "26/09 nelle tabelle aggregate, 27/09 nella scheda specifica e nel walkthrough KADFC. Controlla dal 26/09 e ripassa il 27/09 se non compare.",
+      "period": "settembre-ottobre",
+      "prerequisites": [
+        "Q40 completata"
+      ],
+      "npc": "Avid Reader",
+      "location": "Shopping District South • libreria",
+      "objective": "Risposte al quiz: Judo medalist names → How one should live as a punk → 2 pages per pest → Me.",
+      "item": null,
+      "enemy": null,
+      "dungeon": null,
+      "floors": null,
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Libro Who Am I?",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Pest significa parassita: non selezionare una frase diversa perché una guida riporta il refuso test."
+      ],
+      "sources": [
+        "WQ45",
+        "NEO",
+        "GFK",
+        "STEAM"
+      ],
+      "checked": false,
+      "sort_key": 110926,
+      "source_urls": [
+        "https://www.megatenwiki.com/wiki/A_Test_Of_Literary_Memory",
+        "https://www.neoseeker.com/p4golden/Quest_Guide",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/65282",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2132194286"
+      ],
+      "checklist_label": "☐ Q45 · A Test of Literary Memory"
+    },
+    {
+      "id": 46,
+      "name_en": "Desk Refurbishing, Part 3",
+      "name_it": "Rimetti a nuovo il banco, parte 3",
+      "available_from": "28/09",
+      "availability_note": "28/09 nelle tabelle aggregate, 29/09 nella scheda specifica. Verifica dal 28/09; se assente, ripassa il 29/09. Non è una scadenza.",
+      "period": "settembre-ottobre",
+      "prerequisites": [
+        "Q28 completata"
+      ],
+      "npc": "Homely Student",
+      "location": "Yasogami • Practice Building 2F",
+      "objective": "Conserva tre Proof of Passion e consegnale alla studentessa dopo aver accettato. Sono anche materiali del negozio: controlla prima di vendere.",
+      "item": "Proof of Passion ×3",
+      "enemy": "Furious Gigas",
+      "dungeon": "Secret Laboratory",
+      "floors": "B3–B4F; cerca B4F",
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Bead ×1",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "La disponibilità effettiva dipende dalla presenza scolastica; se il 28/09 non compare, ripassa al primo giorno utile. Sblocca Q57."
+      ],
+      "sources": [
+        "WQ46",
+        "RPG",
+        "GFAQ",
+        "NEO"
+      ],
+      "checked": false,
+      "sort_key": 110928,
+      "source_urls": [
+        "https://www.megatenwiki.com/wiki/Desk_Refurbishing_Part_3",
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://www.neoseeker.com/p4golden/Quest_Guide"
+      ],
+      "checklist_label": "☐ Q46 · Desk Refurbishing, Part 3"
+    },
+    {
+      "id": 47,
+      "name_en": "Find Me Something to Wear",
+      "name_it": "Trovami qualcosa da indossare",
+      "available_from": "12/10",
+      "availability_note": "12/10 in RPG Site/GameFAQs, 13/10 nella scheda specifica. Se hai appena consegnato Q37, esci da Okina e rientra; ricontrolla il 13/10.",
+      "period": "settembre-ottobre",
+      "prerequisites": [
+        "Okina City sbloccata",
+        "Completa prima Q37 per prudenza: requisito esplicito nella scheda specifica"
+      ],
+      "npc": "Quiet Housewife",
+      "location": "Okina City • vicino a Croco Fur",
+      "objective": "Vendi otto Power Rock a Daidara, compra Invincible Mini e mostrala alla donna.",
+      "item": "Power Rock ×8 → Invincible Mini",
+      "enemy": "Power Castle",
+      "dungeon": "Secret Laboratory",
+      "floors": "B3–B7F; cerca B4F/B6F",
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Disco Fan (arma di Yukiko)",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "CONFLITTO CON Q51: mentre Fine Coal è il drop di quest attivo, Power Rock viene sostituito. Raccogli le otto rocce prima di Q51 oppure consegna Q51, poi rientra a raccoglierle."
+      ],
+      "sources": [
+        "WQ47",
+        "RPG",
+        "GFAQ",
+        "HXC"
+      ],
+      "checked": false,
+      "sort_key": 111012,
+      "source_urls": [
+        "https://www.megatenwiki.com/wiki/Find_Me_Something_to_Wear",
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://www.hxchector.com/persona-4-golden-walkthrough/quests/"
+      ],
+      "checklist_label": "☐ Q47 · Find Me Something to Wear"
+    },
+    {
+      "id": 48,
+      "name_en": "Acquire a Crystal Ball",
+      "name_it": "Recupera una sfera di cristallo",
+      "available_from": "08/10",
+      "availability_note": "08/10 nelle tabelle aggregate; il walkthrough Zoel e la scheda specifica indicano 12/10. Controlla dal 08/10 e ricontrolla il 12/10 se assente. Non è una scadenza.",
+      "period": "settembre-ottobre",
+      "prerequisites": [],
+      "npc": "Ms. Nakayama",
+      "location": "Yasogami • Classroom Building 3F",
+      "objective": "Ottieni Crystal Ball e consegnala alla professoressa.",
+      "item": "Crystal Ball ×1",
+      "enemy": "Constancy Relic",
+      "dungeon": "Secret Laboratory",
+      "floors": "B1–B2F",
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "¥35.000",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Accetta prima la richiesta: i drop specifici della quest in genere non compaiono prima. Rientra nel dungeon già completato; non basta aver sconfitto il boss.",
+        "Sblocca Q63 a gennaio. Non cercare questo materiale a Heaven."
+      ],
+      "sources": [
+        "WQ48",
+        "RPG",
+        "GFAQ",
+        "NEO"
+      ],
+      "checked": false,
+      "sort_key": 111008,
+      "source_urls": [
+        "https://www.megatenwiki.com/wiki/Acquire_a_Crystal_Ball",
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://www.neoseeker.com/p4golden/Quest_Guide"
+      ],
+      "checklist_label": "☐ Q48 · Acquire a Crystal Ball"
+    },
+    {
+      "id": 49,
+      "name_en": "Acquire a Training Shell",
+      "name_it": "Recupera un proiettile da addestramento",
+      "available_from": "08/10",
+      "availability_note": "08/10 nelle tabelle aggregate; il walkthrough Zoel e la scheda specifica indicano 12/10. Controlla dal 08/10 e ricontrolla il 12/10 se assente. Non è una scadenza.",
+      "period": "settembre-ottobre",
+      "prerequisites": [],
+      "npc": "Principal",
+      "location": "Yasogami • Classroom Building 3F",
+      "objective": "Accetta dal preside e riporta Training Shell.",
+      "item": "Training Shell ×1",
+      "enemy": "Wicked Turret",
+      "dungeon": "Secret Laboratory",
+      "floors": "B7–B8F",
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Diligence e Understanding aumentano",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Accetta prima la richiesta: i drop specifici della quest in genere non compaiono prima. Rientra nel dungeon già completato; non basta aver sconfitto il boss."
+      ],
+      "sources": [
+        "WQ49",
+        "RPG",
+        "GFAQ",
+        "NEO"
+      ],
+      "checked": false,
+      "sort_key": 111008,
+      "source_urls": [
+        "https://www.megatenwiki.com/wiki/Acquire_a_Training_Shell",
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://www.neoseeker.com/p4golden/Quest_Guide"
+      ],
+      "checklist_label": "☐ Q49 · Acquire a Training Shell"
+    },
+    {
+      "id": 50,
+      "name_en": "Acquire a High-Speed Gear",
+      "name_it": "Recupera un ingranaggio ad alta velocità",
+      "available_from": "08/10",
+      "availability_note": "08/10 nelle tabelle aggregate; il walkthrough Zoel e la scheda specifica indicano 12/10. Controlla dal 08/10 e ricontrolla il 12/10 se assente. Non è una scadenza.",
+      "period": "settembre-ottobre",
+      "prerequisites": [],
+      "npc": "Girl in Glasses",
+      "location": "Yasogami • Classroom Building 1F",
+      "objective": "Recupera High-Speed Gear e consegnalo alla studentessa.",
+      "item": "High-Speed Gear ×1",
+      "enemy": "Mach Wheel",
+      "dungeon": "Secret Laboratory",
+      "floors": "B5–B6F; cerca B6F",
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Physical Mirror ×3",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Accetta prima la richiesta: i drop specifici della quest in genere non compaiono prima. Rientra nel dungeon già completato; non basta aver sconfitto il boss."
+      ],
+      "sources": [
+        "WQ50",
+        "RPG",
+        "GFAQ",
+        "NEO"
+      ],
+      "checked": false,
+      "sort_key": 111008,
+      "source_urls": [
+        "https://www.megatenwiki.com/wiki/Acquire_a_High-Speed_Gear",
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://www.neoseeker.com/p4golden/Quest_Guide"
+      ],
+      "checklist_label": "☐ Q50 · Acquire a High-Speed Gear"
+    },
+    {
+      "id": 51,
+      "name_en": "Acquire Fine Coal",
+      "name_it": "Recupera carbone pregiato",
+      "available_from": "09/10",
+      "availability_note": "09/10 nelle tabelle aggregate; altre guide indicano 13/10. Controlla dal 09/10 e ricontrolla il 13/10; per Q52 resta prioritaria la consegna entro 16/11.",
+      "period": "settembre-ottobre",
+      "prerequisites": [
+        "Q24 completata"
+      ],
+      "npc": "Loud Old Man",
+      "location": "Shopping District North",
+      "objective": "Dopo Q24 ottieni Fine Coal e consegnalo all’uomo.",
+      "item": "Fine Coal ×1",
+      "enemy": "Power Castle",
+      "dungeon": "Secret Laboratory",
+      "floors": "B3–B7F; cerca B4F/B6F",
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "¥40.000",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Accetta prima la richiesta: i drop specifici della quest in genere non compaiono prima. Rientra nel dungeon già completato; non basta aver sconfitto il boss.",
+        "Durante Q51 il nemico non fornisce normalmente Power Rock per Q47: completa e consegna Q51 per ripristinare quel drop."
+      ],
+      "sources": [
+        "WQ51",
+        "RPG",
+        "GFAQ",
+        "NEO"
+      ],
+      "checked": false,
+      "sort_key": 111009,
+      "source_urls": [
+        "https://www.megatenwiki.com/wiki/Acquire_Fine_Coal",
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://www.neoseeker.com/p4golden/Quest_Guide"
+      ],
+      "checklist_label": "☐ Q51 · Acquire Fine Coal"
+    },
+    {
+      "id": 52,
+      "name_en": "A Twin's Independence",
+      "name_it": "L’indipendenza di una gemella",
+      "available_from": "09/10",
+      "availability_note": "09/10 nelle tabelle aggregate; altre guide indicano 13/10. Controlla dal 09/10 e ricontrolla il 13/10; per Q52 resta prioritaria la consegna entro 16/11.",
+      "period": "settembre-ottobre",
+      "prerequisites": [
+        "Q36 completata"
+      ],
+      "npc": "Younger Twin",
+      "location": "Samegawa Riverbank",
+      "objective": "Ottieni Branch Headband da Elegant Mother e consegnala alla gemella prima della nebbia.",
+      "item": "Branch Headband ×1",
+      "enemy": "Elegant Mother",
+      "dungeon": "Secret Laboratory",
+      "floors": "B7–B8F",
+      "deadline": "16/11",
+      "deadline_note": "TERMINE OPERATIVO SICURO: completa e consegna entro 16/11, prima della nebbia. Le guide indicano prima del 17/11; non aspettare il 17. Per Q53 il termine esatto non è uniformemente documentato: trattala con la stessa prudenza.",
+      "reward": "Bead Chain ×1",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Accetta prima la richiesta: i drop specifici della quest in genere non compaiono prima. Rientra nel dungeon già completato; non basta aver sconfitto il boss."
+      ],
+      "sources": [
+        "RPG",
+        "GFAQ",
+        "NEO"
+      ],
+      "checked": false,
+      "sort_key": 111009,
+      "source_urls": [
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://www.neoseeker.com/p4golden/Quest_Guide"
+      ],
+      "checklist_label": "☐ Q52 · A Twin's Independence"
+    },
+    {
+      "id": 53,
+      "name_en": "Experiments in Telepathy, Part 2",
+      "name_it": "Esperimenti di telepatia, parte 2",
+      "available_from": "31/10",
+      "availability_note": "Flag indicato 31/10; il calendario fotografico Golden mostra l’evento completo il 01/11. Se partecipi all’evento di Halloween, ricontrolla dal 01/11 e nei giorni asciutti.",
+      "period": "settembre-ottobre",
+      "prerequisites": [
+        "Q43 completata",
+        "Q52 completata"
+      ],
+      "npc": "Older Twin e Younger Twin",
+      "location": "Shopping District South ↔ Samegawa Riverbank",
+      "objective": "Parla nell’ordine: maggiore davanti alla libreria → minore al Riverbank → maggiore → minore → maggiore. L’ultimo ritorno dalla maggiore conclude la quest e assegna la ricompensa.",
+      "item": null,
+      "enemy": null,
+      "dungeon": null,
+      "floors": null,
+      "deadline": "16/11",
+      "deadline_note": "TERMINE OPERATIVO SICURO: completa e consegna entro 16/11, prima della nebbia. Le guide indicano prima del 17/11; non aspettare il 17. Per Q53 il termine esatto non è uniformemente documentato: trattala con la stessa prudenza.",
+      "reward": "Super Sonic ×3",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Alcune guide indicano solo Q52 o il 04/11. Completa entrambi i rami e tratta il 16/11 come termine prudenziale; non aspettare la nebbia."
+      ],
+      "sources": [
+        "RPG",
+        "GFQ",
+        "NPC",
+        "NPCI",
+        "HXC"
+      ],
+      "checked": false,
+      "sort_key": 111031,
+      "source_urls": [
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/67176",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2425834890",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2425829122",
+        "https://www.hxchector.com/persona-4-golden-walkthrough/quests/"
+      ],
+      "checklist_label": "☐ Q53 · Experiments in Telepathy, Part 2"
+    },
+    {
+      "id": 54,
+      "name_en": "Find My Pet",
+      "name_it": "Ritrova il mio animale",
+      "available_from": "01/11",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "novembre-dicembre",
+      "prerequisites": [
+        "Okina sbloccata"
+      ],
+      "npc": "Frantic Middle-Aged Woman",
+      "location": "Okina City • davanti alla polizia",
+      "objective": "Accetta dalla donna. Trova il cane davanti a Souzai Daigaku, prova i nomi e attendi. Nei giorni successivi parlargli con calma e dagli uno Steak Skewer per volta; dopo tre spiedini chiamalo Mika-chan. Quando resta, torna dalla donna.",
+      "item": "Steak Skewer ×3; una somministrazione al giorno",
+      "enemy": null,
+      "dungeon": null,
+      "floors": null,
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Haikara Shirt (armatura +50% EXP)",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Riserva almeno quattro giornate disponibili. Il calendario fotografico mostra l’avvio 01/11; alcune guide scrivono 06/11.",
+        "Le fonti discordano sulla statistica richiesta per attendere (Understanding o Diligence). Se il gioco blocca Wait, aumenta la statistica indicata dal messaggio; se l’opzione è disponibile, prosegui senza massimizzare statistiche inutilmente.",
+        "Alcune guide chiamano la ricompensa Haikara Skirt: il nome riportato nella maggioranza delle fonti Golden è Haikara Shirt."
+      ],
+      "sources": [
+        "WQ54",
+        "NPC",
+        "NPCI",
+        "GFQ",
+        "WPET",
+        "GFAQ"
+      ],
+      "checked": false,
+      "sort_key": 111101,
+      "source_urls": [
+        "https://www.megatenwiki.com/wiki/Find_My_Pet",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2425834890",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2425829122",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/67176",
+        "https://www.megatenwiki.com/wiki/Find_My_Pet",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities"
+      ],
+      "checklist_label": "☐ Q54 · Find My Pet"
+    },
+    {
+      "id": 55,
+      "name_en": "Revenge of Riddle Senpai!",
+      "name_it": "La vendetta del senpai degli indovinelli!",
+      "available_from": "12/11",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "novembre-dicembre",
+      "prerequisites": [
+        "Q42 completata"
+      ],
+      "npc": "Funky Student",
+      "location": "Yasogami • Classroom Building 3F",
+      "objective": "Risposte: Group B → The way they’re drawn → Promethium → Need.",
+      "item": null,
+      "enemy": null,
+      "dungeon": null,
+      "floors": null,
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Chewing Soul ×1",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Il prerequisito Q47 in alcune tabelle è un refuso: questa è la catena degli indovinelli Q1→Q42→Q55→Q64."
+      ],
+      "sources": [
+        "HXC",
+        "NEO",
+        "STEAM"
+      ],
+      "checked": false,
+      "sort_key": 111112,
+      "source_urls": [
+        "https://www.hxchector.com/persona-4-golden-walkthrough/quests/",
+        "https://www.neoseeker.com/p4golden/Quest_Guide",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2132194286"
+      ],
+      "checklist_label": "☐ Q55 · Revenge of Riddle Senpai!"
+    },
+    {
+      "id": 56,
+      "name_en": "The Girl on the Rooftop, Part 2",
+      "name_it": "La ragazza sul tetto, parte 2",
+      "available_from": "22/11",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "novembre-dicembre",
+      "prerequisites": [
+        "Q2 completata"
+      ],
+      "npc": "Male Student",
+      "location": "Yasogami • aula 2-2",
+      "objective": "Accetta dal ragazzo; ottieni Animal Guide e consegnalo allo stesso ragazzo in aula 2-2: vuole regalarlo alla ragazza sul tetto.",
+      "item": "Animal Guide ×1",
+      "enemy": "Prime Magus",
+      "dungeon": "Heaven",
+      "floors": "1–2F",
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Mokoi Doll (decorazione)",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Accetta prima la richiesta: i drop specifici della quest in genere non compaiono prima. Rientra nel dungeon già completato; non basta aver sconfitto il boss."
+      ],
+      "sources": [
+        "WQ56",
+        "RPG",
+        "GFAQ",
+        "NEO"
+      ],
+      "checked": false,
+      "sort_key": 111122,
+      "source_urls": [
+        "https://www.megatenwiki.com/wiki/The_Girl_on_the_Rooftop_Part_2",
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://www.neoseeker.com/p4golden/Quest_Guide"
+      ],
+      "checklist_label": "☐ Q56 · The Girl on the Rooftop, Part 2"
+    },
+    {
+      "id": 57,
+      "name_en": "Desk Refurbishing, Part 4",
+      "name_it": "Rimetti a nuovo il banco, parte 4",
+      "available_from": "22/11",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "novembre-dicembre",
+      "prerequisites": [
+        "Q46 completata"
+      ],
+      "npc": "Homely Student",
+      "location": "Yasogami • Practice Building 2F",
+      "objective": "Raccogli Classy Lumber dopo l’accettazione e consegnalo.",
+      "item": "Classy Lumber ×1",
+      "enemy": "Angry Table",
+      "dungeon": "Heaven",
+      "floors": "5–6F (alcune fonti estendono al 7F)",
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Assault Signal ×3",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Accetta prima la richiesta: i drop specifici della quest in genere non compaiono prima. Rientra nel dungeon già completato; non basta aver sconfitto il boss."
+      ],
+      "sources": [
+        "WQ57",
+        "RPG",
+        "GFAQ",
+        "NEO"
+      ],
+      "checked": false,
+      "sort_key": 111122,
+      "source_urls": [
+        "https://www.megatenwiki.com/wiki/Desk_Refurbishing_Part_4",
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://www.neoseeker.com/p4golden/Quest_Guide"
+      ],
+      "checklist_label": "☐ Q57 · Desk Refurbishing, Part 4"
+    },
+    {
+      "id": 58,
+      "name_en": "Acquire an Old Ore",
+      "name_it": "Recupera un minerale antico",
+      "available_from": "22/11",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "novembre-dicembre",
+      "prerequisites": [
+        "Q33 completata"
+      ],
+      "npc": "Male Student",
+      "location": "Yasogami • Practice Building 1F",
+      "objective": "Ottieni Old Ore e torna dallo studente.",
+      "item": "Old Ore ×1",
+      "enemy": "Revelation Pesce",
+      "dungeon": "Heaven",
+      "floors": "6–7F",
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Spirit Radio ×1",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Accetta prima la richiesta: i drop specifici della quest in genere non compaiono prima. Rientra nel dungeon già completato; non basta aver sconfitto il boss."
+      ],
+      "sources": [
+        "WQ58",
+        "RPG",
+        "GFAQ",
+        "NEO"
+      ],
+      "checked": false,
+      "sort_key": 111122,
+      "source_urls": [
+        "https://www.megatenwiki.com/wiki/Acquire_an_Old_Ore",
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://www.neoseeker.com/p4golden/Quest_Guide"
+      ],
+      "checklist_label": "☐ Q58 · Acquire an Old Ore"
+    },
+    {
+      "id": 59,
+      "name_en": "Acquire a Modest Lamp",
+      "name_it": "Recupera una lampada modesta",
+      "available_from": "22/11",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "novembre-dicembre",
+      "prerequisites": [
+        "Q39 completata"
+      ],
+      "npc": "Refreshed Old Man",
+      "location": "Samegawa Flood Plain • vicino al cartello",
+      "objective": "Recupera Modest Lamp e consegnala all’uomo.",
+      "item": "Modest Lamp ×1",
+      "enemy": "Phantom Lord",
+      "dungeon": "Heaven",
+      "floors": "3–6F; cerca 5–6F",
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "¥45.000",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Accetta prima la richiesta: i drop specifici della quest in genere non compaiono prima. Rientra nel dungeon già completato; non basta aver sconfitto il boss."
+      ],
+      "sources": [
+        "WQ59",
+        "RPG",
+        "GFAQ",
+        "NEO"
+      ],
+      "checked": false,
+      "sort_key": 111122,
+      "source_urls": [
+        "https://www.megatenwiki.com/wiki/Acquire_a_Modest_Lamp",
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://www.neoseeker.com/p4golden/Quest_Guide"
+      ],
+      "checklist_label": "☐ Q59 · Acquire a Modest Lamp"
+    },
+    {
+      "id": 60,
+      "name_en": "Acquire Samegawa's Guardian",
+      "name_it": "Recupera il guardiano del Samegawa",
+      "available_from": "10/01",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "gennaio-febbraio",
+      "prerequisites": [],
+      "npc": "Old Man Daidara",
+      "location": "Daidara Metalworks",
+      "objective": "Consegna un Guardian del fiume. Se lo hai conservato dalla pesca di Q15, controlla l’inventario prima di pescare di nuovo. Esche: Inaba Jewel Beetle.",
+      "item": "Guardian ×1 (pesce del fiume)",
+      "enemy": null,
+      "dungeon": null,
+      "floors": null,
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Guardian (arma di Kanji)",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Non occorre Sea Guardian. Conserva un ulteriore Guardian per la Mondo Stone di Q67. In inverno cerca la pesca con neve o serale."
+      ],
+      "sources": [
+        "WQ60",
+        "HXC",
+        "NEO",
+        "GFQ",
+        "FISH"
+      ],
+      "checked": false,
+      "sort_key": 120110,
+      "source_urls": [
+        "https://www.megatenwiki.com/wiki/Acquire_Samegawa's_Guardian",
+        "https://www.hxchector.com/persona-4-golden-walkthrough/quests/",
+        "https://www.neoseeker.com/p4golden/Quest_Guide",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/67176",
+        "https://gamefaqs.gamespot.com/xbox-series-x/370653-persona-4-golden/faqs/81937/bugs-fishing-and-shiroku-pub"
+      ],
+      "checklist_label": "☐ Q60 · Acquire Samegawa's Guardian"
+    },
+    {
+      "id": 61,
+      "name_en": "Find My Pet, Part 2",
+      "name_it": "Ritrova il mio animale, parte 2",
+      "available_from": "10/01",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "gennaio-febbraio",
+      "prerequisites": [
+        "Q54 completata"
+      ],
+      "npc": "Frantic Middle-Aged Woman",
+      "location": "Okina City → Samegawa Riverbank, vicino al pescatore",
+      "objective": "Accetta dalla donna, trova Unfamiliar Cat e prova i tre nomi. Nutrilo con cinque specie diverse di pesce, una per giorno. Quando torna il dialogo sui nomi, prova Minori-chan, Chidori-chan e Midori-chan; ripeti il ciclo se necessario, poi riferisci alla donna.",
+      "item": "Cinque pesci di specie diverse",
+      "enemy": null,
+      "dungeon": null,
+      "floors": null,
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Haikara Shirt (armatura +50% EXP)",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Riserva cinque giorni: non utilizzare cinque esemplari della stessa specie. Non è il gatto delle quest20–22."
+      ],
+      "sources": [
+        "WQ61",
+        "GFQ",
+        "HXC",
+        "GFJAN",
+        "NEO"
+      ],
+      "checked": false,
+      "sort_key": 120110,
+      "source_urls": [
+        "https://www.megatenwiki.com/wiki/Find_My_Pet_Part_2",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/67176",
+        "https://www.hxchector.com/persona-4-golden-walkthrough/quests/",
+        "https://gamefaqs.gamespot.com/xbox-series-x/370653-persona-4-golden/faqs/81937/january",
+        "https://www.neoseeker.com/p4golden/Quest_Guide"
+      ],
+      "checklist_label": "☐ Q61 · Find My Pet, Part 2"
+    },
+    {
+      "id": 62,
+      "name_en": "Extracurricular Activities, Part 3",
+      "name_it": "Attività extrascolastiche, parte 3",
+      "available_from": "10/01",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "gennaio-febbraio",
+      "prerequisites": [
+        "Q44 completata"
+      ],
+      "npc": "Ms. Sofue",
+      "location": "Yasogami • Classroom Building 2F",
+      "objective": "Consegna un Orichalcum alla professoressa. È un materiale ordinario: puoi conservarlo già nella visita di dicembre.",
+      "item": "Orichalcum ×1",
+      "enemy": "Solemn Machine",
+      "dungeon": "Magatsu Mandala",
+      "floors": "Mondo 6",
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Silver Tray (arma di Yukiko)",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "RACCOLTA ANTICIPATA CONSENTITA. Non venderlo a Daidara. Non serve avere accesso a Hollow Forest per le quest di gennaio."
+      ],
+      "sources": [
+        "WQ62",
+        "RPG",
+        "GFAQ",
+        "HXC"
+      ],
+      "checked": false,
+      "sort_key": 120110,
+      "source_urls": [
+        "https://www.megatenwiki.com/wiki/Extracurricular_Activities_Part_3",
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://www.hxchector.com/persona-4-golden-walkthrough/quests/"
+      ],
+      "checklist_label": "☐ Q62 · Extracurricular Activities, Part 3"
+    },
+    {
+      "id": 63,
+      "name_en": "Acquire Golden Chains",
+      "name_it": "Recupera catene dorate",
+      "available_from": "10/01",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "gennaio-febbraio",
+      "prerequisites": [
+        "Q48 completata"
+      ],
+      "npc": "Ms. Nakayama",
+      "location": "Yasogami • Classroom Building 3F",
+      "objective": "Consegna tre Golden Chains; raccoglile già durante Magatsu Mandala e tienile fino a gennaio.",
+      "item": "Golden Chains ×3",
+      "enemy": "Minotaur II",
+      "dungeon": "Magatsu Mandala",
+      "floors": "Mondo 6",
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "¥65.000",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "RACCOLTA ANTICIPATA CONSENTITA. Sono materiali vendibili: riserva tre copie prima di vendere il resto."
+      ],
+      "sources": [
+        "WQ63",
+        "RPG",
+        "GFAQ",
+        "HXC"
+      ],
+      "checked": false,
+      "sort_key": 120110,
+      "source_urls": [
+        "https://www.megatenwiki.com/wiki/Acquire_Golden_Chains",
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://www.hxchector.com/persona-4-golden-walkthrough/quests/"
+      ],
+      "checklist_label": "☐ Q63 · Acquire Golden Chains"
+    },
+    {
+      "id": 64,
+      "name_en": "The Riddle Senpai's Encore!",
+      "name_it": "Il bis del senpai degli indovinelli!",
+      "available_from": "10/01",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "gennaio-febbraio",
+      "prerequisites": [
+        "Q55 completata"
+      ],
+      "npc": "Funky Student",
+      "location": "Yasogami • Classroom Building 3F",
+      "objective": "Rispondi Uruguay all’ultimo indovinello.",
+      "item": null,
+      "enemy": null,
+      "dungeon": null,
+      "floors": null,
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Soul Food ×3",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [],
+      "sources": [
+        "RPG",
+        "GFAQ",
+        "NEO"
+      ],
+      "checked": false,
+      "sort_key": 120110,
+      "source_urls": [
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities",
+        "https://www.neoseeker.com/p4golden/Quest_Guide"
+      ],
+      "checklist_label": "☐ Q64 · The Riddle Senpai's Encore!"
+    },
+    {
+      "id": 65,
+      "name_en": "Kashiwagi's Special Lesson",
+      "name_it": "La lezione speciale di Kashiwagi",
+      "available_from": "16/01",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "gennaio-febbraio",
+      "prerequisites": [],
+      "npc": "Ms. Kashiwagi",
+      "location": "Yasogami • Classroom Building 1F",
+      "objective": "Risposte: Deoxyribonucleic Acid → Rabbit.",
+      "item": null,
+      "enemy": null,
+      "dungeon": null,
+      "floors": null,
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Coronet Armor (costume di Naoto)",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Inizia la catena Q65→Q66→Q67→Q68: servono materiali, una sera al pub e successive visite alla scuola.",
+        "Contenuto distinto dalla ricompensa di Q65: prima di completare Q68 ritira anche le Gekkou Uniform femminili da Kashiwagi. Devi aver già ricevuto quelle maschili dopo il primo posto negli esami autunnali; dal 16/01 parlale con Yu senza la Gekkou Uniform equipaggiata."
+      ],
+      "sources": [
+        "HXC",
+        "NEO",
+        "STEAMC",
+        "GFCOST",
+        "WGEKKOU"
+      ],
+      "checked": false,
+      "sort_key": 120116,
+      "source_urls": [
+        "https://www.hxchector.com/persona-4-golden-walkthrough/quests/",
+        "https://www.neoseeker.com/p4golden/Quest_Guide",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2129879556",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/65828/costume-sets",
+        "https://megatenwiki.com/wiki/Gekkou_Uniform"
+      ],
+      "checklist_label": "☐ Q65 · Kashiwagi's Special Lesson"
+    },
+    {
+      "id": 66,
+      "name_en": "Show Me Some Cute Slippers",
+      "name_it": "Mostrami delle pantofole carine",
+      "available_from": "17/01",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "gennaio-febbraio",
+      "prerequisites": [
+        "Q65 completata"
+      ],
+      "npc": "Ms. Kashiwagi",
+      "location": "Yasogami • Classroom Building 1F",
+      "objective": "Vendi otto Bloody Hide a Daidara e compra Vidar’s Boots. Scambiale con l’Artisan Apprentice al Practice Building 2F per Animal Slippers; portale a Kashiwagi.",
+      "item": "Bloody Hide ×8 → Vidar’s Boots → Animal Slippers",
+      "enemy": "Jotun of Blood",
+      "dungeon": "Heaven",
+      "floors": "8–9F; cerca 8F",
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Fighter Armor (costume di Chie)",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Puoi preparare le otto pelli prima di gennaio. Nel dialogo della quest si parla di cute slippers, ma l’oggetto dello scambio è Animal Slippers."
+      ],
+      "sources": [
+        "RPG",
+        "STEAM",
+        "STEAMC",
+        "WVIDAR"
+      ],
+      "checked": false,
+      "sort_key": 120117,
+      "source_urls": [
+        "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2132194286",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2129879556",
+        "https://megatenwiki.com/wiki/Vidar%27s_Boots"
+      ],
+      "checklist_label": "☐ Q66 · Show Me Some Cute Slippers"
+    },
+    {
+      "id": 67,
+      "name_en": "Dazzle Me With Animal Paw Gloves",
+      "name_it": "Stupiscimi con guanti a zampa",
+      "available_from": "18/01",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "gennaio-febbraio",
+      "prerequisites": [
+        "Q66 completata",
+        "Scambi con Lady in White disponibili"
+      ],
+      "npc": "Ms. Kashiwagi",
+      "location": "Yasogami • Classroom Building 1F",
+      "objective": "Di sera scambia un Guardian del fiume con la Lady in White al santuario per Mondo Stone. Al Shiroku Pub scambia Mondo Stone e otto Magatsu Xandrite per Animal Paw. Mostra l’arma a Kashiwagi in un pomeriggio scolastico.",
+      "item": "Magatsu Xandrite ×8 + Mondo Stone ×1 → Animal Paw",
+      "enemy": "Golden Hands (drop raro di Magatsu Xandrite)",
+      "dungeon": "Dungeon TV; raccolta delle mani dorate",
+      "floors": null,
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Magical Armor (costume di Yukiko)",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Mondo Stone usa Guardian, NON Sea Guardian: Sea Guardian dà Kaiou Stone. Shiroku Pub è il negozio Shiroku di sera, NON Daidara.",
+        "Accumula le otto gemme prima di gennaio: il drop raro può richiedere molte battaglie."
+      ],
+      "sources": [
+        "STEAM",
+        "STEAMC",
+        "WMONDO",
+        "FISH"
+      ],
+      "checked": false,
+      "sort_key": 120118,
+      "source_urls": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2132194286",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2129879556",
+        "https://megamitensei.fandom.com/wiki/Mondo_Stone",
+        "https://gamefaqs.gamespot.com/xbox-series-x/370653-persona-4-golden/faqs/81937/bugs-fishing-and-shiroku-pub"
+      ],
+      "checklist_label": "☐ Q67 · Dazzle Me With Animal Paw Gloves"
+    },
+    {
+      "id": 68,
+      "name_en": "Kashiwagi's Special Lesson, Part 2",
+      "name_it": "La lezione speciale di Kashiwagi, parte 2",
+      "available_from": "19/01",
+      "availability_note": "19/01 confermato nelle guide quest Steam; RPG Site riporta 18/01. Pianifica dal 19/01, dopo la consegna di Q67.",
+      "period": "gennaio-febbraio",
+      "prerequisites": [
+        "Q67 completata"
+      ],
+      "npc": "Ms. Kashiwagi",
+      "location": "Yasogami • Classroom Building 1F",
+      "objective": "Risposte: Raster → Latin → Rome.",
+      "item": null,
+      "enemy": null,
+      "dungeon": null,
+      "floors": null,
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "School Swimsuit (costume di Naoto)",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "MANCABILE: prima di consegnare questa quest, esaurisci i dialoghi di Kashiwagi per le Gekkou Uniform femminili se ne hai i requisiti. Dopo Q68 e dopo aver lasciato il corridoio, Kashiwagi scompare. Yu deve avere un altro costume equipaggiato."
+      ],
+      "sources": [
+        "STEAM",
+        "STEAMC",
+        "NEO",
+        "GFCOST",
+        "WGEKKOU"
+      ],
+      "checked": false,
+      "sort_key": 120119,
+      "source_urls": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2132194286",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2129879556",
+        "https://www.neoseeker.com/p4golden/Quest_Guide",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/65828/costume-sets",
+        "https://megatenwiki.com/wiki/Gekkou_Uniform"
+      ],
+      "checklist_label": "☐ Q68 · Kashiwagi's Special Lesson, Part 2"
+    },
+    {
+      "id": 69,
+      "name_en": "A Student Should Study",
+      "name_it": "Uno studente deve studiare",
+      "available_from": "23/01",
+      "availability_note": "Prima data indicata; la presenza dell’NPC, pioggia e storia possono rinviare l’accettazione.",
+      "period": "gennaio-febbraio",
+      "prerequisites": [
+        "Q49 completata per prudenza: requisito segnalato da giocatori, non concorde nelle tabelle principali"
+      ],
+      "npc": "Principal",
+      "location": "Yasogami • Classroom Building 3F",
+      "objective": "Accetta il quiz e rispondi Wind → Upper, Middle, and Lower → 7 → Mameluke.",
+      "item": null,
+      "enemy": null,
+      "dungeon": null,
+      "floors": null,
+      "deadline": null,
+      "deadline_note": "Nessuna scadenza individuale documentata. Pianifica la consegna entro il 31/01; il 05/02 termina il tempo libero ordinario, ma ogni NPC ha le proprie presenze.",
+      "reward": "Victory Fan (arma di Yukiko)",
+      "recoverability": "Recuperabile dalla situazione attuale del 22/05; non implica che sia già accettata.",
+      "notes": [
+        "Non è una quest della Volpe e non richiede tutte le altre 68. Completare tutte le quest non assegna un finale aggiuntivo.",
+        "Per prudenza completa anche Q49 del preside: alcune testimonianze la indicano come prerequisito, le tabelle principali non lo elencano."
+      ],
+      "sources": [
+        "GFK",
+        "STEAM",
+        "NEO",
+        "GF69"
+      ],
+      "checked": false,
+      "sort_key": 120123,
+      "source_urls": [
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/65282",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2132194286",
+        "https://www.neoseeker.com/p4golden/Quest_Guide",
+        "https://gamefaqs.gamespot.com/boards/641695-persona-4-golden/64783685"
+      ],
+      "checklist_label": "☐ Q69 · A Student Should Study"
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+[
+  {
+    "page": 1,
+    "section": "inizio",
+    "title": "Margaret MAX · Fusioni",
+    "file": "01_inizio_01",
+    "part": 1,
+    "parts": 2
+  },
+  {
+    "page": 2,
+    "section": "inizio",
+    "title": "Margaret MAX · Fusioni",
+    "file": "02_inizio_02",
+    "part": 2,
+    "parts": 2
+  },
+  {
+    "page": 3,
+    "section": "regole",
+    "title": "Prima di iniziare",
+    "file": "03_regole_01",
+    "part": 1,
+    "parts": 2
+  },
+  {
+    "page": 4,
+    "section": "regole",
+    "title": "Prima di iniziare",
+    "file": "04_regole_02",
+    "part": 2,
+    "parts": 2
+  },
+  {
+    "page": 5,
+    "section": "metodi",
+    "title": "Tutti i metodi utili",
+    "file": "05_metodi_01",
+    "part": 1,
+    "parts": 2
+  },
+  {
+    "page": 6,
+    "section": "metodi",
+    "title": "Tutti i metodi utili",
+    "file": "06_metodi_02",
+    "part": 2,
+    "parts": 2
+  },
+  {
+    "page": 7,
+    "section": "indice",
+    "title": "Le nove richieste",
+    "file": "07_indice_01",
+    "part": 1,
+    "parts": 2
+  },
+  {
+    "page": 8,
+    "section": "indice",
+    "title": "Le nove richieste",
+    "file": "08_indice_02",
+    "part": 2,
+    "parts": 2
+  },
+  {
+    "page": 9,
+    "section": "rango_02",
+    "title": "Rango 2 · Ippon-Datara",
+    "file": "09_rango_02_01",
+    "part": 1,
+    "parts": 3
+  },
+  {
+    "page": 10,
+    "section": "rango_02",
+    "title": "Rango 2 · Ippon-Datara",
+    "file": "10_rango_02_02",
+    "part": 2,
+    "parts": 3
+  },
+  {
+    "page": 11,
+    "section": "rango_02",
+    "title": "Rango 2 · Ippon-Datara",
+    "file": "11_rango_02_03",
+    "part": 3,
+    "parts": 3
+  },
+  {
+    "page": 12,
+    "section": "rango_03",
+    "title": "Rango 3 · Matador",
+    "file": "12_rango_03_01",
+    "part": 1,
+    "parts": 3
+  },
+  {
+    "page": 13,
+    "section": "rango_03",
+    "title": "Rango 3 · Matador",
+    "file": "13_rango_03_02",
+    "part": 2,
+    "parts": 3
+  },
+  {
+    "page": 14,
+    "section": "rango_03",
+    "title": "Rango 3 · Matador",
+    "file": "14_rango_03_03",
+    "part": 3,
+    "parts": 3
+  },
+  {
+    "page": 15,
+    "section": "rango_04",
+    "title": "Rango 4 · Gdon",
+    "file": "15_rango_04_01",
+    "part": 1,
+    "parts": 2
+  },
+  {
+    "page": 16,
+    "section": "rango_04",
+    "title": "Rango 4 · Gdon",
+    "file": "16_rango_04_02",
+    "part": 2,
+    "parts": 2
+  },
+  {
+    "page": 17,
+    "section": "rango_05",
+    "title": "Rango 5 · Neko Shogun",
+    "file": "17_rango_05_01",
+    "part": 1,
+    "parts": 3
+  },
+  {
+    "page": 18,
+    "section": "rango_05",
+    "title": "Rango 5 · Neko Shogun",
+    "file": "18_rango_05_02",
+    "part": 2,
+    "parts": 3
+  },
+  {
+    "page": 19,
+    "section": "rango_05",
+    "title": "Rango 5 · Neko Shogun",
+    "file": "19_rango_05_03",
+    "part": 3,
+    "parts": 3
+  },
+  {
+    "page": 20,
+    "section": "rango_06",
+    "title": "Rango 6 · Black Frost",
+    "file": "20_rango_06_01",
+    "part": 1,
+    "parts": 2
+  },
+  {
+    "page": 21,
+    "section": "rango_06",
+    "title": "Rango 6 · Black Frost",
+    "file": "21_rango_06_02",
+    "part": 2,
+    "parts": 2
+  },
+  {
+    "page": 22,
+    "section": "rango_07",
+    "title": "Rango 7 · Yatagarasu",
+    "file": "22_rango_07_01",
+    "part": 1,
+    "parts": 2
+  },
+  {
+    "page": 23,
+    "section": "rango_07",
+    "title": "Rango 7 · Yatagarasu",
+    "file": "23_rango_07_02",
+    "part": 2,
+    "parts": 2
+  },
+  {
+    "page": 24,
+    "section": "rango_08",
+    "title": "Rango 8 · Yatsufusa",
+    "file": "24_rango_08_01",
+    "part": 1,
+    "parts": 3
+  },
+  {
+    "page": 25,
+    "section": "rango_08",
+    "title": "Rango 8 · Yatsufusa",
+    "file": "25_rango_08_02",
+    "part": 2,
+    "parts": 3
+  },
+  {
+    "page": 26,
+    "section": "rango_08",
+    "title": "Rango 8 · Yatsufusa",
+    "file": "26_rango_08_03",
+    "part": 3,
+    "parts": 3
+  },
+  {
+    "page": 27,
+    "section": "rango_09",
+    "title": "Rango 9 · Ganesha",
+    "file": "27_rango_09_01",
+    "part": 1,
+    "parts": 2
+  },
+  {
+    "page": 28,
+    "section": "rango_09",
+    "title": "Rango 9 · Ganesha",
+    "file": "28_rango_09_02",
+    "part": 2,
+    "parts": 2
+  },
+  {
+    "page": 29,
+    "section": "rango_10",
+    "title": "Rango 10 · Trumpeter",
+    "file": "29_rango_10_01",
+    "part": 1,
+    "parts": 3
+  },
+  {
+    "page": 30,
+    "section": "rango_10",
+    "title": "Rango 10 · Trumpeter",
+    "file": "30_rango_10_02",
+    "part": 2,
+    "parts": 3
+  },
+  {
+    "page": 31,
+    "section": "rango_10",
+    "title": "Rango 10 · Trumpeter",
+    "file": "31_rango_10_03",
+    "part": 3,
+    "parts": 3
+  },
+  {
+    "page": 32,
+    "section": "carte",
+    "title": "Le nove Skill Card",
+    "file": "32_carte_01",
+    "part": 1,
+    "parts": 2
+  },
+  {
+    "page": 33,
+    "section": "carte",
+    "title": "Le nove Skill Card",
+    "file": "33_carte_02",
+    "part": 2,
+    "parts": 2
+  },
+  {
+    "page": 34,
+    "section": "caffe",
+    "title": "Chagall, senza sprechi",
+    "file": "34_caffe_01",
+    "part": 1,
+    "parts": 2
+  },
+  {
+    "page": 35,
+    "section": "caffe",
+    "title": "Chagall, senza sprechi",
+    "file": "35_caffe_02",
+    "part": 2,
+    "parts": 2
+  },
+  {
+    "page": 36,
+    "section": "chiusura",
+    "title": "MAX e controlli finali",
+    "file": "36_chiusura_01",
+    "part": 1,
+    "parts": 2
+  },
+  {
+    "page": 37,
+    "section": "chiusura",
+    "title": "MAX e controlli finali",
+    "file": "37_chiusura_02",
+    "part": 2,
+    "parts": 2
+  }
+]

@@ -1,0 +1,462 @@
+{
+  "E01": {
+    "title": "Finali • E01",
+    "url": "https://www.rpgsite.net/feature/9824-persona-4-golden-endings-guide-true-ending-requirements-how-to-get-the-canon-end"
+  },
+  "E02": {
+    "title": "Finali • E02",
+    "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2157901068"
+  },
+  "E03": {
+    "title": "Finali • E03",
+    "url": "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/65282"
+  },
+  "E04": {
+    "title": "Finali • E04",
+    "url": "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/65652"
+  },
+  "E05": {
+    "title": "Finali • E05",
+    "url": "https://gamefaqs.gamespot.com/xbox-series-x/370653-persona-4-golden/faqs/81937/december"
+  },
+  "E06": {
+    "title": "Finali • E06",
+    "url": "https://gamefaqs.gamespot.com/xbox-series-x/370653-persona-4-golden/faqs/81937/january"
+  },
+  "E07": {
+    "title": "Finali • E07",
+    "url": "https://gamefaqs.gamespot.com/xbox-series-x/370653-persona-4-golden/faqs/81937/february"
+  },
+  "E08": {
+    "title": "Finali • E08",
+    "url": "https://gamefaqs.gamespot.com/xbox-series-x/370653-persona-4-golden/faqs/81937/march"
+  },
+  "E09": {
+    "title": "Finali • E09",
+    "url": "https://w.atwiki.jp/persona4_g/pages/129.html"
+  },
+  "E10": {
+    "title": "Finali • E10",
+    "url": "https://gamewith.jp/persona4/538108"
+  },
+  "E11": {
+    "title": "Finali • E11",
+    "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2141471294"
+  },
+  "E12": {
+    "title": "Finali • E12",
+    "url": "https://www.reddit.com/r/persona4golden/comments/hpze61"
+  },
+  "E13": {
+    "title": "Finali • E13",
+    "url": "https://www.hxchector.com/persona-4-golden-walkthrough/hollow-forest/"
+  },
+  "E15": {
+    "title": "Finali • E15",
+    "url": "https://mysh.dev/tools/persona/4g/view?file=%5Cdata.cpk%5Cevent_data%5Cscript%5CE441_500A.bf&id=SEL_013"
+  },
+  "E16": {
+    "title": "Finali • E16",
+    "url": "https://mysh.dev/tools/persona/4g/view?file=%5Cdata.cpk%5Cfield%5Cscript%5Cf009.bf&id=YESNO_TRUEEND_SEL"
+  },
+  "E17": {
+    "title": "Finali • E17",
+    "url": "https://mysh.dev/tools/persona/4g/view?file=%5Cdata.cpk%5Cevent%5Ce370%5CE376_001.PM1%20%40%200x00000190&id=SEL_043"
+  },
+  "E18": {
+    "title": "Finali • E18",
+    "url": "https://mysh.dev/tools/persona/4g/view?file=%5Cdata.cpk%5Cevent%5Ce390%5CE399_001.PM1%20%40%200x000001D0&id=SEL_054"
+  },
+  "E19": {
+    "title": "Finali • E19",
+    "url": "https://mysh.dev/tools/persona/4g/view?file=%5Cdata.cpk%5Cevent%5Ce730%5CE730_576.PM1%20%40%200x000001D0&id=SEL_003"
+  },
+  "E20": {
+    "title": "Finali • E20",
+    "url": "https://mysh.dev/tools/persona/4g/view?file=%5Cdata.cpk%5Cfield%5Cscript%5Cn008_002.bf&id=MSG_NPC_GASS_02_SEL"
+  },
+  "SL1": {
+    "title": "RPG Site — Adachi Social Link",
+    "url": "https://www.rpgsite.net/feature/9830-persona-4-golden-adachi-social-link-choices-unlock-guide"
+  },
+  "SL2": {
+    "title": "GameFAQs / Hurricanehaon — Social Links",
+    "url": "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/social-links"
+  },
+  "SL3": {
+    "title": "Megami Tensei Wiki — Gameplay:Tohru Adachi",
+    "url": "https://megatenwiki.com/wiki/Gameplay:Tohru_Adachi"
+  },
+  "SL4": {
+    "title": "RPG Site — Marie / Aeon",
+    "url": "https://www.rpgsite.net/feature/9849-persona-4-golden-marie-aeon-social-link-choices-unlock-guide"
+  },
+  "CAL1": {
+    "title": "GameFAQs / Hurricanehaon — Walkthrough",
+    "url": "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/walkthrough"
+  },
+  "CAL2": {
+    "title": "GameFAQs / TenSquare3 — January",
+    "url": "https://gamefaqs.gamespot.com/xbox-series-x/370653-persona-4-golden/faqs/81937/january"
+  },
+  "BOOK1": {
+    "title": "RPG Site — Books",
+    "url": "https://www.rpgsite.net/feature/9851-persona-4-golden-books-how-to-get-every-book-for-the-compulsive-reader-achievement"
+  },
+  "BOOK2": {
+    "title": "Neoseeker — Achievement Guide",
+    "url": "https://www.neoseeker.com/p4golden/Achievement_Guide"
+  },
+  "BOOK3": {
+    "title": "PSTHC — Guide des trophées Vita",
+    "url": "https://www.psthc.fr/unjeu/persona4-the-goldenv/guide-trophees.htm"
+  },
+  "BOOK4": {
+    "title": "Samurai Gamers — August",
+    "url": "https://samurai-gamers.com/persona-4-golden/p4g-august-walkthrough/"
+  },
+  "BOOK5": {
+    "title": "GameFAQs / TenSquare3 — August",
+    "url": "https://gamefaqs.gamespot.com/switch/371758-persona-4-golden/faqs/81937/august"
+  },
+  "DUN1": {
+    "title": "GameFAQs / Hurricanehaon — Dungeons",
+    "url": "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/dungeons"
+  },
+  "DUN2": {
+    "title": "hXcHector — Hollow Forest",
+    "url": "https://www.hxchector.com/persona-4-golden-walkthrough/hollow-forest/"
+  },
+  "DUN3": {
+    "title": "GameFAQs / TenSquare3 — February",
+    "url": "https://gamefaqs.gamespot.com/xbox-series-x/370653-persona-4-golden/faqs/81937/february"
+  },
+  "DUN4": {
+    "title": "GameWith — Hollow Forest",
+    "url": "https://gamewith.jp/persona4/538284"
+  },
+  "DUN5": {
+    "title": "Neoseeker — Hollow Forest",
+    "url": "https://www.neoseeker.com/p4golden/Hollow_Forest"
+  },
+  "NG1": {
+    "title": "Privespa — Margaret, Golden",
+    "url": "https://privespa.org/p4g/extra/margaret.html"
+  },
+  "NG2": {
+    "title": "Omoteura — P4G clear data / NG+",
+    "url": "https://omoteura.com/persona4/p4g/chart_clear.html"
+  },
+  "NG3": {
+    "title": "Neoseeker — Margaret",
+    "url": "https://www.neoseeker.com/p4golden/Margaret"
+  },
+  "OPT1": {
+    "title": "PlayStationTrophies — Big Bro is Worried",
+    "url": "https://www.playstationtrophies.org/game/persona-4-golden-eu/trophy/60858-big-bro-is-worried.html"
+  },
+  "OPT2": {
+    "title": "TrueTrophies — Big Bro is Worried",
+    "url": "https://www.truetrophies.com/t52112/big-bro-is-worried-trophy"
+  },
+  "SL5": {
+    "title": "RPG Site — Strength / Athletes",
+    "url": "https://www.rpgsite.net/feature/9831-persona-4-golden-athletes-strength-social-link-choices-unlock-guide"
+  },
+  "FISH1": {
+    "title": "GameFAQs / TenSquare3 — Bugs, Fishing and Shiroku Pub",
+    "url": "https://gamefaqs.gamespot.com/xbox-series-x/370653-persona-4-golden/faqs/81937/bugs-fishing-and-shiroku-pub"
+  },
+  "FISH2": {
+    "title": "Twinfinite — Sea Guardian",
+    "url": "https://twinfinite.net/guides/persona-4-golden-how-to-catch-the-sea-guardian/"
+  },
+  "FISH3": {
+    "title": "Megami Tensei Wiki — Fishing",
+    "url": "https://megatenwiki.com/wiki/Fishing"
+  },
+  "RPG": {
+    "title": "RPG Site — Persona 4 Golden Quests",
+    "url": "https://www.rpgsite.net/feature/9890-persona-4-golden-quests-guide-complete-quest-walkthroughs-and-rewards"
+  },
+  "GFAQ": {
+    "title": "GameFAQs — Hurricanehaon, Activities (Golden)",
+    "url": "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/activities"
+  },
+  "NEO": {
+    "title": "Neoseeker — Golden Quest Guide",
+    "url": "https://www.neoseeker.com/p4golden/Quest_Guide"
+  },
+  "STEAM": {
+    "title": "Steam — Uruhara/Volmer, Quests Guide",
+    "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2132194286"
+  },
+  "HXC": {
+    "title": "hXcHector — Persona 4 Golden Quests",
+    "url": "https://www.hxchector.com/persona-4-golden-walkthrough/quests/"
+  },
+  "FW": {
+    "title": "Final Weapon — P4G Quests Guide",
+    "url": "https://finalweapon.net/2023/01/18/persona-4-golden-p4g-quests-guide/"
+  },
+  "GFQ": {
+    "title": "GameFAQs — Uruhara, Quest Guide",
+    "url": "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/67176"
+  },
+  "NPC": {
+    "title": "Steam — NPC Dialogue Calendar, P4G Edition",
+    "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2425834890"
+  },
+  "NPCI": {
+    "title": "Steam — NPC Dialogue Calendar image archive",
+    "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2425829122"
+  },
+  "GFJAN": {
+    "title": "GameFAQs — 100% guide 81937, January",
+    "url": "https://gamefaqs.gamespot.com/xbox-series-x/370653-persona-4-golden/faqs/81937/january"
+  },
+  "GFJUN": {
+    "title": "GameFAQs — 100% guide 81937, June",
+    "url": "https://gamefaqs.gamespot.com/xbox-series-x/370653-persona-4-golden/faqs/81937/june"
+  },
+  "GFK": {
+    "title": "GameFAQs — KADFC, Golden walkthrough",
+    "url": "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/65282"
+  },
+  "GF69": {
+    "title": "GameFAQs — riscontro giocatori sul prerequisito Q49 di Q69",
+    "url": "https://gamefaqs.gamespot.com/boards/641695-persona-4-golden/64783685"
+  },
+  "GFCOST": {
+    "title": "GameFAQs — Costume Guide, Gekkou Uniforms e scomparsa di Kashiwagi",
+    "url": "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/65828/costume-sets"
+  },
+  "WGEKKOU": {
+    "title": "Megami Tensei Wiki — Gekkou Uniform, sezione Golden",
+    "url": "https://megatenwiki.com/wiki/Gekkou_Uniform"
+  },
+  "FISH": {
+    "title": "GameFAQs — Bugs, Fishing and Shiroku Pub",
+    "url": "https://gamefaqs.gamespot.com/xbox-series-x/370653-persona-4-golden/faqs/81937/bugs-fishing-and-shiroku-pub"
+  },
+  "SGCASTLE": {
+    "title": "Samurai Gamers — Golden Yukiko Castle, enemy table",
+    "url": "https://samurai-gamers.com/persona-4-golden/p4g-yukikos-castle-dungeon-guide/"
+  },
+  "SGBATH": {
+    "title": "Samurai Gamers — Golden Steamy Bathhouse, enemy table",
+    "url": "https://samurai-gamers.com/persona-4-golden/p4g-steamy-bathhouse-dungeon-guide/"
+  },
+  "WDEMON": {
+    "title": "Megami Tensei Wiki — Acquire a Demon Statue",
+    "url": "https://www.megatenwiki.com/wiki/Acquire_a_Demon_Statue"
+  },
+  "WCAT": {
+    "title": "Megami Tensei Wiki — Cat Needs Food Badly",
+    "url": "https://www.megatenwiki.com/wiki/Cat_Needs_Food_Badly"
+  },
+  "WCLOTH": {
+    "title": "Megami Tensei Wiki — Golden Cloth",
+    "url": "https://megatenwiki.com/wiki/Golden_Cloth"
+  },
+  "WVIDAR": {
+    "title": "Megami Tensei Wiki — Vidar Boots, Golden section",
+    "url": "https://megatenwiki.com/wiki/Vidar%27s_Boots"
+  },
+  "WMONDO": {
+    "title": "Megami Tensei Wiki — Mondo Stone",
+    "url": "https://megamitensei.fandom.com/wiki/Mondo_Stone"
+  },
+  "WPET": {
+    "title": "Megami Tensei Wiki — Find My Pet",
+    "url": "https://www.megatenwiki.com/wiki/Find_My_Pet"
+  },
+  "WVOID": {
+    "title": "Megami Tensei Wiki — Void Quest enemy table",
+    "url": "https://megamitensei.fandom.com/wiki/Void_Quest"
+  },
+  "STEAMC": {
+    "title": "Steam — Complete Quest Guide",
+    "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2129879556"
+  },
+  "WQ2": {
+    "title": "Megami Tensei Wiki — scheda Q2",
+    "url": "https://www.megatenwiki.com/wiki/The_Girl_on_the_Rooftop"
+  },
+  "WQ4": {
+    "title": "Megami Tensei Wiki — scheda Q4",
+    "url": "https://www.megatenwiki.com/wiki/Acquire_an_Angel_Statue"
+  },
+  "WQ5": {
+    "title": "Megami Tensei Wiki — scheda Q5",
+    "url": "https://www.megatenwiki.com/wiki/Acquire_a_Demon_Statue"
+  },
+  "WQ6": {
+    "title": "Megami Tensei Wiki — scheda Q6",
+    "url": "https://www.megatenwiki.com/wiki/Acquire_a_Ritz_Wire"
+  },
+  "WQ13": {
+    "title": "Megami Tensei Wiki — scheda Q13",
+    "url": "https://www.megatenwiki.com/wiki/I_Wish_I_Didn't_Fear_Cats"
+  },
+  "WQ16": {
+    "title": "Megami Tensei Wiki — scheda Q16",
+    "url": "https://www.megatenwiki.com/wiki/Desk_Refurbishing"
+  },
+  "WQ17": {
+    "title": "Megami Tensei Wiki — scheda Q17",
+    "url": "https://www.megatenwiki.com/wiki/Extracurricular_Activities"
+  },
+  "WQ20": {
+    "title": "Megami Tensei Wiki — scheda Q20",
+    "url": "https://www.megatenwiki.com/wiki/Please_Feed_the_Cat"
+  },
+  "WQ21": {
+    "title": "Megami Tensei Wiki — scheda Q21",
+    "url": "https://www.megatenwiki.com/wiki/Feed_the_Cat"
+  },
+  "WQ22": {
+    "title": "Megami Tensei Wiki — scheda Q22",
+    "url": "https://www.megatenwiki.com/wiki/Cat_Needs_Food_Badly"
+  },
+  "WQ23": {
+    "title": "Megami Tensei Wiki — scheda Q23",
+    "url": "https://www.megatenwiki.com/wiki/Acquire_an_Old_Key"
+  },
+  "WQ24": {
+    "title": "Megami Tensei Wiki — scheda Q24",
+    "url": "https://www.megatenwiki.com/wiki/Acquire_Coal"
+  },
+  "WQ25": {
+    "title": "Megami Tensei Wiki — scheda Q25",
+    "url": "https://www.megatenwiki.com/wiki/100%25_Inaba-Grown_Cabbage"
+  },
+  "WQ26": {
+    "title": "Megami Tensei Wiki — scheda Q26",
+    "url": "https://www.megatenwiki.com/wiki/Acquire_a_Crooked_Cross"
+  },
+  "WQ27": {
+    "title": "Megami Tensei Wiki — scheda Q27",
+    "url": "https://www.megatenwiki.com/wiki/Acquire_a_Charmed_Veil"
+  },
+  "WQ28": {
+    "title": "Megami Tensei Wiki — scheda Q28",
+    "url": "https://www.megatenwiki.com/wiki/Desk_Refurbishing_Part_2"
+  },
+  "WQ29": {
+    "title": "Megami Tensei Wiki — scheda Q29",
+    "url": "https://www.megatenwiki.com/wiki/Acquire_a_Horn"
+  },
+  "WQ31": {
+    "title": "Megami Tensei Wiki — scheda Q31",
+    "url": "https://www.megatenwiki.com/wiki/The_Cleaning_Club's_Passion"
+  },
+  "WQ32": {
+    "title": "Megami Tensei Wiki — scheda Q32",
+    "url": "https://www.megatenwiki.com/wiki/Acquire_Inaba_Trout"
+  },
+  "WQ33": {
+    "title": "Megami Tensei Wiki — scheda Q33",
+    "url": "https://www.megatenwiki.com/wiki/Acquire_a_Silver_Lump"
+  },
+  "WQ34": {
+    "title": "Megami Tensei Wiki — scheda Q34",
+    "url": "https://www.megatenwiki.com/wiki/Acquire_Hard_Boots"
+  },
+  "WQ38": {
+    "title": "Megami Tensei Wiki — scheda Q38",
+    "url": "https://www.megatenwiki.com/wiki/Harvest_Two_Types_of_Corn"
+  },
+  "WQ39": {
+    "title": "Megami Tensei Wiki — scheda Q39",
+    "url": "https://www.megatenwiki.com/wiki/Acquire_an_Eternal_Lamp"
+  },
+  "WQ40": {
+    "title": "Megami Tensei Wiki — scheda Q40",
+    "url": "https://www.megatenwiki.com/wiki/Acquire_Some_Fashionable_Dishes"
+  },
+  "WQ43": {
+    "title": "Megami Tensei Wiki — scheda Q43",
+    "url": "https://www.megatenwiki.com/wiki/Experiments_in_Telepathy"
+  },
+  "WQ45": {
+    "title": "Megami Tensei Wiki — scheda Q45",
+    "url": "https://www.megatenwiki.com/wiki/A_Test_Of_Literary_Memory"
+  },
+  "WQ46": {
+    "title": "Megami Tensei Wiki — scheda Q46",
+    "url": "https://www.megatenwiki.com/wiki/Desk_Refurbishing_Part_3"
+  },
+  "WQ47": {
+    "title": "Megami Tensei Wiki — scheda Q47",
+    "url": "https://www.megatenwiki.com/wiki/Find_Me_Something_to_Wear"
+  },
+  "WQ48": {
+    "title": "Megami Tensei Wiki — scheda Q48",
+    "url": "https://www.megatenwiki.com/wiki/Acquire_a_Crystal_Ball"
+  },
+  "WQ49": {
+    "title": "Megami Tensei Wiki — scheda Q49",
+    "url": "https://www.megatenwiki.com/wiki/Acquire_a_Training_Shell"
+  },
+  "WQ50": {
+    "title": "Megami Tensei Wiki — scheda Q50",
+    "url": "https://www.megatenwiki.com/wiki/Acquire_a_High-Speed_Gear"
+  },
+  "WQ51": {
+    "title": "Megami Tensei Wiki — scheda Q51",
+    "url": "https://www.megatenwiki.com/wiki/Acquire_Fine_Coal"
+  },
+  "WQ54": {
+    "title": "Megami Tensei Wiki — scheda Q54",
+    "url": "https://www.megatenwiki.com/wiki/Find_My_Pet"
+  },
+  "WQ56": {
+    "title": "Megami Tensei Wiki — scheda Q56",
+    "url": "https://www.megatenwiki.com/wiki/The_Girl_on_the_Rooftop_Part_2"
+  },
+  "WQ57": {
+    "title": "Megami Tensei Wiki — scheda Q57",
+    "url": "https://www.megatenwiki.com/wiki/Desk_Refurbishing_Part_4"
+  },
+  "WQ58": {
+    "title": "Megami Tensei Wiki — scheda Q58",
+    "url": "https://www.megatenwiki.com/wiki/Acquire_an_Old_Ore"
+  },
+  "WQ59": {
+    "title": "Megami Tensei Wiki — scheda Q59",
+    "url": "https://www.megatenwiki.com/wiki/Acquire_a_Modest_Lamp"
+  },
+  "WQ60": {
+    "title": "Megami Tensei Wiki — scheda Q60",
+    "url": "https://www.megatenwiki.com/wiki/Acquire_Samegawa's_Guardian"
+  },
+  "WQ61": {
+    "title": "Megami Tensei Wiki — scheda Q61",
+    "url": "https://www.megatenwiki.com/wiki/Find_My_Pet_Part_2"
+  },
+  "WQ62": {
+    "title": "Megami Tensei Wiki — scheda Q62",
+    "url": "https://www.megatenwiki.com/wiki/Extracurricular_Activities_Part_3"
+  },
+  "WQ63": {
+    "title": "Megami Tensei Wiki — scheda Q63",
+    "url": "https://www.megatenwiki.com/wiki/Acquire_Golden_Chains"
+  },
+  "SAVE": {
+    "title": "Struttura Social Link • sorgente P4G Save Tool",
+    "url": "https://github.com/fendevel/P4G-Save-Tool/blob/master/P4G%20Save%20Tool/P4G%20Save%20Tool/MainWindow.xaml.cs"
+  },
+  "FORMAT": {
+    "title": "Formato metadata binslot • p4g-saveconv",
+    "url": "https://github.com/zarroboogs/p4g-saveconv"
+  },
+  "MAGATSU": {
+    "title": "Magatsu Inaba • percorso e boss, deadline non adottata",
+    "url": "https://www.hxchector.com/persona-4-golden-walkthrough/magatsu-inaba/"
+  },
+  "YOMOTSU": {
+    "title": "Yomotsu Hirasaka • boss e piani",
+    "url": "https://www.hxchector.com/persona-4-golden-walkthrough/yomotsu-hirasaka/"
+  }
+}

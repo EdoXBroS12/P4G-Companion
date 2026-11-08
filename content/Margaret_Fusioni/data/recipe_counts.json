@@ -1,0 +1,65 @@
+[
+  {
+    "rank": 2,
+    "name": "Ippon-Datara",
+    "recipes": 315,
+    "with_natural_donor": 117,
+    "file": "FUSIONI_RANGO_2_Ippon-Datara.csv"
+  },
+  {
+    "rank": 3,
+    "name": "Matador",
+    "recipes": 1918,
+    "with_natural_donor": 212,
+    "file": "FUSIONI_RANGO_3_Matador.csv"
+  },
+  {
+    "rank": 4,
+    "name": "Gdon",
+    "recipes": 5640,
+    "with_natural_donor": 759,
+    "file": "FUSIONI_RANGO_4_Gdon.csv"
+  },
+  {
+    "rank": 5,
+    "name": "Neko Shogun",
+    "recipes": 1,
+    "with_natural_donor": 0,
+    "file": "FUSIONI_RANGO_5_Neko_Shogun.csv"
+  },
+  {
+    "rank": 6,
+    "name": "Black Frost",
+    "recipes": 1,
+    "with_natural_donor": 0,
+    "file": "FUSIONI_RANGO_6_Black_Frost.csv"
+  },
+  {
+    "rank": 7,
+    "name": "Yatagarasu",
+    "recipes": 11996,
+    "with_natural_donor": 450,
+    "file": "FUSIONI_RANGO_7_Yatagarasu.csv"
+  },
+  {
+    "rank": 8,
+    "name": "Yatsufusa",
+    "recipes": 1,
+    "with_natural_donor": 1,
+    "file": "FUSIONI_RANGO_8_Yatsufusa.csv"
+  },
+  {
+    "rank": 9,
+    "name": "Ganesha",
+    "recipes": 10643,
+    "with_natural_donor": 405,
+    "file": "FUSIONI_RANGO_9_Ganesha.csv"
+  },
+  {
+    "rank": 10,
+    "name": "Trumpeter",
+    "recipes": 1,
+    "with_natural_donor": 1,
+    "file": "FUSIONI_RANGO_10_Trumpeter.csv"
+  }
+]

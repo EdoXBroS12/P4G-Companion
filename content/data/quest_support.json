@@ -1,0 +1,408 @@
+{
+  "title": "Supporto operativo alle 69 quest",
+  "as_of": "22/05/2011",
+  "sections": [
+    {
+      "id": "quest_current",
+      "title": "Da fare adesso • 22 maggio",
+      "accent": "#FFE500",
+      "lead": "Hai già salvato Kanji, ma il calendario resta il 22 maggio. Nessuna quest a scadenza del catalogo è già persa per la sola data attuale.",
+      "items": [
+        "☐ Apri il menu Quest: annota gli ID già accettati e quelli Completed. Il boss sconfitto non accetta le missioni al posto tuo.",
+        "☐ Il 22/05 è domenica: dal prossimo giorno scolastico controlla Q1, Q2, Q4, Q5, Q6, Q16 e Q17. Accetta ciò che manca prima del prossimo ingresso nella TV.",
+        "☐ Controlla Q3 dall’uomo al Samegawa Flood Plain e la prima ema Q7 dalla Volpe.",
+        "☐ Nel prossimo giro a Yukiko’s Castle recupera i drop delle richieste attive. Q5 Demon Statue è la prima da consegnare con priorità.",
+        "☐ Dal 23/05: Q18, Avid Reader davanti alla libreria. Conserva un Peach Seed.",
+        "☐ Dal 03/06: dopo Q18, avvia Q20; poi nutri il gatto per Q21 e Q22 nelle giornate disponibili.",
+        "☐ Dal 05/06: controlla Q23, Q24 e Q25. Queste date non diventano anticipate solo perché Kanji è stato salvato il 22/05.",
+        "☐ Prepara pesca, retino e scooter: serviranno per richieste successive. Non devi massimizzare tutti i Social Link per completare gli ending."
+      ]
+    },
+    {
+      "id": "quest_chains",
+      "title": "Le catene da portare avanti",
+      "lead": "Una missione successiva richiede che la precedente risulti completata, non soltanto accettata. Le frecce sotto indicano dipendenze di quest, non bivi dei finali.",
+      "chains": [
+        {
+          "label": "Libri del lettore",
+          "ids": [
+            18,
+            20,
+            34,
+            40,
+            45
+          ],
+          "note": "Peach Seed → pesce → Hard Boots → tre piatti → quiz. Cinque libri utili a Compulsive Reader."
+        },
+        {
+          "label": "Indovinelli",
+          "ids": [
+            1,
+            42,
+            55,
+            64
+          ],
+          "note": "Parla sempre al Funky Student, Classroom Building 3F."
+        },
+        {
+          "label": "Talismani",
+          "ids": [
+            4,
+            26,
+            27
+          ],
+          "note": "Timid Female Student, aula 2-2."
+        },
+        {
+          "label": "Banco",
+          "ids": [
+            16,
+            28,
+            46,
+            57
+          ],
+          "note": "Homely Student, Practice Building 2F."
+        },
+        {
+          "label": "Radio",
+          "ids": [
+            6,
+            33,
+            58
+          ],
+          "note": "Studente al Practice Building 1F; conserva Silver Lump."
+        },
+        {
+          "label": "Professoressa Sofue",
+          "ids": [
+            17,
+            44,
+            62
+          ],
+          "note": "Da dicembre conserva un Orichalcum per gennaio."
+        },
+        {
+          "label": "Carbone",
+          "ids": [
+            24,
+            51
+          ],
+          "note": "Q51 interferisce con il drop Power Rock per Q47."
+        },
+        {
+          "label": "Lampade",
+          "ids": [
+            39,
+            59
+          ],
+          "note": "Stesso anziano al Samegawa Flood Plain."
+        },
+        {
+          "label": "Cristallo e catene",
+          "ids": [
+            48,
+            63
+          ],
+          "note": "Da dicembre conserva Golden Chains ×3."
+        },
+        {
+          "label": "Gatti affamati",
+          "ids": [
+            20,
+            21,
+            22
+          ],
+          "note": "Gatto sul sentiero del Samegawa; distinto da Q61."
+        },
+        {
+          "label": "Tetto della scuola",
+          "ids": [
+            2,
+            56
+          ],
+          "note": "La seconda richiesta si consegna al ragazzo dell’aula 2-2."
+        },
+        {
+          "label": "Animali di Okina",
+          "ids": [
+            54,
+            61
+          ],
+          "note": "Prima il cane Mika-chan, poi il gatto Minori-chan."
+        },
+        {
+          "label": "Kashiwagi e costumi",
+          "ids": [
+            65,
+            66,
+            67,
+            68
+          ],
+          "note": "Prepara Bloody Hide ×8, Magatsu Xandrite ×8 e Mondo Stone ×1."
+        },
+        {
+          "label": "Daidara e orto",
+          "ids": [
+            32,
+            38
+          ],
+          "note": "Dopo la trota coltiva entrambi i tipi di Barrier Corn."
+        },
+        {
+          "label": "Volpe / Hermit",
+          "ids": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "note": "Ogni consegna alla Volpe fa passare il tempo; accettare l’ema no."
+        }
+      ],
+      "twin_edges": [
+        [
+          30,
+          35
+        ],
+        [
+          35,
+          36
+        ],
+        [
+          36,
+          52
+        ],
+        [
+          30,
+          43
+        ],
+        [
+          43,
+          53
+        ],
+        [
+          52,
+          53
+        ]
+      ],
+      "twin_note": "Gemelle: chiudi entrambi i rami e Q53 entro il 16/11 come margine sicuro. Il 17/11 non è una data sulla quale contare."
+    },
+    {
+      "id": "fishing_start",
+      "title": "Pesca • dalla coccinella alla canna",
+      "lead": "La pesca di Golden usa insetti e un amo. Il sistema della versione PS2 è diverso.",
+      "steps": [
+        {
+          "title": "Parla al pescatore",
+          "body": "Samegawa Flood Plain → Riverbank, vecchio vicino al pontile. Esaurisci il dialogo sull’amo smarrito."
+        },
+        {
+          "title": "Ottieni una Tatsuhime Ladybug",
+          "body": "Prima di giugno, il bambino al Tatsuhime Shrine scambia la bevanda o lo spuntino che chiede quel giorno per coccinelle. Leggi la richiesta e porta esattamente quell’oggetto."
+        },
+        {
+          "title": "Recupera Fishhook di sera",
+          "body": "Vai allo Shiroku Pub, ossia Shiroku Store in versione serale, con una Tatsuhime Ladybug. Parla alla proprietaria e offri l’insetto al pesce Akihiko: ricevi Fishhook. Se il dialogo non si apre, porta una gemma del mondo TV e parla prima degli scambi."
+        },
+        {
+          "title": "Ricevi River Rod",
+          "body": "Torna dal vecchio al Riverbank e consegna Fishhook. Ora puoi pescare al pontile con esche in inventario. Ogni sessione di pesca fa passare il tempo."
+        },
+        {
+          "title": "Sblocca Bug Net a giugno",
+          "body": "Dal 05/06 il bambino del santuario parla del retino perso. La sera visita Lady in White al santuario (Courage 2 per entrare); chiedi del retino. Torna dal bambino nei giorni diurni utili, quindi interagisci con l’albero per catturare insetti."
+        },
+        {
+          "title": "Accumula esche senza sprecare giornate",
+          "body": "La cattura di insetti non consuma il periodo del giorno. In inverno controlla il terreno dell’orto di casa: gli insetti vengono ottenuti lì quando il santuario è innevato."
+        }
+      ],
+      "sources": [
+        "https://gamefaqs.gamespot.com/xbox-series-x/370653-persona-4-golden/faqs/81937/bugs-fishing-and-shiroku-pub",
+        "https://www.hxchector.com/persona-4-golden-walkthrough/fishing/",
+        "https://megatenwiki.com/wiki/Fishing",
+        "https://gamewith.jp/persona4/550527"
+      ]
+    },
+    {
+      "id": "fishing_guardians",
+      "title": "Pesca • i due Guardian e Q15",
+      "lead": "Guardian significa il pesce del fiume. Sea Guardian è una specie diversa. Non consumarli prima di aver concluso gli usi che ti servono.",
+      "steps": [
+        {
+          "title": "Sblocca Shichiri Beach",
+          "body": "Dopo aver ricevuto lo scooter il 09/06, usalo da casa per le uscite nel quartiere e poi quelle lunghe finché compaiono Okina e Shichiri Beach. Prova a pescare alla spiaggia: la canna da fiume non basta."
+        },
+        {
+          "title": "Attiva tutti i dialoghi del vecchio",
+          "body": "Torna al pescatore del Samegawa. Chiedi della canna marina, del Guardian e della sua esca. Se richiede una prova, mostrargli un Huge Fish. Questi dialoghi abilitano le esche rare: non cercarle senza averne parlato."
+        },
+        {
+          "title": "Cattura Guardian nel fiume",
+          "body": "Esche Inaba Jewel Beetle, catturabili al santuario dopo il dialogo. Scegli preferibilmente pioggia, neve o una finestra invernale favorevole. Dopo il lancio cerca anelli grandi e spruzzi: se mancano, ritira prima dell’abboccata e rilancia."
+        },
+        {
+          "title": "Mostra Guardian e ottieni la canna marina",
+          "body": "Parla di nuovo al vecchio del fiume e mostragli Guardian. Ottieni Deep-Sea Rod / Sea Rod. Chiedi anche delle esche per il Sea Guardian e prepara Genji Beetle."
+        },
+        {
+          "title": "Cattura Sea Guardian alla spiaggia",
+          "body": "Usa Genji Beetle a Shichiri Beach; le increspature con spruzzi segnalano il pesce raro. Pioggia/neve migliorano le probabilità, ma non sono un blocco assoluto del Sea Guardian. Leggere Expert Fishing aiuta con il comando aggiuntivo durante il recupero."
+        },
+        {
+          "title": "Concludi Q15",
+          "body": "Quando la richiesta della Volpe Q15 è attiva, mostra Sea Guardian al vecchio, poi torna al Tatsuhime Shrine e riferisci alla Volpe. Il passaggio di rango usa il pomeriggio."
+        }
+      ],
+      "notes": [
+        "Tieni un Guardian per Q60; un altro serve per Mondo Stone in Q67. Mostrare i pesci al pescatore per la progressione non è lo stesso che darli al gatto o scambiarli.",
+        "Non è necessario completare Hermit per i finali, ma è necessario per terminare l’intera catena di ema Q7–Q15."
+      ],
+      "sources": [
+        "https://www.neoseeker.com/p4golden/Quest_Guide",
+        "https://www.hxchector.com/persona-4-golden-walkthrough/fishing/",
+        "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/67176",
+        "https://gamewith.jp/persona4/550527"
+      ]
+    },
+    {
+      "id": "fish_trade",
+      "title": "Pesci, esche e Mondo Stone",
+      "lead": "Per Q61 prepara cinque specie diverse. Per Q67 sblocca gli scambi della Lady in White prima di arrivare a gennaio.",
+      "bait_table": [
+        {
+          "bait": "Bread Crumbs",
+          "place": "Fiume",
+          "common": "Red Goldfish",
+          "rare": "Genji Ayu"
+        },
+        {
+          "bait": "Tatsuhime Ladybug",
+          "place": "Fiume",
+          "common": "Genji Ayu",
+          "rare": "Amber Seema"
+        },
+        {
+          "bait": "Yaso Locust",
+          "place": "Fiume",
+          "common": "Amber Seema",
+          "rare": "Inaba Trout"
+        },
+        {
+          "bait": "Meiou Cricket",
+          "place": "Fiume",
+          "common": "Inaba Trout",
+          "rare": "Huge Fish"
+        },
+        {
+          "bait": "Inaba Jewel Beetle",
+          "place": "Fiume",
+          "common": "Huge Fish",
+          "rare": "Guardian"
+        },
+        {
+          "bait": "Daimyo Grasshopper",
+          "place": "Mare",
+          "common": "Oggetti alla deriva",
+          "rare": "Hachiro Octopus"
+        },
+        {
+          "bait": "Heike Stag Beetle",
+          "place": "Mare",
+          "common": "Hachiro Octopus",
+          "rare": "Meguro Tuna"
+        },
+        {
+          "bait": "Genji Beetle",
+          "place": "Mare",
+          "common": "Meguro Tuna",
+          "rare": "Sea Guardian"
+        }
+      ],
+      "items": [
+        "☐ Lady in White, Tatsuhime Shrine di sera: soddisfa nell’ordine le richieste Red Goldfish → Genji Ayu → Amber Seema. Poi diventano disponibili gli scambi di pesci per gemme.",
+        "☐ Per Q67: Guardian → Mondo Stone. Sea Guardian → Kaiou Stone, che non sostituisce Mondo Stone.",
+        "☐ Al Shiroku Pub: Mondo Stone ×1 + Magatsu Xandrite ×8 → Animal Paw. Il pub è Shiroku, non il negozio d’armi Daidara.",
+        "☐ Tieni un Red Goldfish per Q13 e un Inaba Trout per Q32. Per Q61 metti da parte cinque specie distinte: per esempio Red Goldfish, Genji Ayu, Amber Seema, Inaba Trout e Huge Fish.",
+        "☐ I pesci possono essere usati come oggetti di recupero: controlla il nome prima di consumarli."
+      ],
+      "sources": [
+        "https://megatenwiki.com/wiki/Tatsuhime_Shrine",
+        "https://gamefaqs.gamespot.com/xbox-series-x/370653-persona-4-golden/faqs/81937/bugs-fishing-and-shiroku-pub",
+        "https://www.hxchector.com/persona-4-golden-walkthrough/items/",
+        "https://gamewith.jp/persona4/550527"
+      ]
+    },
+    {
+      "id": "material_reserve",
+      "title": "La riserva che evita altri giri nella TV",
+      "lead": "Conserva solo le copie necessarie. Per i drop specifici accetta prima la richiesta; per i materiali normali puoi prepararti in anticipo.",
+      "reserves": [
+        {
+          "item": "Peach Seed ×1",
+          "use": "Q18 • dal 23/05",
+          "action": "Conservare"
+        },
+        {
+          "item": "Golden Cloth ×6",
+          "use": "Q31 • Iai Katana",
+          "action": "Vendere a Daidara per sbloccare l’arma"
+        },
+        {
+          "item": "Thick Hide ×5",
+          "use": "Q34 • Hard Boots",
+          "action": "Vendere a Daidara, poi comprare gli stivali"
+        },
+        {
+          "item": "Silver Lump ×1",
+          "use": "Q33",
+          "action": "Conservare, non vendere"
+        },
+        {
+          "item": "Fashionable Dishes ×3",
+          "use": "Q40",
+          "action": "Conservare, non vendere"
+        },
+        {
+          "item": "Proof of Passion ×3",
+          "use": "Q46",
+          "action": "Conservare prima di acquistare armature"
+        },
+        {
+          "item": "Power Rock ×8",
+          "use": "Q47 • Invincible Mini",
+          "action": "Raccogliere prima di accettare Q51, oppure dopo averla consegnata"
+        },
+        {
+          "item": "Bloody Hide ×8",
+          "use": "Q66 • Vidar’s Boots",
+          "action": "Vendere a Daidara quando vuoi fabbricare gli stivali"
+        },
+        {
+          "item": "Orichalcum ×1",
+          "use": "Q62 • dal 10/01",
+          "action": "Conservare dal dungeon di dicembre"
+        },
+        {
+          "item": "Golden Chains ×3",
+          "use": "Q63 • dal 10/01",
+          "action": "Conservare dal dungeon di dicembre"
+        },
+        {
+          "item": "Magatsu Xandrite ×8 + Mondo Stone ×1",
+          "use": "Q67 • Animal Paw",
+          "action": "Conservare per lo scambio serale al Shiroku Pub"
+        }
+      ],
+      "notes": [
+        "La comparsa di un materiale non significa che la quest sia stata accettata. Torna dal richiedente quando il calendario la rende disponibile.",
+        "Prima di battere il boss di dicembre, finisci le consegne e gli acquisti di quel periodo: la vittoria fa avanzare il calendario. Le missioni di gennaio non richiedono Marie massimizzata."
+      ]
+    }
+  ]
+}

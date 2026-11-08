@@ -1,0 +1,851 @@
+[
+  {
+    "id": "inizio",
+    "title": "Margaret MAX · Fusioni",
+    "kicker": "FASCICOLO SEPARATO / PERSONA 4 GOLDEN",
+    "color": "quest",
+    "blocks": [
+      {
+        "label": "La tua partita",
+        "text": "Ultimo save controllato in sola lettura: 22 maggio, NG+, Yu livello 21 e Margaret / Empress rango 2. Hai già superato Ippon-Datara con Sukukaja. La prossima richiesta è Matador con Mahama, per arrivare al rango 3. I livelli delle Persona nel tuo Compendium non sono stati decodificati.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "La via più rapida in NG+",
+        "text": "Prima di fondere, apri il Compendium: se hai già registrato la Persona con l’abilità richiesta, evocala e mostrala a Margaret. L’evocazione è consentita anche sopra il livello di Yu. Se manca solo l’abilità, controlla il catalogo delle Skill Card registrate.",
+        "kind": "warning",
+        "check": false
+      },
+      {
+        "label": "Come usare il fascicolo",
+        "text": "Segui le schede in ordine di rango. Ogni ricetta precisa chi deve avere l’abilità e quali passaggi intermedi creare. Per un ingrediente mancante, apri index.html, vai al calcolatore e premi “Come creo…?”. Le immagini PNG sono autonome; il PDF raccoglie tutte le istruzioni.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Tutte le combinazioni, con un ambito preciso",
+        "text": "Il calcolatore enumera tutte le fusioni dirette normali, triangolari e speciali dei dati Golden, per i livelli attuali che imposti. Le nove tabelle CSV includono le combinazioni ai livelli base. Le catene di fusione ripetibili e le abilità ereditate creano percorsi illimitati: le schede scelgono catene semplici e controllate, senza chiamarle l’unico metodo possibile.",
+        "kind": "info",
+        "check": false
+      }
+    ],
+    "art": "golden"
+  },
+  {
+    "id": "regole",
+    "title": "Prima di iniziare",
+    "kicker": "CONSEGNA / COMPENDIUM / LIVELLI",
+    "color": "quest",
+    "blocks": [
+      {
+        "label": "Rango 1 · avvio già superato",
+        "text": "Dal 19 maggio: entra nella Velvet Room con Knowledge 3 / Expert. Nessuna fusione per il rango 1. Nel tuo save il link è già al rango 2.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Nessun pomeriggio per il rango",
+        "text": "Non servono punti affinità, risposte sociali o una Persona Empress da portare con te. Fusione, evocazione e consegna non fanno avanzare il calendario. Puoi completare più ranghi nello stesso momento; allenamento nei dungeon e visite al café richiedono invece tempo.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Come mostrare la richiesta",
+        "text": "La Persona corretta deve essere nella tua scorta, con la skill esatta visibile. Averla soltanto registrata non basta: evocala. Esci e rientra nella Velvet Room per far riconoscere l’incarico; dopo l’aumento di rango ripeti con la successiva. La consegna non richiede di sacrificare la Persona.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Livello base e nuova fusione",
+        "text": "Il livello di Yu deve raggiungere il livello base della Persona che crei. La soglia in ogni scheda vale per il risultato, non per qualsiasi ingrediente: un percorso può richiedere ingredienti più alti. Non puoi aggirare il limite di nuova fusione soltanto perché sei in NG+.",
+        "kind": "warning",
+        "check": false
+      },
+      {
+        "label": "Scorciatoia Compendium",
+        "text": "Una Persona già registrata può essere evocata sopra il livello di Yu. Se tutte le richieste complete sono registrate, il link può arrivare a MAX già dal 19 maggio. Il prezzo dipende dalla versione registrata e dagli sconti: leggilo nel gioco.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Registra prima di consumare",
+        "text": "Dopo avere appreso o ereditato la skill richiesta, aggiorna la registrazione della Persona. Solo allora usala nella fusione seguente. Una vecchia voce del Compendium non riceve retroattivamente le nuove abilità. Conserva soprattutto Anzu, Kusi Mitama con Bufula, Jack Frost con Auto-Sukukaja e Taotie con Mind Charge.",
+        "kind": "warning",
+        "check": false
+      },
+      {
+        "label": "Controlla l’anteprima",
+        "text": "Prima di confermare verifica nome del risultato e abilità trasmessa. In Golden scegli manualmente le abilità ereditate: non serve rifare la selezione casuale del gioco originale. Se la preview non coincide, annulla e controlla ingredienti, livelli e metodo.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Nomi da non confondere",
+        "text": "Sukukaja ≠ Auto-Sukukaja; Mahama ≠ Mahamaon; Megido ≠ Megidola; Mediarama ≠ Mediarahan; Mind Charge ≠ Power Charge. Una versione più potente non soddisfa automaticamente la richiesta.",
+        "kind": "warning",
+        "check": false
+      }
+    ]
+  },
+  {
+    "id": "metodi",
+    "title": "Tutti i metodi utili",
+    "kicker": "2 / 3 / 4 / 5 / 6 INGREDIENTI",
+    "color": "quest",
+    "blocks": [
+      {
+        "label": "Normale · due Persona",
+        "text": "Le ricette a due indicate nelle schede sono stabili quando gli ingredienti salgono di livello: la selezione del risultato usa i loro livelli base. Possono invece cambiare se scegli Persona differenti o la modalità sbagliata.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Triangolare · tre Persona",
+        "text": "Il gioco ordina gli ingredienti in base ai livelli attuali; a parità usa la priorità degli Arcani. L’Arcano finale può quindi cambiare in NG+. Le soglie del risultato usano i livelli base. Nel calcolatore modifica i livelli attuali prima di fidarti di una terna. Le ricette di sole Persona Star per Ganesha evitano il cambio di Arcano.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Speciali · dal 10 luglio",
+        "text": "Golden sblocca Cross Spread (4), Pentagon Spread (5) e Hexagon Spread (6) il 10 luglio. Neko Shogun usa 4 ingredienti; Black Frost e Yatsufusa 5; Trumpeter 6. Non puoi sostituirli con una normale coppia o una terna. La data 20 luglio di alcune guide non è adottata.",
+        "kind": "warning",
+        "check": false
+      },
+      {
+        "label": "Skill Card · tutte le nove richieste",
+        "text": "Puoi ottenere la Persona richiesta con qualsiasi ricetta valida, poi insegnarle la skill tramite carta. Tutte le nove skill hanno una carta. Se hai già la carta o il suo catalogo NG+, non devi per forza trasmettere l’abilità durante la fusione.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Evocazione della versione completa",
+        "text": "Se Persona e abilità sono già registrate insieme, evocare quella versione è sufficiente. L’evocazione non è una nuova fusione e non richiede di attendere luglio per una Persona speciale già registrata.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Shuffle Time · alternativa casuale",
+        "text": "Le carte Spada danno Skill Card del relativo rango. Le schede indicano il rango e il primo dungeon con un intervallo adatto, senza promettere una carta specifica a ogni battaglia. La carta Magician modifica una skill: non è il metodo deterministico consigliato.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Catene personalizzate",
+        "text": "Una skill può essere passata attraverso altri ingredienti, purché ogni risultato possa ereditarla. Il calcolatore senza filtro abilità mostra anche ricette per ingredienti già personalizzati. Non presume quali abilità abbia davvero la tua registrazione.",
+        "kind": "info",
+        "check": false
+      }
+    ]
+  },
+  {
+    "id": "indice",
+    "title": "Le nove richieste",
+    "kicker": "RANGO ATTUALE 2 / PROSSIMO OBIETTIVO 3",
+    "color": "quest",
+    "blocks": [
+      {
+        "label": "Rango 1",
+        "text": "Avvio del link: Knowledge 3 dal 19 maggio. Nessuna Persona da preparare.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Rango 2 · GIÀ RAGGIUNTO",
+        "text": "Ippon-Datara con Sukukaja. Livello base del risultato: 17. Fusione normale o triangolare.",
+        "kind": "done",
+        "check": false
+      },
+      {
+        "label": "Rango 3",
+        "text": "Matador con Mahama. Livello base del risultato: 24. Fusione normale o triangolare.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Rango 4",
+        "text": "Gdon con Rampage. Livello base del risultato: 31. Fusione normale o triangolare.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Rango 5",
+        "text": "Neko Shogun con Bufula. Livello base del risultato: 32. Fusione speciale con 4 ingredienti.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Rango 6",
+        "text": "Black Frost con Auto-Sukukaja. Livello base del risultato: 38. Fusione speciale con 5 ingredienti.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Rango 7",
+        "text": "Yatagarasu con Megido. Livello base del risultato: 40. Fusione normale o triangolare.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Rango 8",
+        "text": "Yatsufusa con Mediarama. Livello base del risultato: 49. Fusione speciale con 5 ingredienti.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Rango 9",
+        "text": "Ganesha con Tetrakarn. Livello base del risultato: 50. Fusione normale o triangolare.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Rango 10",
+        "text": "Trumpeter con Mind Charge. Livello base del risultato: 67. Fusione speciale con 6 ingredienti.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Puoi fermarti e riprendere",
+        "text": "Il progresso resta nel salvataggio corrente. Non serve completare tutti i ranghi in un’unica visita. Nel tuo caso Matador richiede Yu 24 se devi fonderlo da zero; con Yu 21 puoi invece evocarlo già registrato e, se necessario, usare una carta Mahama.",
+        "kind": "info",
+        "check": false
+      }
+    ]
+  },
+  {
+    "id": "rango_02",
+    "title": "Rango 2 · Ippon-Datara",
+    "kicker": "SUKUKAJA / RICETTE E ALTERNATIVE",
+    "color": "quest",
+    "blocks": [
+      {
+        "label": "Obiettivo e livello",
+        "text": "Mostra Ippon-Datara con Sukukaja. Raggiungi il rango 2. Per una nuova fusione del risultato: Yu almeno livello 17. Nel tuo ultimo save questo rango è già raggiunto. Una versione completa già nel Compendium può essere evocata sopra il livello di Yu.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Percorso consigliato · Sylph + Cu Sith",
+        "text": "1. Normale: Sylph + Cu Sith → Ippon-Datara. Trasmetti Sukukaja da Sylph. Il donatore deve avere almeno livello 11 e conservare l’abilità.\nLivello di Yu per creare i risultati di questa catena: almeno 17. Gli ingredienti devono essere disponibili; per crearli da zero potrebbe servire un livello superiore.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Alternativa 1 · Sylph + Archangel",
+        "text": "1. Normale: Sylph + Archangel → Ippon-Datara. Trasmetti Sukukaja da Sylph. Il donatore deve avere almeno livello 11 e conservare l’abilità.\nLivello di Yu per creare i risultati di questa catena: almeno 17. Gli ingredienti devono essere disponibili; per crearli da zero potrebbe servire un livello superiore.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Alternativa 2 · Sylph + Lilim",
+        "text": "1. Normale: Sylph + Lilim → Ippon-Datara. Trasmetti Sukukaja da Sylph. Il donatore deve avere almeno livello 11 e conservare l’abilità.\nLivello di Yu per creare i risultati di questa catena: almeno 17. Gli ingredienti devono essere disponibili; per crearli da zero potrebbe servire un livello superiore.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Alternativa 3 · Angel + Sarasvati",
+        "text": "1. Normale: Angel + Sarasvati → Ippon-Datara. Trasmetti Sukukaja da Angel. Il donatore deve avere almeno livello 6 e conservare l’abilità.\nLivello di Yu per creare i risultati di questa catena: almeno 17. Gli ingredienti devono essere disponibili; per crearli da zero potrebbe servire un livello superiore.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Alternativa 4 · Obariyon + Ghoul",
+        "text": "1. Normale: Obariyon + Ghoul → Ippon-Datara. Trasmetti Sukukaja da Ghoul. Il donatore deve avere almeno livello 10 e conservare l’abilità.\nLivello di Yu per creare i risultati di questa catena: almeno 17. Gli ingredienti devono essere disponibili; per crearli da zero potrebbe servire un livello superiore.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Attenzione",
+        "text": "Nel salvataggio letto Margaret è già al rango 2: questa prima richiesta risulta già superata.\nSylph possiede Sukukaja dalla nascita (livello base 11); Angel deve impararla al 6 e Ghoul al 10.",
+        "kind": "warning",
+        "check": false
+      },
+      {
+        "label": "Alternativa universale · carta Sukukaja",
+        "text": "Ottieni Ippon-Datara con qualsiasi ricetta valida o evocazione, poi usa la Skill Card Sukukaja. Chagall: Ghoul al livello 10, con icona della carta. Shuffle Time: carta Spada rango 1; primo dungeon con rango adatto: Yukiko's Castle. Il risultato casuale non è garantito. Se la carta è già registrata, acquistala nella Velvet Room.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Consegna verificata",
+        "text": "Controlla Ippon-Datara + Sukukaja, registra la versione corretta e tienila nella scorta. Esci e rientra nella Velvet Room. Verifica di essere al rango 2 prima di passare alla richiesta successiva.",
+        "kind": "info",
+        "check": true
+      }
+    ]
+  },
+  {
+    "id": "rango_03",
+    "title": "Rango 3 · Matador",
+    "kicker": "MAHAMA / RICETTE E ALTERNATIVE",
+    "color": "quest",
+    "blocks": [
+      {
+        "label": "Obiettivo e livello",
+        "text": "Mostra Matador con Mahama. Raggiungi il rango 3. Per una nuova fusione del risultato: Yu almeno livello 24.  Una versione completa già nel Compendium può essere evocata sopra il livello di Yu.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Percorso consigliato · Anzu + Berith: consigliata",
+        "text": "1. Normale: Anzu + Berith → Matador. Trasmetti Mahama da Anzu. Il donatore deve avere almeno livello 19 e conservare l’abilità.\nLivello di Yu per creare i risultati di questa catena: almeno 24. Gli ingredienti devono essere disponibili; per crearli da zero potrebbe servire un livello superiore.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Alternativa 1 · Principality + Oberon + Saki Mitama",
+        "text": "1. Triangolare: Principality + Oberon + Saki Mitama → Matador. Trasmetti Mahama da Principality. Il donatore deve avere almeno livello 21 e conservare l’abilità. Principality deve avere un livello attuale strettamente maggiore di Oberon e Saki Mitama. Controlla Matador nell’anteprima.\nLivello di Yu per creare i risultati di questa catena: almeno 24. Gli ingredienti devono essere disponibili; per crearli da zero potrebbe servire un livello superiore.\nFusione triangolare: i livelli attuali degli ingredienti possono cambiare il risultato.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Alternativa 2 · Power + Oberon + Saki Mitama",
+        "text": "1. Triangolare: Power + Oberon + Saki Mitama → Matador. Trasmetti Mahama da Power. Il donatore deve avere almeno livello 27 e conservare l’abilità. Power deve avere un livello attuale strettamente maggiore di Oberon e Saki Mitama.\nLivello di Yu per creare i risultati di questa catena: almeno 24. Gli ingredienti devono essere disponibili; per crearli da zero potrebbe servire un livello superiore.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Alternativa 3 · Anzu + Queen Mab: alternativa calcolata",
+        "text": "1. Normale: Anzu + Queen Mab → Matador. Trasmetti Mahama da Anzu. Il donatore deve avere almeno livello 19 e conservare l’abilità.\nLivello di Yu per creare i risultati di questa catena: almeno 24. Gli ingredienti devono essere disponibili; per crearli da zero potrebbe servire un livello superiore.\nRicetta ricavata dall’algoritmo e dal dataset Golden, non trascritta da un walkthrough. Queen Mab ha livello base 25; se non è già disponibile serve ottenerla o richiamarla dal Compendium.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Attenzione",
+        "text": "Mahama è distinta da Hama e Mahamaon.\nRegistra il Matador consegnato; al livello 27 impara Rampage, utile per la richiesta successiva.",
+        "kind": "warning",
+        "check": false
+      },
+      {
+        "label": "Alternativa universale · carta Mahama",
+        "text": "Ottieni Matador con qualsiasi ricetta valida o evocazione, poi usa la Skill Card Mahama. Chagall: Virtue al livello 33, con icona della carta. Shuffle Time: carta Spada rango 3; primo dungeon con rango adatto: Steamy Bathhouse. Il risultato casuale non è garantito. Se la carta è già registrata, acquistala nella Velvet Room.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Consegna verificata",
+        "text": "Controlla Matador + Mahama, registra la versione corretta e tienila nella scorta. Esci e rientra nella Velvet Room. Verifica di essere al rango 3 prima di passare alla richiesta successiva.",
+        "kind": "info",
+        "check": true
+      }
+    ]
+  },
+  {
+    "id": "rango_04",
+    "title": "Rango 4 · Gdon",
+    "kicker": "RAMPAGE / RICETTE E ALTERNATIVE",
+    "color": "quest",
+    "blocks": [
+      {
+        "label": "Obiettivo e livello",
+        "text": "Mostra Gdon con Rampage. Raggiungi il rango 4. Per una nuova fusione del risultato: Yu almeno livello 31.  Una versione completa già nel Compendium può essere evocata sopra il livello di Yu.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Percorso consigliato · Riusa Matador + Ippon-Datara",
+        "text": "1. Normale: Matador + Ippon-Datara → Gdon. Trasmetti Rampage da Matador. Il donatore deve avere almeno livello 27 e conservare l’abilità.\nLivello di Yu per creare i risultati di questa catena: almeno 31. Gli ingredienti devono essere disponibili; per crearli da zero potrebbe servire un livello superiore.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Alternativa 1 · Ippon-Datara 21 + Matador",
+        "text": "1. Normale: Ippon-Datara + Matador → Gdon. Trasmetti Rampage da Ippon-Datara. Il donatore deve avere almeno livello 21 e conservare l’abilità.\nLivello di Yu per creare i risultati di questa catena: almeno 31. Gli ingredienti devono essere disponibili; per crearli da zero potrebbe servire un livello superiore.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Alternativa 2 · Xiezhai + Kusi Mitama",
+        "text": "1. Normale: Xiezhai + Kusi Mitama → Gdon. Trasmetti Rampage da Xiezhai. Il donatore deve avere almeno livello 19 e conservare l’abilità.\nLivello di Yu per creare i risultati di questa catena: almeno 31. Gli ingredienti devono essere disponibili; per crearli da zero potrebbe servire un livello superiore.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Alternativa 3 · Ares + Shiisaa",
+        "text": "1. Normale: Ares + Shiisaa → Gdon. Trasmetti Rampage da Ares. Il donatore deve avere almeno livello 28 e conservare l’abilità.\nLivello di Yu per creare i risultati di questa catena: almeno 31. Gli ingredienti devono essere disponibili; per crearli da zero potrebbe servire un livello superiore.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Alternativa 4 · Legion + Ares",
+        "text": "1. Normale: Legion + Ares → Gdon. Trasmetti Rampage da Legion. Il donatore deve avere almeno livello 23 e conservare l’abilità.\nLivello di Yu per creare i risultati di questa catena: almeno 31. Gli ingredienti devono essere disponibili; per crearli da zero potrebbe servire un livello superiore.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Attenzione",
+        "text": "Basta che uno dei due ingredienti possieda davvero Rampage.\nIppon-Datara impara Rampage al 21, non al 31.",
+        "kind": "warning",
+        "check": false
+      },
+      {
+        "label": "Alternativa universale · carta Rampage",
+        "text": "Ottieni Gdon con qualsiasi ricetta valida o evocazione, poi usa la Skill Card Rampage. Chagall: Matador al livello 27, con icona della carta. Shuffle Time: carta Spada rango 3; primo dungeon con rango adatto: Steamy Bathhouse. Il risultato casuale non è garantito. Se la carta è già registrata, acquistala nella Velvet Room.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Consegna verificata",
+        "text": "Controlla Gdon + Rampage, registra la versione corretta e tienila nella scorta. Esci e rientra nella Velvet Room. Verifica di essere al rango 4 prima di passare alla richiesta successiva.",
+        "kind": "info",
+        "check": true
+      }
+    ]
+  },
+  {
+    "id": "rango_05",
+    "title": "Rango 5 · Neko Shogun",
+    "kicker": "BUFULA / RICETTE E ALTERNATIVE",
+    "color": "quest",
+    "blocks": [
+      {
+        "label": "Obiettivo e livello",
+        "text": "Mostra Neko Shogun con Bufula. Raggiungi il rango 5. Per una nuova fusione del risultato: Yu almeno livello 32.  Una versione completa già nel Compendium può essere evocata sopra il livello di Yu.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Percorso consigliato · Bufula tramite Kusi Mitama: consigliata",
+        "text": "1. Normale: King Frost + Hua Po → Kusi Mitama. Trasmetti Bufula da King Frost. Il donatore deve avere almeno livello 22 e conservare l’abilità.\n2. Speciale: Ara Mitama + Nigi Mitama + Kusi Mitama + Saki Mitama → Neko Shogun. Trasmetti Bufula da Kusi Mitama. Deve averla ricevuta nel passaggio precedente. Seleziona esplicitamente l’abilità richiesta nell’eredità. Ingredienti fissi: non sostituirli.\nLivello di Yu per creare i risultati di questa catena: almeno 32. Gli ingredienti devono essere disponibili; per crearli da zero potrebbe servire un livello superiore.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Alternativa 1 · Bufula tramite Nigi Mitama",
+        "text": "1. Normale: Gdon + Makami → Pazuzu. Pazuzu nasce già con Bufula.\n2. Normale: Pazuzu + Izanagi → Nigi Mitama. Trasmetti Bufula da Pazuzu. Il donatore deve avere almeno livello 37 e conservare l’abilità.\n3. Speciale: Ara Mitama + Nigi Mitama + Kusi Mitama + Saki Mitama → Neko Shogun. Trasmetti Bufula da Nigi Mitama. Deve averla ricevuta nel passaggio precedente. Seleziona esplicitamente l’abilità richiesta nell’eredità. Ingredienti fissi: non sostituirli.\nLivello di Yu per creare i risultati di questa catena: almeno 37. Gli ingredienti devono essere disponibili; per crearli da zero potrebbe servire un livello superiore.\nQuesta catena crea Pazuzu (37): per eseguirla da zero Yu deve essere almeno al 37. Se Pazuzu è già disponibile, può bastare il livello 32 per le fusioni restanti.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Attenzione",
+        "text": "Fusione finale Cross Spread: quattro Mitama esatti.\nKusi Mitama è Strength; Nigi Mitama è Temperance.\nPer creare una nuova fusione a 4 vie occorre lo sblocco narrativo del 10 luglio in Golden.",
+        "kind": "warning",
+        "check": false
+      },
+      {
+        "label": "Alternativa universale · carta Bufula",
+        "text": "Ottieni Neko Shogun con qualsiasi ricetta valida o evocazione, poi usa la Skill Card Bufula. Chagall: Ganga al livello 29, con icona della carta. Shuffle Time: carta Spada rango 3; primo dungeon con rango adatto: Steamy Bathhouse. Il risultato casuale non è garantito. Se la carta è già registrata, acquistala nella Velvet Room.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Consegna verificata",
+        "text": "Controlla Neko Shogun + Bufula, registra la versione corretta e tienila nella scorta. Esci e rientra nella Velvet Room. Verifica di essere al rango 5 prima di passare alla richiesta successiva.",
+        "kind": "info",
+        "check": true
+      }
+    ]
+  },
+  {
+    "id": "rango_06",
+    "title": "Rango 6 · Black Frost",
+    "kicker": "AUTO-SUKUKAJA / RICETTE E ALTERNATIVE",
+    "color": "quest",
+    "blocks": [
+      {
+        "label": "Obiettivo e livello",
+        "text": "Mostra Black Frost con Auto-Sukukaja. Raggiungi il rango 6. Per una nuova fusione del risultato: Yu almeno livello 38.  Una versione completa già nel Compendium può essere evocata sopra il livello di Yu.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Percorso consigliato · Anzu + Apsaras → Jack Frost",
+        "text": "1. Normale: Anzu + Apsaras → Jack Frost. Trasmetti Auto-Sukukaja da Anzu. Il donatore deve avere almeno livello 20 e conservare l’abilità.\n2. Speciale: Jack Frost + Pyro Jack + King Frost + Pixie + Ghoul → Black Frost. Trasmetti Auto-Sukukaja da Jack Frost. Deve averla ricevuta nel passaggio precedente. Seleziona esplicitamente l’abilità richiesta nell’eredità. Ingredienti fissi: non sostituirli.\nLivello di Yu per creare i risultati di questa catena: almeno 38. Gli ingredienti devono essere disponibili; per crearli da zero potrebbe servire un livello superiore.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Alternativa 1 · Anzu + Sylph → Jack Frost",
+        "text": "1. Normale: Anzu + Sylph → Jack Frost. Trasmetti Auto-Sukukaja da Anzu. Il donatore deve avere almeno livello 20 e conservare l’abilità.\n2. Speciale: Jack Frost + Pyro Jack + King Frost + Pixie + Ghoul → Black Frost. Trasmetti Auto-Sukukaja da Jack Frost. Deve averla ricevuta nel passaggio precedente. Seleziona esplicitamente l’abilità richiesta nell’eredità. Ingredienti fissi: non sostituirli.\nLivello di Yu per creare i risultati di questa catena: almeno 38. Gli ingredienti devono essere disponibili; per crearli da zero potrebbe servire un livello superiore.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Alternativa 2 · Ose + Oni → Pyro Jack",
+        "text": "1. Normale: Ose + Oni → Pyro Jack. Trasmetti Auto-Sukukaja da Ose. Il donatore deve avere almeno livello 35 e conservare l’abilità.\n2. Speciale: Jack Frost + Pyro Jack + King Frost + Pixie + Ghoul → Black Frost. Trasmetti Auto-Sukukaja da Pyro Jack. Deve averla ricevuta nel passaggio precedente. Seleziona esplicitamente l’abilità richiesta nell’eredità. Ingredienti fissi: non sostituirli.\nLivello di Yu per creare i risultati di questa catena: almeno 38. Gli ingredienti devono essere disponibili; per crearli da zero potrebbe servire un livello superiore.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Attenzione",
+        "text": "Auto-Sukukaja è una passiva: Sukukaja e Auto-Masuku non soddisfano la richiesta.\nAnzu + Apsaras/Sylph produce Jack Frost, non Pyro Jack.\nFusione finale Pentagon Spread, 5 ingredienti, sbloccata il 10 luglio.",
+        "kind": "warning",
+        "check": false
+      },
+      {
+        "label": "Alternativa universale · carta Auto-Sukukaja",
+        "text": "Ottieni Black Frost con qualsiasi ricetta valida o evocazione, poi usa la Skill Card Auto-Sukukaja. Chagall: Makami al livello 29, con icona della carta. Shuffle Time: carta Spada rango 7; primo dungeon con rango adatto: Secret Laboratory. Il risultato casuale non è garantito. Se la carta è già registrata, acquistala nella Velvet Room.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Consegna verificata",
+        "text": "Controlla Black Frost + Auto-Sukukaja, registra la versione corretta e tienila nella scorta. Esci e rientra nella Velvet Room. Verifica di essere al rango 6 prima di passare alla richiesta successiva.",
+        "kind": "info",
+        "check": true
+      }
+    ]
+  },
+  {
+    "id": "rango_07",
+    "title": "Rango 7 · Yatagarasu",
+    "kicker": "MEGIDO / RICETTE E ALTERNATIVE",
+    "color": "quest",
+    "blocks": [
+      {
+        "label": "Obiettivo e livello",
+        "text": "Mostra Yatagarasu con Megido. Raggiungi il rango 7. Per una nuova fusione del risultato: Yu almeno livello 40.  Una versione completa già nel Compendium può essere evocata sopra il livello di Yu.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Percorso consigliato · Taotie → Ares → Yatagarasu",
+        "text": "1. Normale: Taotie + Cu Sith → Ares. Trasmetti Megido da Taotie. Il donatore deve avere almeno livello 35 e conservare l’abilità.\n2. Normale: Ares + Black Frost → Yatagarasu. Trasmetti Megido da Ares. Deve averla ricevuta nel passaggio precedente.\nLivello di Yu per creare i risultati di questa catena: almeno 40. Gli ingredienti devono essere disponibili; per crearli da zero potrebbe servire un livello superiore.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Alternativa 1 · Samael + Mothman: una fusione",
+        "text": "1. Normale: Samael + Mothman → Yatagarasu. Trasmetti Megido da Samael. Il donatore deve avere almeno livello 39 e conservare l’abilità.\nLivello di Yu per creare i risultati di questa catena: almeno 40. Gli ingredienti devono essere disponibili; per crearli da zero potrebbe servire un livello superiore.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Alternativa 2 · Samael + Lamia: alternativa calcolata",
+        "text": "1. Normale: Samael + Lamia → Yatagarasu. Trasmetti Megido da Samael. Il donatore deve avere almeno livello 39 e conservare l’abilità.\nLivello di Yu per creare i risultati di questa catena: almeno 40. Gli ingredienti devono essere disponibili; per crearli da zero potrebbe servire un livello superiore.\nRicetta verificata sul dataset e sull’algoritmo Golden.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Alternativa 3 · Thoth + Nigi Mitama: alternativa calcolata",
+        "text": "1. Normale: Thoth + Nigi Mitama → Yatagarasu. Trasmetti Megido da Thoth. Il donatore deve avere almeno livello 45 e conservare l’abilità.\nLivello di Yu per creare i risultati di questa catena: almeno 40. Gli ingredienti devono essere disponibili; per crearli da zero potrebbe servire un livello superiore.\nRichiede Thoth già posseduto/richiamabile oppure Yu al 45 per crearlo. Utile per riusare ingredienti della richiesta successiva.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Attenzione",
+        "text": "Taotie possiede Megido dalla nascita al livello base 35; Samael lo impara al 39.\nMegidola e Megidolaon non sono sostituti di Megido.\nRegistra prima Black Frost se lo usi come ingrediente.",
+        "kind": "warning",
+        "check": false
+      },
+      {
+        "label": "Alternativa universale · carta Megido",
+        "text": "Ottieni Yatagarasu con qualsiasi ricetta valida o evocazione, poi usa la Skill Card Megido. Chagall: Thoth al livello 45, con icona della carta. Shuffle Time: carta Spada rango 4; primo dungeon con rango adatto: Marukyu Striptease. Il risultato casuale non è garantito. Se la carta è già registrata, acquistala nella Velvet Room.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Consegna verificata",
+        "text": "Controlla Yatagarasu + Megido, registra la versione corretta e tienila nella scorta. Esci e rientra nella Velvet Room. Verifica di essere al rango 7 prima di passare alla richiesta successiva.",
+        "kind": "info",
+        "check": true
+      }
+    ]
+  },
+  {
+    "id": "rango_08",
+    "title": "Rango 8 · Yatsufusa",
+    "kicker": "MEDIARAMA / RICETTE E ALTERNATIVE",
+    "color": "quest",
+    "blocks": [
+      {
+        "label": "Obiettivo e livello",
+        "text": "Mostra Yatsufusa con Mediarama. Raggiungi il rango 8. Per una nuova fusione del risultato: Yu almeno livello 49.  Una versione completa già nel Compendium può essere evocata sopra il livello di Yu.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Percorso consigliato · Thoth 47: consigliata",
+        "text": "1. Speciale: Thoth + Orthrus + Makami + Narasimha + Mothman → Yatsufusa. Trasmetti Mediarama da Thoth. Il donatore deve avere almeno livello 47 e conservare l’abilità. Seleziona esplicitamente l’abilità richiesta nell’eredità. Ingredienti fissi: non sostituirli.\nLivello di Yu per creare i risultati di questa catena: almeno 49. Gli ingredienti devono essere disponibili; per crearli da zero potrebbe servire un livello superiore.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Alternativa 1 · Alraune + Triglav → Narasimha",
+        "text": "1. Normale: Alraune + Triglav → Narasimha. Trasmetti Mediarama da Alraune. Il donatore deve avere almeno livello 41 e conservare l’abilità.\n2. Speciale: Thoth + Orthrus + Makami + Narasimha + Mothman → Yatsufusa. Trasmetti Mediarama da Narasimha. Deve averla ricevuta nel passaggio precedente. Seleziona esplicitamente l’abilità richiesta nell’eredità. Ingredienti fissi: non sostituirli.\nLivello di Yu per creare i risultati di questa catena: almeno 49. Gli ingredienti devono essere disponibili; per crearli da zero potrebbe servire un livello superiore.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Alternativa 2 · Kushinada-Hime → Narasimha",
+        "text": "1. Triangolare: Yatagarasu + Kushinada-Hime + Ukobach → Narasimha. Trasmetti Mediarama da Kushinada-Hime. Il donatore deve avere almeno livello 44 e conservare l’abilità. Kushinada-Hime deve essere il livello attuale più alto dei tre.\n2. Speciale: Thoth + Orthrus + Makami + Narasimha + Mothman → Yatsufusa. Trasmetti Mediarama da Narasimha. Deve averla ricevuta nel passaggio precedente. Seleziona esplicitamente l’abilità richiesta nell’eredità. Ingredienti fissi: non sostituirli.\nLivello di Yu per creare i risultati di questa catena: almeno 49. Gli ingredienti devono essere disponibili; per crearli da zero potrebbe servire un livello superiore.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Attenzione",
+        "text": "Fusione finale Pentagon Spread, 5 ingredienti, non Hexagon.\nThoth impara Mediarama al 47; Alraune la possiede già al livello base 41.\nMediarama è distinta da Media, Diarama e Mediarahan.",
+        "kind": "warning",
+        "check": false
+      },
+      {
+        "label": "Alternativa universale · carta Mediarama",
+        "text": "Ottieni Yatsufusa con qualsiasi ricetta valida o evocazione, poi usa la Skill Card Mediarama. Chagall: Undine al livello 36, con icona della carta. Shuffle Time: carta Spada rango 6; primo dungeon con rango adatto: Void Quest. Il risultato casuale non è garantito. Se la carta è già registrata, acquistala nella Velvet Room.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Consegna verificata",
+        "text": "Controlla Yatsufusa + Mediarama, registra la versione corretta e tienila nella scorta. Esci e rientra nella Velvet Room. Verifica di essere al rango 8 prima di passare alla richiesta successiva.",
+        "kind": "info",
+        "check": true
+      }
+    ]
+  },
+  {
+    "id": "rango_09",
+    "title": "Rango 9 · Ganesha",
+    "kicker": "TETRAKARN / RICETTE E ALTERNATIVE",
+    "color": "quest",
+    "blocks": [
+      {
+        "label": "Obiettivo e livello",
+        "text": "Mostra Ganesha con Tetrakarn. Raggiungi il rango 9. Per una nuova fusione del risultato: Yu almeno livello 50.  Una versione completa già nel Compendium può essere evocata sopra il livello di Yu.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Percorso consigliato · Decarabia + Cu Chulainn: consigliata",
+        "text": "1. Normale: Decarabia + Cu Chulainn → Ganesha. Trasmetti Tetrakarn da Decarabia. Il donatore deve avere almeno livello 46 e conservare l’abilità.\nLivello di Yu per creare i risultati di questa catena: almeno 50. Gli ingredienti devono essere disponibili; per crearli da zero potrebbe servire un livello superiore.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Alternativa 1 · Kaiwan + Neko Shogun + Fuu-Ki",
+        "text": "1. Triangolare: Kaiwan + Neko Shogun + Fuu-Ki → Ganesha. Trasmetti Tetrakarn da Kaiwan. Il donatore deve avere almeno livello 24 e conservare l’abilità. Tutti gli ingredienti sono Star: questa ricetta triangolare conserva il risultato cambiando l’ordine dei livelli.\nLivello di Yu per creare i risultati di questa catena: almeno 50. Gli ingredienti devono essere disponibili; per crearli da zero potrebbe servire un livello superiore.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Alternativa 2 · Mithra + Yatsufusa + Decarabia",
+        "text": "1. Triangolare: Mithra + Yatsufusa + Decarabia → Ganesha. Trasmetti Tetrakarn da Decarabia. Il donatore deve avere almeno livello 46 e conservare l’abilità. Procedura conservativa: Yatsufusa deve essere il livello attuale più alto. Controlla l’anteprima.\nLivello di Yu per creare i risultati di questa catena: almeno 50. Gli ingredienti devono essere disponibili; per crearli da zero potrebbe servire un livello superiore.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Attenzione",
+        "text": "Decarabia e Kaiwan hanno Tetrakarn dalla nascita.\nTetrakarn non è Makarakarn né Tetra Break.\nRegistra prima Neko Shogun/Yatsufusa se li consumi.",
+        "kind": "warning",
+        "check": false
+      },
+      {
+        "label": "Alternativa universale · carta Tetrakarn",
+        "text": "Ottieni Ganesha con qualsiasi ricetta valida o evocazione, poi usa la Skill Card Tetrakarn. Chagall: Arahabaki al livello 76, con icona della carta. Shuffle Time: carta Spada rango 9; primo dungeon con rango adatto: Heaven. Il risultato casuale non è garantito. Se la carta è già registrata, acquistala nella Velvet Room.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Consegna verificata",
+        "text": "Controlla Ganesha + Tetrakarn, registra la versione corretta e tienila nella scorta. Esci e rientra nella Velvet Room. Verifica di essere al rango 9 prima di passare alla richiesta successiva.",
+        "kind": "info",
+        "check": true
+      }
+    ]
+  },
+  {
+    "id": "rango_10",
+    "title": "Rango 10 · Trumpeter",
+    "kicker": "MIND CHARGE / RICETTE E ALTERNATIVE",
+    "color": "quest",
+    "blocks": [
+      {
+        "label": "Obiettivo e livello",
+        "text": "Mostra Trumpeter con Mind Charge. Raggiungi il rango 10. Per una nuova fusione del risultato: Yu almeno livello 67.  Una versione completa già nel Compendium può essere evocata sopra il livello di Yu.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Percorso consigliato · Taotie 38: consigliata",
+        "text": "1. Speciale: Matador + White Rider + Daisoujou + Pabilsag + Taotie + Taowu → Trumpeter. Trasmetti Mind Charge da Taotie. Il donatore deve avere almeno livello 38 e conservare l’abilità. Seleziona esplicitamente l’abilità richiesta nell’eredità. Ingredienti fissi: non sostituirli.\nLivello di Yu per creare i risultati di questa catena: almeno 67. Gli ingredienti devono essere disponibili; per crearli da zero potrebbe servire un livello superiore.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Alternativa 1 · Jack Frost → Matador: alternativa calcolata",
+        "text": "1. Normale: Jack Frost + Queen Mab → Matador. Trasmetti Mind Charge da Jack Frost. Il donatore deve avere almeno livello 25 e conservare l’abilità.\n2. Speciale: Matador + White Rider + Daisoujou + Pabilsag + Taotie + Taowu → Trumpeter. Trasmetti Mind Charge da Matador. Deve averla ricevuta nel passaggio precedente. Seleziona esplicitamente l’abilità richiesta nell’eredità. Ingredienti fissi: non sostituirli.\nLivello di Yu per creare i risultati di questa catena: almeno 67. Gli ingredienti devono essere disponibili; per crearli da zero potrebbe servire un livello superiore.\nJack Frost impara Mind Charge al 25. Questa catena è verificata tramite dataset Golden e algoritmo; la fusione finale resta identica.\nPer questa richiesta Matador deve avere Mind Charge; non serve mantenere Mahama se la richiesta di rango 3 è già stata consegnata.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Attenzione",
+        "text": "Hexagon Spread: sempre gli stessi sei ingredienti. Non esistono ricette dirette alternative a 2 o 3 ingredienti per creare Trumpeter.\nTaotie impara Mind Charge al 38; Trumpeter non nasce con l’abilità richiesta.\nSe lo hai già registrato nel Compendium con Mind Charge, richiamalo senza rifondere tutto.",
+        "kind": "warning",
+        "check": false
+      },
+      {
+        "label": "Alternativa universale · carta Mind Charge",
+        "text": "Ottieni Trumpeter con qualsiasi ricetta valida o evocazione, poi usa la Skill Card Mind Charge. Chagall: Alice al livello 77, con icona della carta. Shuffle Time: carta Spada rango 8; primo dungeon con rango adatto: Heaven. Il risultato casuale non è garantito. Se la carta è già registrata, acquistala nella Velvet Room.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Consegna verificata",
+        "text": "Controlla Trumpeter + Mind Charge, registra la versione corretta e tienila nella scorta. Esci e rientra nella Velvet Room. Verifica di essere al rango 10 prima di passare alla richiesta successiva.",
+        "kind": "info",
+        "check": true
+      }
+    ]
+  },
+  {
+    "id": "carte",
+    "title": "Le nove Skill Card",
+    "kicker": "ALTERNATIVA ALL’EREDITARIETÀ",
+    "color": "quest",
+    "blocks": [
+      {
+        "label": "Prima controlla il catalogo",
+        "text": "Le Skill Card registrate si conservano in NG+. Controlla se puoi già comprare quella richiesta: potresti risparmiare dungeon, fusioni intermedie e visite al café. Gli esemplari non registrati dell’inventario precedente non vengono presunti conservati.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Sukukaja",
+        "text": "Chagall: Ghoul livello 10. Carta Spada rango 1. Primo dungeon con intervallo adatto: Yukiko's Castle.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Mahama",
+        "text": "Chagall: Virtue livello 33. Carta Spada rango 3. Primo dungeon con intervallo adatto: Steamy Bathhouse.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Rampage",
+        "text": "Chagall: Matador livello 27. Carta Spada rango 3. Primo dungeon con intervallo adatto: Steamy Bathhouse.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Bufula",
+        "text": "Chagall: Ganga livello 29. Carta Spada rango 3. Primo dungeon con intervallo adatto: Steamy Bathhouse.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Auto-Sukukaja",
+        "text": "Chagall: Makami livello 29. Carta Spada rango 7. Primo dungeon con intervallo adatto: Secret Laboratory.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Megido",
+        "text": "Chagall: Thoth livello 45. Carta Spada rango 4. Primo dungeon con intervallo adatto: Marukyu Striptease.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Mediarama",
+        "text": "Chagall: Undine livello 36. Carta Spada rango 6. Primo dungeon con intervallo adatto: Void Quest.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Tetrakarn",
+        "text": "Chagall: Arahabaki livello 76. Carta Spada rango 9. Primo dungeon con intervallo adatto: Heaven.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Mind Charge",
+        "text": "Chagall: Alice livello 77. Carta Spada rango 8. Primo dungeon con intervallo adatto: Heaven.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Il donatore del café può essere poco conveniente",
+        "text": "Arahabaki 76 per Tetrakarn e Alice 77 per Mind Charge sono donatori alti: per Margaret le catene con Decarabia o Taotie sono normalmente più semplici. Con un Compendium NG+ già pronto, invece, l’evocazione può rendere comoda anche la carta.",
+        "kind": "info",
+        "check": false
+      }
+    ]
+  },
+  {
+    "id": "caffe",
+    "title": "Chagall, senza sprechi",
+    "kicker": "OKINA CITY / SKILL CARD",
+    "color": "quest",
+    "blocks": [
+      {
+        "label": "Raggiungi Okina",
+        "text": "Dopo avere ricevuto lo scooter, compi tre giri locali per sbloccare Okina City. Il Chagall Café è sul lato sinistro. Non serve il café se hai già Persona e abilità corrette o la carta registrata.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Prima visita",
+        "text": "Costo 5.000 yen e consumo del pomeriggio. La prima visita dà sempre Dia e rende visibili le icone delle carte: non aspettarti subito la carta della Persona equipaggiata.",
+        "kind": "warning",
+        "check": false
+      },
+      {
+        "label": "Dalla seconda visita",
+        "text": "Prima di entrare equipaggia la Persona donatrice; la skill deve essere appresa e mostrare l’icona della carta. Averla soltanto nella scorta non basta. Ricevi quella carta, pagando 5.000 yen e usando il pomeriggio.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Per estrarre più copie",
+        "text": "Dopo l’estrazione l’icona scompare su quella versione. Registra prima nel Compendium una versione con l’icona ancora presente, oppure registra la carta a Marie per poterla riacquistare. La registrazione consuma una copia: prevedi i soldi per ricomprarla prima di usarla.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Come applicarla",
+        "text": "Apri il menu oggetti e usa la Skill Card sulla Persona richiesta. Se ha già otto abilità, scegli una skill da sostituire. Controlla il nome esatto, registra la Persona e mostrala a Margaret. Usare la carta e gestire il Compendium non consuma un pomeriggio.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Non farmare nella foresta",
+        "text": "Hollow Forest non viene proposto come fonte di Skill Card. Gli intervalli delle carte Spada sono riferiti ai dungeon normali nel loro complesso: non garantiscono una carta specifica a un piano o a ogni vittoria.",
+        "kind": "warning",
+        "check": false
+      }
+    ]
+  },
+  {
+    "id": "chiusura",
+    "title": "MAX e controlli finali",
+    "kicker": "CHECKLIST OPERATIVA",
+    "color": "quest",
+    "blocks": [
+      {
+        "label": "Prima di ogni fusione",
+        "text": "Registra i donatori con la skill già presente; controlla spazio nella scorta e soldi; salva in uno slot di lavoro libero senza sovrascrivere A–F. Verifica preview e seleziona manualmente la skill richiesta.",
+        "kind": "info",
+        "check": true
+      },
+      {
+        "label": "Se una ricetta non coincide",
+        "text": "Annulla. Controlla nomi e modalità. Per le terne aggiorna i livelli nel calcolatore. Per le fusioni speciali verifica la data del 10 luglio e tutti gli ingredienti. Il calcolatore mostra il prerequisito dei Persona legati a Social Link MAX; non presume che tu li abbia sbloccati.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Se la skill non compare",
+        "text": "Controlla che il donatore abbia appreso e conservato l’abilità. Se l’hai appresa dopo la registrazione, aggiorna il Compendium. Non confondere abilità simili. Usa la carta come alternativa, oppure controlla il donatore indicato nelle schede.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Dopo Trumpeter",
+        "text": "Mostra Trumpeter con Mind Charge e verifica Empress 10 / MAX. Ottieni Spiral Brooch e lo sblocco di Isis; parla nuovamente con Margaret per Deep Blue Clothes. Registra Trumpeter con Mind Charge e conserva il salvataggio di lavoro.",
+        "kind": "info",
+        "check": true
+      },
+      {
+        "label": "Come si collega agli ending",
+        "text": "Empress MAX non è necessario per Normal, True o Golden. Serve come requisito della sfida opzionale di Margaret in NG+. Se vuoi quella sfida, mantieni il piano prudente della guida principale e termina il link prima del boss di dicembre; non è una scadenza naturale obbligatoria del Social Link.",
+        "kind": "info",
+        "check": false
+      },
+      {
+        "label": "Ricaricamenti della roadmap",
+        "text": "Ricaricare B o C elimina i ranghi e le registrazioni ottenuti dopo quel save. Non somma i progressi fra rami. Se massimizzi Margaret prima di B, tutti i rami successivi condividono il risultato; conserva il ramo Golden per ultimo.",
+        "kind": "warning",
+        "check": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "game": "Persona 4 Golden",
+  "research_date": "2026-11-08",
+  "language_note": "Testi inglesi riconoscibili nel gioco; traduzioni italiane di servizio, non localizzazione ufficiale. La punteggiatura delle guide può differire.",
+  "source_dossier": "../sources/ending_verification.md",
+  "run": {"date": "22 maggio", "new_game_plus": true, "adachi_rank": 1, "marie_rank": 2, "source": "Controllo locale salvataggio da parte del coordinatore", "protect_slots": [1,2,3,99]},
+  "sources": {
+    "E01": "https://www.rpgsite.net/feature/9824-persona-4-golden-endings-guide-true-ending-requirements-how-to-get-the-canon-end",
+    "E02": "https://steamcommunity.com/sharedfiles/filedetails/?id=2157901068",
+    "E03": "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/65282",
+    "E04": "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/65652",
+    "E05": "https://gamefaqs.gamespot.com/xbox-series-x/370653-persona-4-golden/faqs/81937/december",
+    "E06": "https://gamefaqs.gamespot.com/xbox-series-x/370653-persona-4-golden/faqs/81937/january",
+    "E07": "https://gamefaqs.gamespot.com/xbox-series-x/370653-persona-4-golden/faqs/81937/february",
+    "E08": "https://gamefaqs.gamespot.com/xbox-series-x/370653-persona-4-golden/faqs/81937/march",
+    "E09": "https://w.atwiki.jp/persona4_g/pages/129.html",
+    "E10": "https://gamewith.jp/persona4/538108",
+    "E11": "https://steamcommunity.com/sharedfiles/filedetails/?id=2141471294",
+    "E12": "https://www.reddit.com/r/persona4golden/comments/hpze61",
+    "E13": "https://www.hxchector.com/persona-4-golden-walkthrough/hollow-forest/",
+    "E15": "https://mysh.dev/tools/persona/4g/view?file=%5Cdata.cpk%5Cevent_data%5Cscript%5CE441_500A.bf&id=SEL_013",
+    "E16": "https://mysh.dev/tools/persona/4g/view?file=%5Cdata.cpk%5Cfield%5Cscript%5Cf009.bf&id=YESNO_TRUEEND_SEL",
+    "E17": "https://mysh.dev/tools/persona/4g/view?file=%5Cdata.cpk%5Cevent%5Ce370%5CE376_001.PM1%20%40%200x00000190&id=SEL_043",
+    "E18": "https://mysh.dev/tools/persona/4g/view?file=%5Cdata.cpk%5Cevent%5Ce390%5CE399_001.PM1%20%40%200x000001D0&id=SEL_054",
+    "E19": "https://mysh.dev/tools/persona/4g/view?file=%5Cdata.cpk%5Cevent%5Ce730%5CE730_576.PM1%20%40%200x000001D0&id=SEL_003",
+    "E20": "https://mysh.dev/tools/persona/4g/view?file=%5Cdata.cpk%5Cfield%5Cscript%5Cn008_002.bf&id=MSG_NPC_GASS_02_SEL"
+  },
+  "nomenclature": {
+    "count": 7,
+    "note": "Sette esiti pratici, non sette finali integralmente diversi: Bad 3 è una variante della conclusione negativa ottenuta con un diverso fallimento; Golden estende True. RPG Site chiama Complice Bad Ending 3; altre guide Bad 4. Qui Bad 3 significa sempre tre accuse errate il 5 dicembre.",
+    "user_bad2_confirmed": true,
+    "user_bad2_reason": "Risparmiare Namatame il 3 dicembre ma interrompere l'indagine, con Nanako viva, è Bad 2. Normal richiede invece Adachi identificato e sconfitto, quindi marzo."
+  },
+  "endings": [
+    {"id":"bad1","name":"Bad Ending 1","status":"GIÀ COMPLETATO","color":"#711B28","characters":["Namatame","Nanako","Yu"],"decisive_date":"3 dicembre","trigger":"Gettare Namatame nella TV e confermare; Nanako resta morta.","save":"A","reload_after":"A","sources":["E02","E03"]},
+    {"id":"bad2","name":"Bad Ending 2","status":"GIÀ COMPLETATO","color":"#903145","characters":["Namatame","Nanako","Yu"],"decisive_date":"3 dicembre","trigger":"Risparmiare Namatame senza completare correttamente la deduzione; Nanako si riprende, il vero colpevole non viene scoperto.","save":"A","reload_after":"A","sources":["E02","E03","E09"]},
+    {"id":"bad3","name":"Bad Ending 3","status":"DA FARE","color":"#B43A49","characters":["Yu","Nanako","Namatame"],"decisive_date":"5 dicembre","trigger":"Superare correttamente il 3 dicembre e sbagliare il colpevole tre volte il 5 dicembre.","save":"B","reload_after":"B","sources":["E02","E05","E09"]},
+    {"id":"accomplice","name":"Accomplice Ending · Complice","status":"DA FARE","color":"#E3242B","characters":["Adachi","Yu"],"decisive_date":"5 dicembre + 20 marzo","trigger":"Jester 6 entro 1 novembre; il 5 dicembre Adachi corretto ma protetto due volte; il 20 marzo allearsi e bruciare la lettera.","save":"B","reload_after":"B","sources":["E02","E03","E05","E10"]},
+    {"id":"normal","name":"Normal / Good Ending","status":"DA FARE","color":"#A6ADB9","characters":["Yu","Nanako","Dojima"],"decisive_date":"20 marzo","trigger":"Adachi identificato e denunciato, Magatsu completato; dopo i saluti accettare di tornare a casa.","save":"D-T","reload_after":"D-T","marie_required":false,"sources":["E02","E03","E08"]},
+    {"id":"true","name":"True Ending · senza epilogo Golden","status":"DA FARE","color":"#1272E8","characters":["Yu","Yosuke","Chie","Yukiko","Kanji","Rise","Naoto","Teddie"],"decisive_date":"2 gennaio + 20 marzo","trigger":"Da C rifiutare la ricerca Marie; il 20 marzo non tornare a casa, indagare e sconfiggere Izanami.","save":"C → D-T","reload_after":"C","sources":["E03","E04","E08","E09"]},
+    {"id":"golden","name":"Golden Ending + epilogo","status":"DA FARE","color":"#E7B624","characters":["Marie","Yu","Teddie","Investigation Team"],"decisive_date":"2 gennaio + 13 febbraio + 20 marzo","trigger":"Marie 10, ricerca accettata, Hollow Forest completata, intera conclusione True completata, epilogo dopo i titoli.","save":"C → E → D-G → F","reload_after":"Nessuna ricarica obbligatoria: conservare il ramo finale e il clear save separato.","sources":["E02","E03","E06","E07","E08","E09"]}
+  ],
+  "hospital_dec3": {
+    "save":"A",
+    "save_instruction":"Accettare il prompt di salvataggio del 3 dicembre dopo l'esame, prima della lunga sequenza narrativa.",
+    "intro":"La prima scelta, vedendo Namatame presso la finestra, è libera: What are you doing? (Che cosa stai facendo?, 1), Are you all right? (Stai bene?, 2), Trying to escape, huh? (Cerchi di scappare, eh?, 3). La sequenza vincolante inizia più tardi, quando Yosuke chiede al leader che cosa fare: cercare Wait a second here... .",
+    "intro_counts_as_mandatory":false,
+    "choices":[
+      {"step":1,"position":3,"en":"Wait a second here...","it":"Aspettate un momento...","context":"Fermare la decisione immediata su Namatame.","error":"La scelta di gettarlo nella TV seguita da conferma produce Bad 1; altre uscite possono interrompere la deduzione."},
+      {"step":2,"position":1,"en":"We're missing something.","it":"Ci sfugge qualcosa.","context":"Insistere che il ragionamento non è completo.","error":"Fermarsi alla consegna alla polizia senza chiarire porta a Bad 2."},
+      {"step":3,"position":3,"en":"Namatame's true feelings.","it":"Le vere intenzioni di Namatame.","context":"Identificare ciò che il gruppo non ha ancora capito.","error":"Una risposta sbagliata può chiudere l'indagine in Bad 2."},
+      {"step":4,"position":2,"en":"Something's bothering me.","it":"C'è qualcosa che non mi torna.","context":"Esprimere il dubbio residuo.","error":"Una risposta sbagliata può chiudere l'indagine in Bad 2."},
+      {"step":5,"position":3,"en":"We're missing something...","it":"Ci sfugge qualcosa...","context":"Ribadire che manca un elemento.","error":"Una risposta sbagliata può chiudere l'indagine in Bad 2."},
+      {"step":6,"position":2,"en":"Calm the hell down!","it":"Calmatevi, maledizione!","context":"Fermare l'impulso del gruppo e continuare a ragionare.","error":"Se l'indagine si interrompe, ricaricare A."}
+    ],
+    "success":"Namatame non viene ucciso; la storia prosegue il 4 dicembre e l'indagine arriva al 5 dicembre.",
+    "bad1_optional":{"en":["Push the bastard in.","Do it already."],"it":["Buttate dentro quel bastardo.","Fatelo e basta."],"priority":"Già visto: non occorre ripeterlo."},
+    "bad2_optional":{"en":["Wait a second here...","Leave him for the police."],"it":["Aspettate un momento...","Lasciamolo alla polizia."],"priority":"Già visto: non occorre ripeterlo."},
+    "transcription_note":"RPG Site abbrevia due risposte in Their true feelings e Something's been bothering me. La guida usa la sequenza Golden concordante di Steam e GameFAQs.",
+    "sources":["E02","E03","E05","E17"]
+  },
+  "investigation_dec5": {
+    "save":"B",
+    "save_instruction":"Appena controlli Yu per l'indagine, salva alla farfalla blu nel distretto commerciale. Non aspettare l'ultimo NPC: il completamento porta automaticamente ad Aiya.",
+    "questions":[{"en":"About those murders...","it":"A proposito di quegli omicidi..."},{"en":"Recall anyone suspicious?","it":"Ricordi qualcuno di sospetto?"}],
+    "steps":[
+      "Shopping District North: parla al Businessman a sud, vicino a Rise, sugli omicidi. Poi parla alla Shopping Woman vicino al santuario: chiedi degli omicidi e delle persone sospette. La seconda domanda si sblocca dopo i primi colloqui, non è necessariamente disponibile subito.",
+      "Sempre North: fai entrambe le domande al Loud Old Man e al Gas-masked Man a nord del santuario. Torna dal Businessman per la domanda sulle persone sospette che prima non avevi.",
+      "Junes: fai entrambe le domande alla Female Student. Samegawa Flood Plain: entrambe al Kind Man e all'Elderly Person vicino al gatto.",
+      "Shopping District South: entrambe le domande alla Middle-aged Woman a sud del distributore e alla Female Student vicino a Yosuke. B deve essere già salvato prima di completare questi colloqui.",
+      "Quando tutte le informazioni necessarie sono state raccolte, il gruppo si riunisce ad Aiya e inizia la scelta del sospettato."
+    ],
+    "branches":[
+      {"id":"bad3","action":"Scegli un nome diverso da Tohru Adachi per tutti e tre i tentativi. Tre accuse errate esauriscono le possibilità.","attempts":3,"finish":"Attendi il finale e i titoli, quindi RICARICA B."},
+      {"id":"accomplice","culprit":"Tohru Adachi","choices":[{"en":"Don't tell friends, protect Adachi","it":"Non dirlo agli amici: proteggi Adachi.","position":2},{"en":"Protect Adachi","it":"Proteggi Adachi.","position":2}],"requires":"Jester rango 6 entro il 1 novembre; confermare entrambe le finestre."},
+      {"id":"main","culprit":"Tohru Adachi","choices":[{"en":"Tell friends about Adachi","it":"Parla agli amici di Adachi.","position":1}],"next":"Proseguire indagini e storia. Il dungeon Magatsu è disponibile dall'8 dicembre."}
+    ],
+    "sources":["E02","E03","E05","E09","E11","E18"]
+  },
+  "accomplice": {
+    "start":"Ricarica B; Adachi rango 6 raggiunto entro il 1 novembre; sei risposte corrette il 3 dicembre già superate nel save.",
+    "dec5":"Tohru Adachi → Don't tell friends, protect Adachi → Protect Adachi.",
+    "time_skip":"La storia passa al 20 marzo. Questa route non attraversa la normale esplorazione di gennaio/febbraio.",
+    "meeting":{"en":"Go see Adachi","it":"Vai a trovare Adachi.","position":1,"instruction":"Selezionare il prompt di storia: il gioco conduce direttamente al colloquio, senza doverlo cercare durante il tempo libero."},
+    "choices":[
+      {"step":1,"en":"Did you do it?","it":"Sei stato tu?","position":2,"context":"Adachi chiede il motivo della visita."},
+      {"step":2,"en":"No.","it":"No.","position":2,"context":"Adachi chiede se sei lì per convincerlo a costituirsi."},
+      {"step":3,"en":"No.","it":"No.","position":2,"context":"Adachi domanda se stai cercando di ricattarlo."},
+      {"step":4,"en":"I'm on your side.","it":"Sono dalla tua parte.","position":2,"context":"Adachi domanda se continuerai a giocare al detective."},
+      {"step":5,"en":"Yes.","it":"Sì.","position":1,"context":"Adachi chiede se capisci che cosa comporta stare dalla parte dell'assassino."},
+      {"step":6,"en":"Set fire to the letter","it":"Dai fuoco alla lettera.","position":2,"context":"Bruciare la lettera minatoria distrugge la prova e sancisce la complicità."}
+    ],
+    "end":"Jester raggiunge il rango 10. Guarda la partenza e i titoli, poi anche il filmato aggiuntivo dopo i titoli. FINALE COMPLETATO → RICARICA SAVE B.",
+    "error":"Rifiutare l'alleanza o non bruciare la lettera non completa il Complice. Ricaricare B.",
+    "sources":["E02","E03","E05","E19"]
+  },
+  "main_december": {
+    "dec7":{"en":"Go see him alone","it":"Vai a trovarlo da solo.","context":"Sera del 7 dicembre dopo l'identificazione: permette la conversione Jester → Hunger e la prosecuzione del Social Link di Adachi.","ending_required":false,"link_required":true},
+    "marie":"Raggiungi Aeon 10 prima di completare Magatsu. La relazione romantica non è necessaria. Piano prudente: Marie 10 entro 21 dicembre.",
+    "dungeon_available":"8 dicembre",
+    "dungeon_deadline":"24 dicembre",
+    "recommended_boss_date":"22 dicembre",
+    "skip_warning":"Sconfiggere il boss in anticipo fa saltare i giorni restanti. Completare entro il 22 incluso porta al 23; completare il 23/24 porta al 25, perdendo Natale. Chiudi quest e Marie prima del boss.",
+    "bosses":["Adachi","Ameno-sagiri"],
+    "sources":["E03","E05"]
+  },
+  "margaret_jan2": {
+    "save":"C",
+    "save_instruction":"Il 2 gennaio, durante il tempo libero, salva alla farfalla nel distretto commerciale PRIMA di entrare nella Velvet Room. Mantieni anche il salvataggio serale di Capodanno se lo hai.",
+    "precondition":"Marie Aeon rango 10 prima del completamento di Magatsu; la sua assenza viene discussa con Margaret.",
+    "intro":"Prima risposta sul motivo della visita libera: puoi scegliere To say, 'Happy New Year.' (Per augurarti buon anno). Lo script conferma che anche I just felt like it. conduce alla notizia di Marie; poi seguire il ramo desiderato.",
+    "shared_choices":[{"en":"Why did she leave?","it":"Perché se n'è andata?","position":1},{"en":"Where did she go?","it":"Dov'è andata?","position":1}],
+    "golden_choice":{"en":"I don't care about danger. I'll go.","it":"Non mi importa del pericolo. Andrò.","position":1,"confidence":"Confermata dal walkthrough moderno E06 e dal messaggio estratto E441_500A.bf / SEL_013 in E15.","effect":"Margaret cerca Marie; il salvataggio di Hollow Forest diventa accessibile a febbraio."},
+    "true_only_choice":{"en":"I'm not going if it's dangerous!","it":"Se è pericoloso, non ci vado!","position":2,"confidence":"Effetto del rifiuto confermato E04/E09; stringa e posizione confermate nel messaggio estratto E441_500A.bf / SEL_013 in E15.","effect":"Rifiutare ricerca: inverno comunque giocabile, niente Hollow Forest e niente epilogo Golden anche con Marie rango 10."},
+    "reversal_warning":"Non rientrare nella Velvet Room chiedendo di cercare Marie dopo aver scelto il rifiuto sul ramo True. KADFC documenta che la decisione può essere cambiata ancora il 2 gennaio dal menu sugli abitanti.",
+    "golden_followthrough":"Prosegui gennaio e le comunicazioni automatiche di Margaret. Non occorre massimizzare Margaret. Mantieni l'intento di salvare Marie e prosegui la gita sulla neve; il 13 febbraio entra nella TV e completa Hollow Forest.",
+    "sources":["E03","E04","E06","E09","E12","E15"]
+  },
+  "hollow_saves": {
+    "E_pre":{"date":"10 febbraio sera","location":"Casa Dojima, calendario di salvataggio","purpose":"Backup prima della gita e delle scene del 12/13; documentato dal walkthrough moderno."},
+    "E_hub":{"date":"13 febbraio","location":"Grave of Hollow Memories, farfalla blu all'ingresso","purpose":"Salvataggio di sicurezza prima dell'esplorazione. L'hub offre Velvet Room/Fox e collegamenti TV ai negozi."},
+    "not_a_branch":"Non usare questi backup come garanzia di saltare Marie per ottenere True. Le fonti discordano sulla possibilità di rifiutare l'ingresso il 13 febbraio. Separazione affidabile: C il 2 gennaio.",
+    "sources":["E03","E04","E07","E10","E13"]
+  },
+  "normal": {
+    "steps":[
+      "Dopo Bad 3 e Complice, ricarica B. Scegli Tohru Adachi e Tell friends about Adachi.",
+      "Completa la storia di dicembre e Magatsu Inaba. Nel piano comune porta Marie a 10 prima del boss, anche se non serve per Normal.",
+      "C il 2 gennaio: salva prima di Margaret. Per il ramo temporaneo Normal/True rifiuta la ricerca.",
+      "Gioca gennaio/febbraio. Il 20 marzo crea D-T prima di completare i saluti.",
+      "Saluta i Social Link già massimizzati. Non devi massimizzare tutti i link. Completa la scena con Dojima/Nanako.",
+      "Alla proposta di tornare a casa per prepararti al giorno dopo, scegli Yes (Sì).",
+      "Guarda il Normal/Good Ending fino ai titoli. FINALE COMPLETATO → RICARICA D-T."
+    ],
+    "marie_independence":"Normal resta accessibile anche dopo aver salvato Marie. In questa strategia viene visto sul ramo senza ricerca per conservare una lettura chiara dei finali.",
+    "not_bad2":"Hai identificato e sconfitto Adachi e risolto il caso principale; nel Bad 2 del 3 dicembre questo non avviene.",
+    "sources":["E02","E03","E08","E09"]
+  },
+  "true_march20": {
+    "start":"Ricarica D-T per True senza epilogo, oppure D-G per la conclusione Golden dopo Hollow Forest.",
+    "steps":[
+      {"step":1,"location":"Inaba, saluti ai Social Link","action":"Visita i personaggi dei Social Link già al rango MAX e completa i saluti. Non serve avere tutti i link al massimo.","blocking":"L'invito a tornare a casa arriva dopo i saluti richiesti. Se la scena Dojima non parte, ricontrolla i saluti e interagisci di nuovo.","sources":["E03","E08","E09"]},
+      {"step":2,"location":"Conclusione saluti, scena Dojima/Nanako","action":"Rifiuta di tornare a casa a preparare la partenza.","choice":{"en":"No","it":"No","position":2},"irreversible":"Yes chiude il ramo con Normal. Se lo scegli per errore, ricarica D-T nel ramo senza Marie oppure D-G nel ramo Golden.","sources":["E03","E08"]},
+      {"step":3,"location":"Junes Department Store → ascensore","action":"Interagisci con l'ascensore e accetta di fermarti ancora al Food Court.","choice":{"en":"Yes","it":"Sì","position":1},"conditional_extra":"Se insiste per mandarti a casa, rispondi No. Se chiede se c'è ancora qualcosa da fare, seleziona There is something. (C'è qualcosa, prima opzione), poi Yes alla proposta di entrare nel Food Court. Alcune guide Golden mostrano direttamente il solo Yes: rispondi al prompt che appare. I'm not finished yet è una parafrasi di altre guide, non la stringa verificata Golden.","sources":["E03","E16"]},
+      {"step":4,"location":"Junes Food Court","action":"Il gruppo si riunisce e ripensa all'origine degli eventi. Sequenza sicura:","choices":[{"en":"There is something...","it":"C'è qualcosa...","position":1},{"en":"My uncle, Dojima.","it":"Mio zio, Dojima.","position":1}],"note":"La prima è una risposta di dialogo non vincolante. Qui Hunger può raggiungere 10 se hai seguito la sua progressione; non è un requisito dell'indagine.","sources":["E03","E11"]},
+      {"step":5,"location":"Samegawa Flood Plain → Riverbank","action":"Parla a Dojima, presente con Nanako, riguardo al giorno del tuo arrivo.","choices":[{"en":"I want to talk to you","it":"Voglio parlarti.","position":2},{"en":"The weird attendant?","it":"Quello strano benzinaio?","position":2},{"en":"I looked sick?","it":"Sembravo stare male?","position":1},{"en":"It might be important","it":"Potrebbe essere importante.","position":3}],"next":"Le risposte successive sono libere; emerge il ricordo del distributore.","sources":["E03","E11"]},
+      {"step":6,"location":"Shopping District South → Velvet Room","action":"Entra e parla con Igor fino a ricevere Orb of Sight. Le opzioni del dialogo sono libere: completa la conversazione.","item":"Orb of Sight","blocking":"Occorre l'oggetto per la rivelazione al distributore.","optional_ngplus":"Se vuoi combattere Margaret e ne hai soddisfatto i requisiti, rientra nella Velvet Room subito dopo l'oggetto e prima della rivelazione del benzinaio: consulta la pagina NG+ dedicata.","sources":["E03","E08"]},
+      {"step":7,"location":"Shopping District South → distributore Moel, a sinistra della libreria","action":"Parla all'addetto del distributore. Quando il colloquio finisce, interagisci di nuovo: non basta parlare una sola volta.","choices":[{"en":"Isn't this where I first...?","it":"Non è qui che, quando sono arrivato...?","position":2,"interaction":1},{"en":"Do you know Namatame?","it":"Conosci Namatame?","position":2,"interaction":1},{"en":"Did those two come here?","it":"Quei due sono venuti qui?","position":3,"interaction":2},{"en":"Did you do anything to them?","it":"Hai fatto loro qualcosa?","position":2,"interaction":3},{"en":"What did you do to me?","it":"Che cosa mi hai fatto?","position":2,"interaction":3},{"en":"Did you give me the power?","it":"Sei stato tu a darmi quel potere?","position":3,"interaction":3}],"next":"Le risposte successive sono libere. Si rivela Izanami e si apre la strada a Yomotsu Hirasaka.","sources":["E03","E11","E20"]},
+      {"step":8,"location":"Inaba → Junes → TV World","action":"Prepara cure, rianimazioni, rimozione Fear, Persona e squadra. Salva F alla farfalla prima della partenza. Entra nella TV da Junes e parla a Rise per Yomotsu Hirasaka.","warning":"È l'ultima giornata: non aspettare un altro giorno per prepararti. Mantieni separati D-T, D-G e C.","sources":["E03","E08"]},
+      {"step":9,"location":"Yomotsu Hirasaka","action":"Sali al 3° piano (Neo Minotaur), poi al 6° (Sleeping Table), infine al 9°. Contro Sleeping Table rimuovi subito Fear: Ghastly Wail elimina i membri impauriti. Prima del boss finale usa Goho-M per tornare all'ingresso e salva di nuovo su un backup del ramo.","warning":"Non promettere una farfalla al piano 9. Conserva strumenti di ritorno e risorse; non vendere la dotazione che vuoi conservare soltanto per aumentare yen.","sources":["E03","E08"]},
+      {"step":10,"location":"Yomotsu Hirasaka, piano 9","action":"Affronta Izanami e Izanami-no-Okami. Quando la prima forma non subisce più danno, difenditi finché l'evento dell'Orb avanza. Mantieni cure e buff/debuff; difenditi dopo Mind Charge. Evita elettricità nella forma finale, che la assorbe, e attacchi Light/Dark riflessi.","scripted":"La sequenza finale con Thousand Curses è narrativa: non ricaricare pensando a un fallimento automatico. Continua fino alla conclusione.","sources":["E03","E08"]},
+      {"step":11,"location":"Conclusione","action":"Guarda filmati e titoli. Senza salvataggio Marie ottieni True senza epilogo: ricarica C. Con Hollow Forest completata ottieni la versione Golden con epilogo: conserva il clear save in slot separato.","sources":["E02","E03","E09"]}
+    ]
+  },
+  "save_plan": [
+    {"id":"A","slot":4,"color":"#8B2440","when":"3 dicembre dopo l'esame, prompt di salvataggio prima della storia","where":"Prompt del gioco","route":"Comune","recovers":["bad1","bad2","tutti i rami successivi"],"reload":"Solo errore all'ospedale o ripetizione facoltativa dei Bad già visti","lost":"Tutto ciò che è stato fatto dopo il 3 dicembre.","sources":["E03","E05"]},
+    {"id":"B","slot":5,"color":"#E44335","when":"5 dicembre durante l'indagine, prima dell'ultimo NPC richiesto","where":"Farfalla blu nel distretto commerciale; meglio salvare appena ottenuto il controllo","route":"Comune","recovers":["bad3","accomplice","normal","true","golden"],"reload":"Dopo Bad 3 e dopo Complice","lost":"Progresso successivo al save del 5 dicembre.","sources":["E03","E05"]},
+    {"id":"C","slot":6,"color":"#9C69CB","when":"2 gennaio di giorno, prima della conversazione con Margaret","where":"Farfalla blu Shopping District South, prima della Velvet Room","route":"Separazione True/Golden","recovers":["true senza Marie","golden"],"reload":"Dopo True, per accettare la ricerca e percorrere il ramo finale Golden","lost":"Tutto gennaio/febbraio/marzo del ramo temporaneo, incluse quest e oggetti. Ripetere sul ramo Golden ciò che vuoi conservare.","sources":["E06","E04","E09"]},
+    {"id":"D-T","slot":7,"color":"#4389EF","when":"20 marzo, ramo senza ricerca Marie, prima dell'ultimo saluto","where":"Farfalla blu nel distretto commerciale; farlo prima della scena Dojima/Nanako","route":"Normal/True","recovers":["normal","true"],"reload":"Dopo Normal, scegliere No e avviare l'indagine True","lost":"Saluti o preparazione successivi al save; nessun trasferimento al ramo Golden.","sources":["E03","E08"]},
+    {"id":"D-G","slot":8,"color":"#E9BF35","when":"20 marzo, ramo con Hollow Forest completata","where":"Farfalla blu prima dell'ultimo saluto/scena Dojima","route":"Golden","recovers":["golden","normal facoltativo"],"reload":"Solo errore o recupero finale su questo ramo","lost":"Progressi del 20 marzo successivi al save.","sources":["E03","E08"]},
+    {"id":"E","slot":9,"color":"#DCB45C","when":"10 febbraio sera; aggiornabile a 13 febbraio hub dopo avere conservato un backup E-pre separato se desiderato","where":"Calendario casa Dojima il 10; farfalla Grave of Hollow Memories il 13","route":"Golden","recovers":["Sicurezza gita/Hollow Forest"],"reload":"Errore, preparazione o sconfitta in Hollow Forest; non usarlo per promettere True senza epilogo","lost":"Gita e/o progressi del dungeon dopo il punto salvato.","sources":["E07","E13"]},
+    {"id":"F","slot":10,"color":"#34A9C6","when":"20 marzo dopo indagine, prima dungeon; poi backup ingresso prima boss","where":"Farfalla Shopping District o hub TV; Goho-M prima boss","route":"Ramo conclusivo attualmente giocato","recovers":["Boss finale e preparazione"],"reload":"Solo difficoltà o errore nella fase conclusiva; non sostituisce D-T/D-G","lost":"Esplorazione e combattimenti successivi al save.","sources":["E03","E08"]},
+    {"id":"LIVE","slot":11,"color":"#FFFFFF","when":"Progressione ordinaria","where":"Punti di salvataggio disponibili","route":"Ramo attivo","recovers":["Progressione recente"],"reload":"Quando necessario","lost":"Progresso non salvato."},
+    {"id":"CLEAR","slot":12,"color":"#D5C661","when":"Dopo titoli quando il gioco chiede di salvare i dati completati","where":"Prompt finale","route":"Dati completati","recovers":["Avvio NG+ successivo"],"reload":"Non ricaricare per continuare prima del finale; usare il relativo checkpoint","lost":"Il clear save non sostituisce un salvataggio di gioco prima del boss."}
+  ],
+  "canonical_order": [
+    {"order":1,"ending":"bad3","from":"B","then_reload":"B"},
+    {"order":2,"ending":"accomplice","from":"B","then_reload":"B"},
+    {"order":3,"ending":"normal","from":"B → C, rifiuto ricerca → D-T","then_reload":"D-T"},
+    {"order":4,"ending":"true","from":"D-T","then_reload":"C"},
+    {"order":5,"ending":"golden","from":"C, ricerca accettata → E → D-G → F","then_reload":null}
+  ],
+  "preservation": "I salvataggi dei rami sono indipendenti. Ricaricare non conserva automaticamente quest, oggetti, compendio, statistiche o requisiti parziali maturati dopo il save. Solo achievement effettivamente registrati dalla piattaforma restano come tali. Mantieni le quest desiderate sul ramo Golden, finale della sequenza, e non sovrascrivere A/B/C/D-T/D-G con dati completati.",
+  "unresolved": [
+    {"topic":"Rifiuto TV il 13 febbraio","decision":"Non adottato come procedura operativa. Fonti E04/E10 contro E07; il piano usa C il 2 gennaio."},
+    {"topic":"Junes schermate aggiuntive","decision":"Le finestre dipendono da come si ritorna all'ascensore. Stringa positiva di insistenza verificata in f009.bf: There is something.; poi Yes al Food Court. Non usare la parafrasi I'm not finished yet come trascrizione del gioco."}
+  ]
+}

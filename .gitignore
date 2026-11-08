@@ -1,0 +1,50 @@
+# Installed dependencies and build outputs
+node_modules/
+dist/
+out/
+release/
+*.exe
+*.asar
+*.zip
+*.7z
+
+# Test runs, screenshots and isolated application profiles
+qa/
+coverage/
+test-results/
+playwright-report/
+user-data/
+userdata/
+qa-data/
+
+# Personal journals, game saves and the private run-inspection snapshot
+**/progress.json
+**/progress.json.*
+**/P4G_Companion_progressi*.json
+content/data/run_state.json
+*.bin
+*.binslot
+*.sav
+*.save
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+.npmrc
+*.pfx
+*.p12
+*.pem
+*.key
+
+# Temporary files and operating-system metadata
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Bundled guide images, PDFs, source data and licence notices are intentional
+# repository content and are not excluded here.

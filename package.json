@@ -1,0 +1,55 @@
+{
+  "name": "p4g-companion",
+  "version": "1.2.0",
+  "description": "Offline Persona 4 Golden companion: endings, quests and Margaret fusions in Italian and English",
+  "main": "main.cjs",
+  "author": "EdoXBroS12",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win portable --x64",
+    "test": "node --test tests/*.test.cjs"
+  },
+  "devDependencies": {
+    "electron": "45.2.3",
+    "electron-builder": "26.18.0"
+  },
+  "build": {
+    "appId": "it.p4g.companion",
+    "productName": "P4G Companion",
+    "artifactName": "P4G_Companion.exe",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.cjs",
+      "preload.cjs",
+      "src/**/*",
+      "content/**/*",
+      "!content/svg/**/*",
+      "!content/Margaret_Fusioni/svg/**/*",
+      "build/icon.ico",
+      "package.json",
+      "!content/data/run_state.json",
+      "LICENSE",
+      "THIRD_PARTY_NOTICES.md"
+    ],
+    "asar": true,
+    "compression": "normal",
+    "win": {
+      "target": [
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "build/icon.ico",
+      "signAndEditExecutable": true
+    },
+    "portable": {
+      "requestExecutionLevel": "user"
+    }
+  }
+}

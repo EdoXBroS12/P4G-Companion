@@ -1,0 +1,66 @@
+name: Build portable Windows app
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: windows-build-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  windows:
+    runs-on: windows-latest
+    timeout-minutes: 40
+    env:
+      CSC_IDENTITY_AUTO_DISCOVERY: 'false'
+      ELECTRON_BUILDER_COMPRESSION_LEVEL: '3'
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          cache: npm
+
+      - name: Install locked dependencies
+        run: npm ci
+
+      - name: Run unit and content checks
+        run: npm test
+
+      - name: Build portable Windows x64 executable
+        run: npm run build -- --publish never
+
+      - name: Generate SHA-256 checksums
+        shell: pwsh
+        run: |
+          $artifacts = @(Get-ChildItem -LiteralPath 'dist' -Filter '*.exe' -File)
+          if ($artifacts.Count -eq 0) { throw 'No portable executable was produced.' }
+          $checksums = foreach ($artifact in $artifacts) {
+            $digest = (Get-FileHash -LiteralPath $artifact.FullName -Algorithm SHA256).Hash.ToLowerInvariant()
+            "$digest  $($artifact.Name)"
+          }
+          $checksums | Set-Content -LiteralPath 'dist/SHA256SUMS.txt' -Encoding utf8
+
+      - name: Upload review artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: P4G-Companion-windows-x64-${{ github.sha }}
+          path: |
+            dist/*.exe
+            dist/SHA256SUMS.txt
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 14
+
+      # Release publication is intentionally a separate, manual maintainer step.

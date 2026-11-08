@@ -1,0 +1,58 @@
+{
+  "method": "ImageGen integrato, non CLI",
+  "assets": {
+    "team": {
+      "characters": [
+        "Yu",
+        "Yosuke",
+        "Chie",
+        "Yukiko",
+        "Kanji",
+        "Rise",
+        "Naoto",
+        "Teddie"
+      ],
+      "prompt": "Original illustration for a Persona 4 Golden Italian gameplay guide. NO TEXT anywhere. Wide 3:2 anime editorial composition, crisp premium cel shading, dynamic black ink, fine halftone, vivid yellow and electric blue, authentic character recognition but entirely new composition, not copying any existing poster. Exactly these eight recognizable characters: Yu Narukami silver bowl-cut hair black school uniform and glasses central, Yosuke Hanamura brown hair headphones, Chie Satonaka short light brown hair green jacket, Yukiko Amagi long black hair red cardigan, Kanji Tatsumi short bleached hair skull shirt, Rise Kujikawa auburn twin-tails, Naoto Shirogane blue short hair blue detective cap, and large cheerful Teddie in blue white red round bear costume in foreground. Waist-up group looking determined inside a stylish old CRT television with Inaba skyline silhouettes. Faces and silhouettes clean, no weapons crossing faces. Background yellow pop art with blue flashes, ample separation. No lettering, no fake logos, no symbols resembling words. Raster art only, all guide text will be composed separately."
+    },
+    "golden": {
+      "characters": [
+        "Marie",
+        "Yu",
+        "Teddie",
+        "Margaret"
+      ],
+      "prompt": "Original Persona 4 Golden fan illustration for a premium guide chapter. NO TEXT. Wide 3:2 anime cel-shaded editorial art with sharp expressive linework, yellow black white and gold halftone. Marie prominent, recognizable black bob with turquoise streak, blue cap, black/white striped stockings and distinctive outfit; Yu Narukami silver hair black school uniform glasses beside her; large cute Teddie bear blue white red mascot celebrating; Margaret blonde long hair yellow eyes blue Velvet Room dress elegant at the side. Four characters only, full upper bodies, luminous gold CRT television frame, soft gold petals and snow motif. Entirely original composition not copied from official poster. Text-free illustration, no caption, no logo, no watermark."
+    },
+    "normal": {
+      "characters": [
+        "Yu",
+        "Nanako",
+        "Dojima"
+      ],
+      "prompt": "Original Persona 4 Golden fan illustration, premium guide chapter art. NO TEXT. Wide 3:2 anime cel shading, crisp expressive ink, refined silver-grey white black palette with warm yellow accents and pop art halftone. Yu Narukami recognizable silver bowl-cut hair and black school uniform with glasses, Nanako Dojima small child with brown pigtails red/pink top, Ryotaro Dojima dark short hair stubble grey shirt and red tie. Three recognizable characters sitting affectionately around low table in Dojima house with small television, rural Inaba evening through window. Family warmth, Nanako smiling, original composition not copied from any poster. Clean faces, editorial illustration with silver CRT frame. No letters, no writing, no invented text, no logos."
+    },
+    "accomplice": {
+      "characters": [
+        "Adachi",
+        "Yu"
+      ],
+      "prompt": "Original Persona 4 Golden fan illustration, sinister ending guide chapter art with NO TEXT. Wide 3:2 premium anime cel shading, strong black ink, deep red and black, white highlights, fine halftone. Tohru Adachi recognizable messy black short hair, white shirt, loose red tie, dark suit, deceptive smile, facing Yu Narukami silver bowl-cut hair glasses black school uniform, quiet troubled expression. Exactly these two characters, dramatic tension, Adachi holding a plain blank white envelope with a small orange flame along its lower edge, Yu in profile. Abstract red CRT television frame, oppressive Inaba fog, fresh original editorial composition not copied from official art. No text on envelope, no letters or logos or watermark."
+    },
+    "bad": {
+      "characters": [
+        "Yu",
+        "Namatame",
+        "Nanako"
+      ],
+      "prompt": "Original Persona 4 Golden fan illustration for a guide about the hospital decision. NO TEXT. Wide 3:2 premium anime editorial art, dark burgundy red black and ivory palette, subtle halftone and angular CRT frame. Yu Narukami silver bowl-cut hair glasses black school uniform foreground left looking conflicted; Taro Namatame disheveled dark hair gaunt face wearing simple light hospital gown sitting anxiously by a television, clearly adult man; Nanako Dojima small brown-haired girl with pigtails resting peacefully in hospital bed in distant right with a blanket, fully clothed. Exactly those three characters, dramatic serious mood but no violence, no blood, no injury. New composition, no official poster copying, no text or captions or logos."
+    },
+    "teddie": {
+      "characters": [
+        "Teddie"
+      ],
+      "transparent_background": true,
+      "prompt": "A single original cheerful Teddie mascot from Persona 4 Golden, recognizable round blue-and-white bear suit with cream face, shiny blue ears, big oval black eyes, white muzzle and tiny nose, red body with white zipper and buttons, blue gloves and boots. Full body, one paw raised pointing upward as helpful guide, smiling mouth. Premium crisp anime cel-shaded sticker cutout, thick black outline, warm yellow rim light. Transparent background. No text, no lettering, no logo, no scenery, no extra characters. Lots of transparent padding, anatomy clean."
+    }
+  },
+  "composition": "SVG/reportlab; Teddie ridimensionato per impaginazione, nessun testo raster generato"
+}

@@ -1,0 +1,1767 @@
+{
+  "schema_version": 1,
+  "game": "Persona 4 Golden",
+  "verified_on": "2026-11-08",
+  "dataset_commit": "0b207612f6cdcff092e62af16f5c355271a1d892",
+  "sources": [
+    {
+      "id": "M01",
+      "title": "RPG Site — Margaret fusion solutions",
+      "url": "https://www.rpgsite.net/feature/9837-persona-4-golden-fusion-solutions-for-the-empress-social-link-margaret"
+    },
+    {
+      "id": "M02",
+      "title": "hXcHector — Empress Margaret",
+      "url": "https://www.hxchector.com/persona-4-golden-walkthrough/social-links/empress-margaret/"
+    },
+    {
+      "id": "M03",
+      "title": "GameFAQs Lukaight — Empress Social Link (PC Golden)",
+      "url": "https://gamefaqs.gamespot.com/pc/293013-persona-4-golden/faqs/79084/empress-social-link"
+    },
+    {
+      "id": "M04",
+      "title": "SteamAH — Margaret fusion wishes (derivato da Wikidot)",
+      "url": "https://steamah.com/persona-4-golden-margarets-fusion-wishes-guide-empress-arcana/"
+    },
+    {
+      "id": "M05",
+      "title": "GameFAQs Hurricanehaon — Persona Compendium",
+      "url": "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/persona-compendium"
+    },
+    {
+      "id": "M06",
+      "title": "aqiu384 — dataset e algoritmo P4G, commit 0b207612f6cdcff092e62af16f5c355271a1d892",
+      "url": "https://github.com/aqiu384/megaten-fusion-tool/tree/0b207612f6cdcff092e62af16f5c355271a1d892/src/app/p4/data"
+    },
+    {
+      "id": "M07",
+      "title": "aqiu384 — teoria della fusione",
+      "url": "https://aqiu384.github.io/megaten-database/fusion-theory"
+    },
+    {
+      "id": "M08",
+      "title": "Twinfinite — Yatsufusa con Mediarama",
+      "url": "https://twinfinite.net/guides/persona-4-golden-yatsufusa-with-mediarama/"
+    },
+    {
+      "id": "M09",
+      "title": "Calendario Persona 4 Golden",
+      "url": "https://megatenwiki.com/wiki/Calendar_in_Persona_4_Golden"
+    },
+    {
+      "id": "M10",
+      "title": "Neoseeker — Persona-4 Golden Max Social Link (yangxu)",
+      "url": "https://www.neoseeker.com/p4golden/faqs/256555-persona-4-golden-max-social.html"
+    },
+    {
+      "id": "M11",
+      "title": "hXcHector — Anzu",
+      "url": "https://www.hxchector.com/persona-4-golden-walkthrough/persona-guide/anzu/"
+    },
+    {
+      "id": "M12",
+      "title": "hXcHector — Taotie",
+      "url": "https://www.hxchector.com/persona-4-golden-walkthrough/persona-guide/taotie/"
+    },
+    {
+      "id": "M13",
+      "title": "hXcHector — Angel",
+      "url": "https://www.hxchector.com/persona-4-golden-walkthrough/persona-guide/Angel/"
+    },
+    {
+      "id": "M14",
+      "title": "Neoseeker — KADFC Golden, New Game Plus",
+      "url": "https://www.neoseeker.com/p4golden/faqs/264246-persona-4-golden-a.html"
+    },
+    {
+      "id": "M15",
+      "title": "GameFAQs — richiamo Compendium sopra il livello di Yu",
+      "url": "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/answers/579968-can-i-summon-a-persona-from-compendium-if-its-higher-level-than-me"
+    },
+    {
+      "id": "M16",
+      "title": "Megami Tensei Wiki — New Game+",
+      "url": "https://megatenwiki.com/wiki/New_Game%2B"
+    }
+  ],
+  "scope": "Ricette pratiche verificate; non enumerazione di tutte le possibili catene di eredità. Le combinazioni dirette complete sono nel calcolatore separato.",
+  "rules": [
+    "Le nove richieste fanno passare Empress dal rango 1 al 10. Il rango finale della voce è indicato da rank.",
+    "In Golden puoi selezionare manualmente le abilità da ereditare: spunta sempre il nome richiesto prima di confermare.",
+    "Le ricette normali a due dipendono dai livelli base. Quelle triangolari dipendono anche dall’ordine dei livelli attuali; controlla il risultato nell’anteprima.",
+    "Il livello mostrato per il bersaglio è il minimo di Yu per crearlo con una nuova fusione. Alcune alternative richiedono fusioni intermedie più alte: vedi min_level_for_listed_fusions.",
+    "Il Compendium NG+ può richiamare Personas già registrate anche sopra il livello di Yu; le nuove fusioni restano limitate dal suo livello. Un bersaglio già registrato con l’abilità corretta può essere consegnato direttamente.",
+    "Le fusioni a 4/5/6 vie si sbloccano il 10 luglio in Golden. La data riguarda la creazione ex novo, non il richiamo di un bersaglio già registrato.",
+    "Un’abilità appresa in passato potrebbe essere stata sostituita: controlla la scheda del donatore. Il suo livello da solo non garantisce che la conservi.",
+    "Registra gli ingredienti utili e il bersaglio corretto prima di consumarli in altre fusioni; registrare sovrascrive quella versione nel Compendium.",
+    "Salva prima delle fusioni. Se si verifica un incidente o una modifica indesiderata delle abilità, ricarica e ricontrolla il risultato.",
+    "Esci e rientra nella Velvet Room con il bersaglio nell’inventario per far riconoscere la richiesta. Le consegne non fanno trascorrere un segmento della giornata.",
+    "Le Skill Card offrono un altro metodo: insegna al bersaglio esatto l’abilità esatta e presentalo. Le fonti delle carte sono nel fascicolo dedicato; non confondere la carta ottenibile da un Persona con tutte le abilità che conosce."
+  ],
+  "targets": [
+    {
+      "rank": 2,
+      "name": "Ippon-Datara",
+      "skill": "Sukukaja",
+      "recipes": [
+        {
+          "name": "Sylph + Cu Sith",
+          "steps": [
+            {
+              "ingredients": [
+                "Sylph",
+                "Cu Sith"
+              ],
+              "result": "Ippon-Datara",
+              "inherit": "Sukukaja",
+              "donor": "Sylph",
+              "donor_level": 11,
+              "notes": "",
+              "kind": "normal",
+              "result_base_level": 17,
+              "ingredient_base_levels": {
+                "Sylph": 11,
+                "Cu Sith": 10
+              },
+              "donor_skill_natural_level": 11,
+              "donor_skill_origin": "innata"
+            }
+          ],
+          "sources": [
+            "M01",
+            "M03",
+            "M06"
+          ],
+          "notes": [],
+          "min_level_for_listed_fusions": 17
+        },
+        {
+          "name": "Sylph + Archangel",
+          "steps": [
+            {
+              "ingredients": [
+                "Sylph",
+                "Archangel"
+              ],
+              "result": "Ippon-Datara",
+              "inherit": "Sukukaja",
+              "donor": "Sylph",
+              "donor_level": 11,
+              "notes": "",
+              "kind": "normal",
+              "result_base_level": 17,
+              "ingredient_base_levels": {
+                "Sylph": 11,
+                "Archangel": 11
+              },
+              "donor_skill_natural_level": 11,
+              "donor_skill_origin": "innata"
+            }
+          ],
+          "sources": [
+            "M01",
+            "M06"
+          ],
+          "notes": [],
+          "min_level_for_listed_fusions": 17
+        },
+        {
+          "name": "Sylph + Lilim",
+          "steps": [
+            {
+              "ingredients": [
+                "Sylph",
+                "Lilim"
+              ],
+              "result": "Ippon-Datara",
+              "inherit": "Sukukaja",
+              "donor": "Sylph",
+              "donor_level": 11,
+              "notes": "",
+              "kind": "normal",
+              "result_base_level": 17,
+              "ingredient_base_levels": {
+                "Sylph": 11,
+                "Lilim": 10
+              },
+              "donor_skill_natural_level": 11,
+              "donor_skill_origin": "innata"
+            }
+          ],
+          "sources": [
+            "M01",
+            "M03",
+            "M06"
+          ],
+          "notes": [],
+          "min_level_for_listed_fusions": 17
+        },
+        {
+          "name": "Angel + Sarasvati",
+          "steps": [
+            {
+              "ingredients": [
+                "Angel",
+                "Sarasvati"
+              ],
+              "result": "Ippon-Datara",
+              "inherit": "Sukukaja",
+              "donor": "Angel",
+              "donor_level": 6,
+              "notes": "",
+              "kind": "normal",
+              "result_base_level": 17,
+              "ingredient_base_levels": {
+                "Angel": 4,
+                "Sarasvati": 17
+              },
+              "donor_skill_natural_level": 6,
+              "donor_skill_origin": "appresa salendo di livello"
+            }
+          ],
+          "sources": [
+            "M02",
+            "M10",
+            "M13",
+            "M06"
+          ],
+          "notes": [],
+          "min_level_for_listed_fusions": 17
+        },
+        {
+          "name": "Obariyon + Ghoul",
+          "steps": [
+            {
+              "ingredients": [
+                "Obariyon",
+                "Ghoul"
+              ],
+              "result": "Ippon-Datara",
+              "inherit": "Sukukaja",
+              "donor": "Ghoul",
+              "donor_level": 10,
+              "notes": "",
+              "kind": "normal",
+              "result_base_level": 17,
+              "ingredient_base_levels": {
+                "Obariyon": 13,
+                "Ghoul": 9
+              },
+              "donor_skill_natural_level": 10,
+              "donor_skill_origin": "appresa salendo di livello"
+            }
+          ],
+          "sources": [
+            "M01",
+            "M04",
+            "M06"
+          ],
+          "notes": [],
+          "min_level_for_listed_fusions": 17
+        }
+      ],
+      "notes": [
+        "Nel salvataggio letto Margaret è già al rango 2: questa prima richiesta risulta già superata.",
+        "Sylph possiede Sukukaja dalla nascita (livello base 11); Angel deve impararla al 6 e Ghoul al 10."
+      ],
+      "level": 17,
+      "arcana": "Hermit",
+      "special_unlock": null
+    },
+    {
+      "rank": 3,
+      "name": "Matador",
+      "skill": "Mahama",
+      "recipes": [
+        {
+          "name": "Anzu + Berith: consigliata",
+          "steps": [
+            {
+              "ingredients": [
+                "Anzu",
+                "Berith"
+              ],
+              "result": "Matador",
+              "inherit": "Mahama",
+              "donor": "Anzu",
+              "donor_level": 19,
+              "notes": "",
+              "kind": "normal",
+              "result_base_level": 24,
+              "ingredient_base_levels": {
+                "Anzu": 15,
+                "Berith": 15
+              },
+              "donor_skill_natural_level": 19,
+              "donor_skill_origin": "appresa salendo di livello"
+            }
+          ],
+          "sources": [
+            "M01",
+            "M02",
+            "M10",
+            "M11",
+            "M06"
+          ],
+          "notes": [],
+          "min_level_for_listed_fusions": 24
+        },
+        {
+          "name": "Principality + Oberon + Saki Mitama",
+          "steps": [
+            {
+              "ingredients": [
+                "Principality",
+                "Oberon",
+                "Saki Mitama"
+              ],
+              "result": "Matador",
+              "inherit": "Mahama",
+              "donor": "Principality",
+              "donor_level": 21,
+              "notes": "Principality deve avere un livello attuale strettamente maggiore di Oberon e Saki Mitama. Controlla Matador nell’anteprima.",
+              "kind": "triangle",
+              "result_base_level": 24,
+              "ingredient_base_levels": {
+                "Principality": 19,
+                "Oberon": 12,
+                "Saki Mitama": 11
+              },
+              "donor_skill_natural_level": 21,
+              "donor_skill_origin": "appresa salendo di livello"
+            }
+          ],
+          "sources": [
+            "M01",
+            "M06"
+          ],
+          "notes": [
+            "Fusione triangolare: i livelli attuali degli ingredienti possono cambiare il risultato."
+          ],
+          "min_level_for_listed_fusions": 24
+        },
+        {
+          "name": "Power + Oberon + Saki Mitama",
+          "steps": [
+            {
+              "ingredients": [
+                "Power",
+                "Oberon",
+                "Saki Mitama"
+              ],
+              "result": "Matador",
+              "inherit": "Mahama",
+              "donor": "Power",
+              "donor_level": 27,
+              "notes": "Power deve avere un livello attuale strettamente maggiore di Oberon e Saki Mitama.",
+              "kind": "triangle",
+              "result_base_level": 24,
+              "ingredient_base_levels": {
+                "Power": 27,
+                "Oberon": 12,
+                "Saki Mitama": 11
+              },
+              "donor_skill_natural_level": 27,
+              "donor_skill_origin": "innata"
+            }
+          ],
+          "sources": [
+            "M01",
+            "M06"
+          ],
+          "notes": [],
+          "min_level_for_listed_fusions": 24
+        },
+        {
+          "name": "Anzu + Queen Mab: alternativa calcolata",
+          "steps": [
+            {
+              "ingredients": [
+                "Anzu",
+                "Queen Mab"
+              ],
+              "result": "Matador",
+              "inherit": "Mahama",
+              "donor": "Anzu",
+              "donor_level": 19,
+              "notes": "",
+              "kind": "normal",
+              "result_base_level": 24,
+              "ingredient_base_levels": {
+                "Anzu": 15,
+                "Queen Mab": 25
+              },
+              "donor_skill_natural_level": 19,
+              "donor_skill_origin": "appresa salendo di livello"
+            }
+          ],
+          "sources": [
+            "M06",
+            "M07"
+          ],
+          "notes": [
+            "Ricetta ricavata dall’algoritmo e dal dataset Golden, non trascritta da un walkthrough. Queen Mab ha livello base 25; se non è già disponibile serve ottenerla o richiamarla dal Compendium."
+          ],
+          "min_level_for_listed_fusions": 24
+        }
+      ],
+      "notes": [
+        "Mahama è distinta da Hama e Mahamaon.",
+        "Registra il Matador consegnato; al livello 27 impara Rampage, utile per la richiesta successiva."
+      ],
+      "level": 24,
+      "arcana": "Death",
+      "special_unlock": null
+    },
+    {
+      "rank": 4,
+      "name": "Gdon",
+      "skill": "Rampage",
+      "recipes": [
+        {
+          "name": "Riusa Matador + Ippon-Datara",
+          "steps": [
+            {
+              "ingredients": [
+                "Matador",
+                "Ippon-Datara"
+              ],
+              "result": "Gdon",
+              "inherit": "Rampage",
+              "donor": "Matador",
+              "donor_level": 27,
+              "notes": "",
+              "kind": "normal",
+              "result_base_level": 31,
+              "ingredient_base_levels": {
+                "Matador": 24,
+                "Ippon-Datara": 17
+              },
+              "donor_skill_natural_level": 27,
+              "donor_skill_origin": "appresa salendo di livello"
+            }
+          ],
+          "sources": [
+            "M01",
+            "M03",
+            "M06"
+          ],
+          "notes": [],
+          "min_level_for_listed_fusions": 31
+        },
+        {
+          "name": "Ippon-Datara 21 + Matador",
+          "steps": [
+            {
+              "ingredients": [
+                "Ippon-Datara",
+                "Matador"
+              ],
+              "result": "Gdon",
+              "inherit": "Rampage",
+              "donor": "Ippon-Datara",
+              "donor_level": 21,
+              "notes": "",
+              "kind": "normal",
+              "result_base_level": 31,
+              "ingredient_base_levels": {
+                "Ippon-Datara": 17,
+                "Matador": 24
+              },
+              "donor_skill_natural_level": 21,
+              "donor_skill_origin": "appresa salendo di livello"
+            }
+          ],
+          "sources": [
+            "M01",
+            "M04",
+            "M06"
+          ],
+          "notes": [],
+          "min_level_for_listed_fusions": 31
+        },
+        {
+          "name": "Xiezhai + Kusi Mitama",
+          "steps": [
+            {
+              "ingredients": [
+                "Xiezhai",
+                "Kusi Mitama"
+              ],
+              "result": "Gdon",
+              "inherit": "Rampage",
+              "donor": "Xiezhai",
+              "donor_level": 19,
+              "notes": "",
+              "kind": "normal",
+              "result_base_level": 31,
+              "ingredient_base_levels": {
+                "Xiezhai": 16,
+                "Kusi Mitama": 28
+              },
+              "donor_skill_natural_level": 19,
+              "donor_skill_origin": "appresa salendo di livello"
+            }
+          ],
+          "sources": [
+            "M02",
+            "M10",
+            "M06"
+          ],
+          "notes": [],
+          "min_level_for_listed_fusions": 31
+        },
+        {
+          "name": "Ares + Shiisaa",
+          "steps": [
+            {
+              "ingredients": [
+                "Ares",
+                "Shiisaa"
+              ],
+              "result": "Gdon",
+              "inherit": "Rampage",
+              "donor": "Ares",
+              "donor_level": 28,
+              "notes": "",
+              "kind": "normal",
+              "result_base_level": 31,
+              "ingredient_base_levels": {
+                "Ares": 25,
+                "Shiisaa": 21
+              },
+              "donor_skill_natural_level": 28,
+              "donor_skill_origin": "appresa salendo di livello"
+            }
+          ],
+          "sources": [
+            "M01",
+            "M06"
+          ],
+          "notes": [],
+          "min_level_for_listed_fusions": 31
+        },
+        {
+          "name": "Legion + Ares",
+          "steps": [
+            {
+              "ingredients": [
+                "Legion",
+                "Ares"
+              ],
+              "result": "Gdon",
+              "inherit": "Rampage",
+              "donor": "Legion",
+              "donor_level": 23,
+              "notes": "",
+              "kind": "normal",
+              "result_base_level": 31,
+              "ingredient_base_levels": {
+                "Legion": 21,
+                "Ares": 25
+              },
+              "donor_skill_natural_level": 23,
+              "donor_skill_origin": "appresa salendo di livello"
+            }
+          ],
+          "sources": [
+            "M01",
+            "M06"
+          ],
+          "notes": [],
+          "min_level_for_listed_fusions": 31
+        }
+      ],
+      "notes": [
+        "Basta che uno dei due ingredienti possieda davvero Rampage.",
+        "Ippon-Datara impara Rampage al 21, non al 31."
+      ],
+      "level": 31,
+      "arcana": "Sun",
+      "special_unlock": null
+    },
+    {
+      "rank": 5,
+      "name": "Neko Shogun",
+      "skill": "Bufula",
+      "recipes": [
+        {
+          "name": "Bufula tramite Kusi Mitama: consigliata",
+          "steps": [
+            {
+              "ingredients": [
+                "King Frost",
+                "Hua Po"
+              ],
+              "result": "Kusi Mitama",
+              "inherit": "Bufula",
+              "donor": "King Frost",
+              "donor_level": 22,
+              "notes": "",
+              "kind": "normal",
+              "result_base_level": 28,
+              "ingredient_base_levels": {
+                "King Frost": 22,
+                "Hua Po": 25
+              },
+              "donor_skill_natural_level": 22,
+              "donor_skill_origin": "innata"
+            },
+            {
+              "ingredients": [
+                "Ara Mitama",
+                "Nigi Mitama",
+                "Kusi Mitama",
+                "Saki Mitama"
+              ],
+              "result": "Neko Shogun",
+              "inherit": "Bufula",
+              "donor": "Kusi Mitama",
+              "donor_level": 28,
+              "notes": "Seleziona esplicitamente l’abilità richiesta nell’eredità. Ingredienti fissi: non sostituirli.",
+              "kind": "special",
+              "result_base_level": 32,
+              "ingredient_base_levels": {
+                "Ara Mitama": 18,
+                "Nigi Mitama": 23,
+                "Kusi Mitama": 28,
+                "Saki Mitama": 11
+              },
+              "donor_skill_natural_level": null,
+              "donor_skill_origin": "ereditata in un passaggio precedente"
+            }
+          ],
+          "sources": [
+            "M01",
+            "M02",
+            "M10",
+            "M06"
+          ],
+          "notes": [],
+          "min_level_for_listed_fusions": 32
+        },
+        {
+          "name": "Bufula tramite Nigi Mitama",
+          "steps": [
+            {
+              "ingredients": [
+                "Gdon",
+                "Makami"
+              ],
+              "result": "Pazuzu",
+              "inherit": null,
+              "donor": null,
+              "donor_level": null,
+              "notes": "Pazuzu nasce già con Bufula.",
+              "kind": "normal",
+              "result_base_level": 37,
+              "ingredient_base_levels": {
+                "Gdon": 31,
+                "Makami": 27
+              },
+              "donor_skill_natural_level": null,
+              "donor_skill_origin": "ereditata in un passaggio precedente"
+            },
+            {
+              "ingredients": [
+                "Pazuzu",
+                "Izanagi"
+              ],
+              "result": "Nigi Mitama",
+              "inherit": "Bufula",
+              "donor": "Pazuzu",
+              "donor_level": 37,
+              "notes": "",
+              "kind": "normal",
+              "result_base_level": 23,
+              "ingredient_base_levels": {
+                "Pazuzu": 37,
+                "Izanagi": 1
+              },
+              "donor_skill_natural_level": 37,
+              "donor_skill_origin": "innata"
+            },
+            {
+              "ingredients": [
+                "Ara Mitama",
+                "Nigi Mitama",
+                "Kusi Mitama",
+                "Saki Mitama"
+              ],
+              "result": "Neko Shogun",
+              "inherit": "Bufula",
+              "donor": "Nigi Mitama",
+              "donor_level": 23,
+              "notes": "Seleziona esplicitamente l’abilità richiesta nell’eredità. Ingredienti fissi: non sostituirli.",
+              "kind": "special",
+              "result_base_level": 32,
+              "ingredient_base_levels": {
+                "Ara Mitama": 18,
+                "Nigi Mitama": 23,
+                "Kusi Mitama": 28,
+                "Saki Mitama": 11
+              },
+              "donor_skill_natural_level": null,
+              "donor_skill_origin": "ereditata in un passaggio precedente"
+            }
+          ],
+          "sources": [
+            "M03",
+            "M06"
+          ],
+          "notes": [
+            "Questa catena crea Pazuzu (37): per eseguirla da zero Yu deve essere almeno al 37. Se Pazuzu è già disponibile, può bastare il livello 32 per le fusioni restanti."
+          ],
+          "min_level_for_listed_fusions": 37
+        }
+      ],
+      "notes": [
+        "Fusione finale Cross Spread: quattro Mitama esatti.",
+        "Kusi Mitama è Strength; Nigi Mitama è Temperance.",
+        "Per creare una nuova fusione a 4 vie occorre lo sblocco narrativo del 10 luglio in Golden."
+      ],
+      "level": 32,
+      "arcana": "Star",
+      "special_unlock": "07-10"
+    },
+    {
+      "rank": 6,
+      "name": "Black Frost",
+      "skill": "Auto-Sukukaja",
+      "recipes": [
+        {
+          "name": "Anzu + Apsaras → Jack Frost",
+          "steps": [
+            {
+              "ingredients": [
+                "Anzu",
+                "Apsaras"
+              ],
+              "result": "Jack Frost",
+              "inherit": "Auto-Sukukaja",
+              "donor": "Anzu",
+              "donor_level": 20,
+              "notes": "",
+              "kind": "normal",
+              "result_base_level": 16,
+              "ingredient_base_levels": {
+                "Anzu": 15,
+                "Apsaras": 4
+              },
+              "donor_skill_natural_level": 20,
+              "donor_skill_origin": "appresa salendo di livello"
+            },
+            {
+              "ingredients": [
+                "Jack Frost",
+                "Pyro Jack",
+                "King Frost",
+                "Pixie",
+                "Ghoul"
+              ],
+              "result": "Black Frost",
+              "inherit": "Auto-Sukukaja",
+              "donor": "Jack Frost",
+              "donor_level": 16,
+              "notes": "Seleziona esplicitamente l’abilità richiesta nell’eredità. Ingredienti fissi: non sostituirli.",
+              "kind": "special",
+              "result_base_level": 38,
+              "ingredient_base_levels": {
+                "Jack Frost": 16,
+                "Pyro Jack": 32,
+                "King Frost": 22,
+                "Pixie": 2,
+                "Ghoul": 9
+              },
+              "donor_skill_natural_level": null,
+              "donor_skill_origin": "ereditata in un passaggio precedente"
+            }
+          ],
+          "sources": [
+            "M01",
+            "M02",
+            "M10",
+            "M11",
+            "M06"
+          ],
+          "notes": [],
+          "min_level_for_listed_fusions": 38
+        },
+        {
+          "name": "Anzu + Sylph → Jack Frost",
+          "steps": [
+            {
+              "ingredients": [
+                "Anzu",
+                "Sylph"
+              ],
+              "result": "Jack Frost",
+              "inherit": "Auto-Sukukaja",
+              "donor": "Anzu",
+              "donor_level": 20,
+              "notes": "",
+              "kind": "normal",
+              "result_base_level": 16,
+              "ingredient_base_levels": {
+                "Anzu": 15,
+                "Sylph": 11
+              },
+              "donor_skill_natural_level": 20,
+              "donor_skill_origin": "appresa salendo di livello"
+            },
+            {
+              "ingredients": [
+                "Jack Frost",
+                "Pyro Jack",
+                "King Frost",
+                "Pixie",
+                "Ghoul"
+              ],
+              "result": "Black Frost",
+              "inherit": "Auto-Sukukaja",
+              "donor": "Jack Frost",
+              "donor_level": 16,
+              "notes": "Seleziona esplicitamente l’abilità richiesta nell’eredità. Ingredienti fissi: non sostituirli.",
+              "kind": "special",
+              "result_base_level": 38,
+              "ingredient_base_levels": {
+                "Jack Frost": 16,
+                "Pyro Jack": 32,
+                "King Frost": 22,
+                "Pixie": 2,
+                "Ghoul": 9
+              },
+              "donor_skill_natural_level": null,
+              "donor_skill_origin": "ereditata in un passaggio precedente"
+            }
+          ],
+          "sources": [
+            "M01",
+            "M04",
+            "M06"
+          ],
+          "notes": [],
+          "min_level_for_listed_fusions": 38
+        },
+        {
+          "name": "Ose + Oni → Pyro Jack",
+          "steps": [
+            {
+              "ingredients": [
+                "Ose",
+                "Oni"
+              ],
+              "result": "Pyro Jack",
+              "inherit": "Auto-Sukukaja",
+              "donor": "Ose",
+              "donor_level": 35,
+              "notes": "",
+              "kind": "normal",
+              "result_base_level": 32,
+              "ingredient_base_levels": {
+                "Ose": 31,
+                "Oni": 30
+              },
+              "donor_skill_natural_level": 35,
+              "donor_skill_origin": "appresa salendo di livello"
+            },
+            {
+              "ingredients": [
+                "Jack Frost",
+                "Pyro Jack",
+                "King Frost",
+                "Pixie",
+                "Ghoul"
+              ],
+              "result": "Black Frost",
+              "inherit": "Auto-Sukukaja",
+              "donor": "Pyro Jack",
+              "donor_level": 32,
+              "notes": "Seleziona esplicitamente l’abilità richiesta nell’eredità. Ingredienti fissi: non sostituirli.",
+              "kind": "special",
+              "result_base_level": 38,
+              "ingredient_base_levels": {
+                "Jack Frost": 16,
+                "Pyro Jack": 32,
+                "King Frost": 22,
+                "Pixie": 2,
+                "Ghoul": 9
+              },
+              "donor_skill_natural_level": null,
+              "donor_skill_origin": "ereditata in un passaggio precedente"
+            }
+          ],
+          "sources": [
+            "M04",
+            "M06"
+          ],
+          "notes": [],
+          "min_level_for_listed_fusions": 38
+        }
+      ],
+      "notes": [
+        "Auto-Sukukaja è una passiva: Sukukaja e Auto-Masuku non soddisfano la richiesta.",
+        "Anzu + Apsaras/Sylph produce Jack Frost, non Pyro Jack.",
+        "Fusione finale Pentagon Spread, 5 ingredienti, sbloccata il 10 luglio."
+      ],
+      "level": 38,
+      "arcana": "Fool",
+      "special_unlock": "07-10"
+    },
+    {
+      "rank": 7,
+      "name": "Yatagarasu",
+      "skill": "Megido",
+      "recipes": [
+        {
+          "name": "Taotie → Ares → Yatagarasu",
+          "steps": [
+            {
+              "ingredients": [
+                "Taotie",
+                "Cu Sith"
+              ],
+              "result": "Ares",
+              "inherit": "Megido",
+              "donor": "Taotie",
+              "donor_level": 35,
+              "notes": "",
+              "kind": "normal",
+              "result_base_level": 25,
+              "ingredient_base_levels": {
+                "Taotie": 35,
+                "Cu Sith": 10
+              },
+              "donor_skill_natural_level": 35,
+              "donor_skill_origin": "innata"
+            },
+            {
+              "ingredients": [
+                "Ares",
+                "Black Frost"
+              ],
+              "result": "Yatagarasu",
+              "inherit": "Megido",
+              "donor": "Ares",
+              "donor_level": 25,
+              "notes": "",
+              "kind": "normal",
+              "result_base_level": 40,
+              "ingredient_base_levels": {
+                "Ares": 25,
+                "Black Frost": 38
+              },
+              "donor_skill_natural_level": null,
+              "donor_skill_origin": "ereditata in un passaggio precedente"
+            }
+          ],
+          "sources": [
+            "M01",
+            "M06"
+          ],
+          "notes": [],
+          "min_level_for_listed_fusions": 40
+        },
+        {
+          "name": "Samael + Mothman: una fusione",
+          "steps": [
+            {
+              "ingredients": [
+                "Samael",
+                "Mothman"
+              ],
+              "result": "Yatagarasu",
+              "inherit": "Megido",
+              "donor": "Samael",
+              "donor_level": 39,
+              "notes": "",
+              "kind": "normal",
+              "result_base_level": 40,
+              "ingredient_base_levels": {
+                "Samael": 36,
+                "Mothman": 33
+              },
+              "donor_skill_natural_level": 39,
+              "donor_skill_origin": "appresa salendo di livello"
+            }
+          ],
+          "sources": [
+            "M04",
+            "M06"
+          ],
+          "notes": [],
+          "min_level_for_listed_fusions": 40
+        },
+        {
+          "name": "Samael + Lamia: alternativa calcolata",
+          "steps": [
+            {
+              "ingredients": [
+                "Samael",
+                "Lamia"
+              ],
+              "result": "Yatagarasu",
+              "inherit": "Megido",
+              "donor": "Samael",
+              "donor_level": 39,
+              "notes": "",
+              "kind": "normal",
+              "result_base_level": 40,
+              "ingredient_base_levels": {
+                "Samael": 36,
+                "Lamia": 26
+              },
+              "donor_skill_natural_level": 39,
+              "donor_skill_origin": "appresa salendo di livello"
+            }
+          ],
+          "sources": [
+            "M06",
+            "M07"
+          ],
+          "notes": [
+            "Ricetta verificata sul dataset e sull’algoritmo Golden."
+          ],
+          "min_level_for_listed_fusions": 40
+        },
+        {
+          "name": "Thoth + Nigi Mitama: alternativa calcolata",
+          "steps": [
+            {
+              "ingredients": [
+                "Thoth",
+                "Nigi Mitama"
+              ],
+              "result": "Yatagarasu",
+              "inherit": "Megido",
+              "donor": "Thoth",
+              "donor_level": 45,
+              "notes": "",
+              "kind": "normal",
+              "result_base_level": 40,
+              "ingredient_base_levels": {
+                "Thoth": 45,
+                "Nigi Mitama": 23
+              },
+              "donor_skill_natural_level": 45,
+              "donor_skill_origin": "innata"
+            }
+          ],
+          "sources": [
+            "M06",
+            "M07"
+          ],
+          "notes": [
+            "Richiede Thoth già posseduto/richiamabile oppure Yu al 45 per crearlo. Utile per riusare ingredienti della richiesta successiva."
+          ],
+          "min_level_for_listed_fusions": 40
+        }
+      ],
+      "notes": [
+        "Taotie possiede Megido dalla nascita al livello base 35; Samael lo impara al 39.",
+        "Megidola e Megidolaon non sono sostituti di Megido.",
+        "Registra prima Black Frost se lo usi come ingrediente."
+      ],
+      "level": 40,
+      "arcana": "Sun",
+      "special_unlock": null
+    },
+    {
+      "rank": 8,
+      "name": "Yatsufusa",
+      "skill": "Mediarama",
+      "recipes": [
+        {
+          "name": "Thoth 47: consigliata",
+          "steps": [
+            {
+              "ingredients": [
+                "Thoth",
+                "Orthrus",
+                "Makami",
+                "Narasimha",
+                "Mothman"
+              ],
+              "result": "Yatsufusa",
+              "inherit": "Mediarama",
+              "donor": "Thoth",
+              "donor_level": 47,
+              "notes": "Seleziona esplicitamente l’abilità richiesta nell’eredità. Ingredienti fissi: non sostituirli.",
+              "kind": "special",
+              "result_base_level": 49,
+              "ingredient_base_levels": {
+                "Thoth": 45,
+                "Orthrus": 39,
+                "Makami": 27,
+                "Narasimha": 47,
+                "Mothman": 33
+              },
+              "donor_skill_natural_level": 47,
+              "donor_skill_origin": "appresa salendo di livello"
+            }
+          ],
+          "sources": [
+            "M01",
+            "M02",
+            "M08",
+            "M10",
+            "M06"
+          ],
+          "notes": [],
+          "min_level_for_listed_fusions": 49
+        },
+        {
+          "name": "Alraune + Triglav → Narasimha",
+          "steps": [
+            {
+              "ingredients": [
+                "Alraune",
+                "Triglav"
+              ],
+              "result": "Narasimha",
+              "inherit": "Mediarama",
+              "donor": "Alraune",
+              "donor_level": 41,
+              "notes": "",
+              "kind": "normal",
+              "result_base_level": 47,
+              "ingredient_base_levels": {
+                "Alraune": 41,
+                "Triglav": 43
+              },
+              "donor_skill_natural_level": 41,
+              "donor_skill_origin": "innata"
+            },
+            {
+              "ingredients": [
+                "Thoth",
+                "Orthrus",
+                "Makami",
+                "Narasimha",
+                "Mothman"
+              ],
+              "result": "Yatsufusa",
+              "inherit": "Mediarama",
+              "donor": "Narasimha",
+              "donor_level": 47,
+              "notes": "Seleziona esplicitamente l’abilità richiesta nell’eredità. Ingredienti fissi: non sostituirli.",
+              "kind": "special",
+              "result_base_level": 49,
+              "ingredient_base_levels": {
+                "Thoth": 45,
+                "Orthrus": 39,
+                "Makami": 27,
+                "Narasimha": 47,
+                "Mothman": 33
+              },
+              "donor_skill_natural_level": null,
+              "donor_skill_origin": "ereditata in un passaggio precedente"
+            }
+          ],
+          "sources": [
+            "M04",
+            "M08",
+            "M06"
+          ],
+          "notes": [],
+          "min_level_for_listed_fusions": 49
+        },
+        {
+          "name": "Kushinada-Hime → Narasimha",
+          "steps": [
+            {
+              "ingredients": [
+                "Yatagarasu",
+                "Kushinada-Hime",
+                "Ukobach"
+              ],
+              "result": "Narasimha",
+              "inherit": "Mediarama",
+              "donor": "Kushinada-Hime",
+              "donor_level": 44,
+              "notes": "Kushinada-Hime deve essere il livello attuale più alto dei tre.",
+              "kind": "triangle",
+              "result_base_level": 47,
+              "ingredient_base_levels": {
+                "Yatagarasu": 40,
+                "Kushinada-Hime": 44,
+                "Ukobach": 3
+              },
+              "donor_skill_natural_level": 44,
+              "donor_skill_origin": "innata"
+            },
+            {
+              "ingredients": [
+                "Thoth",
+                "Orthrus",
+                "Makami",
+                "Narasimha",
+                "Mothman"
+              ],
+              "result": "Yatsufusa",
+              "inherit": "Mediarama",
+              "donor": "Narasimha",
+              "donor_level": 47,
+              "notes": "Seleziona esplicitamente l’abilità richiesta nell’eredità. Ingredienti fissi: non sostituirli.",
+              "kind": "special",
+              "result_base_level": 49,
+              "ingredient_base_levels": {
+                "Thoth": 45,
+                "Orthrus": 39,
+                "Makami": 27,
+                "Narasimha": 47,
+                "Mothman": 33
+              },
+              "donor_skill_natural_level": null,
+              "donor_skill_origin": "ereditata in un passaggio precedente"
+            }
+          ],
+          "sources": [
+            "M03",
+            "M06"
+          ],
+          "notes": [],
+          "min_level_for_listed_fusions": 49
+        }
+      ],
+      "notes": [
+        "Fusione finale Pentagon Spread, 5 ingredienti, non Hexagon.",
+        "Thoth impara Mediarama al 47; Alraune la possiede già al livello base 41.",
+        "Mediarama è distinta da Media, Diarama e Mediarahan."
+      ],
+      "level": 49,
+      "arcana": "Hanged",
+      "special_unlock": "07-10"
+    },
+    {
+      "rank": 9,
+      "name": "Ganesha",
+      "skill": "Tetrakarn",
+      "recipes": [
+        {
+          "name": "Decarabia + Cu Chulainn: consigliata",
+          "steps": [
+            {
+              "ingredients": [
+                "Decarabia",
+                "Cu Chulainn"
+              ],
+              "result": "Ganesha",
+              "inherit": "Tetrakarn",
+              "donor": "Decarabia",
+              "donor_level": 46,
+              "notes": "",
+              "kind": "normal",
+              "result_base_level": 50,
+              "ingredient_base_levels": {
+                "Decarabia": 46,
+                "Cu Chulainn": 46
+              },
+              "donor_skill_natural_level": 46,
+              "donor_skill_origin": "innata"
+            }
+          ],
+          "sources": [
+            "M01",
+            "M02",
+            "M10",
+            "M06"
+          ],
+          "notes": [],
+          "min_level_for_listed_fusions": 50
+        },
+        {
+          "name": "Kaiwan + Neko Shogun + Fuu-Ki",
+          "steps": [
+            {
+              "ingredients": [
+                "Kaiwan",
+                "Neko Shogun",
+                "Fuu-Ki"
+              ],
+              "result": "Ganesha",
+              "inherit": "Tetrakarn",
+              "donor": "Kaiwan",
+              "donor_level": 24,
+              "notes": "Tutti gli ingredienti sono Star: questa ricetta triangolare conserva il risultato cambiando l’ordine dei livelli.",
+              "kind": "triangle",
+              "result_base_level": 50,
+              "ingredient_base_levels": {
+                "Kaiwan": 24,
+                "Neko Shogun": 32,
+                "Fuu-Ki": 43
+              },
+              "donor_skill_natural_level": 24,
+              "donor_skill_origin": "innata"
+            }
+          ],
+          "sources": [
+            "M01",
+            "M04",
+            "M06"
+          ],
+          "notes": [],
+          "min_level_for_listed_fusions": 50
+        },
+        {
+          "name": "Mithra + Yatsufusa + Decarabia",
+          "steps": [
+            {
+              "ingredients": [
+                "Mithra",
+                "Yatsufusa",
+                "Decarabia"
+              ],
+              "result": "Ganesha",
+              "inherit": "Tetrakarn",
+              "donor": "Decarabia",
+              "donor_level": 46,
+              "notes": "Procedura conservativa: Yatsufusa deve essere il livello attuale più alto. Controlla l’anteprima.",
+              "kind": "triangle",
+              "result_base_level": 50,
+              "ingredient_base_levels": {
+                "Mithra": 31,
+                "Yatsufusa": 49,
+                "Decarabia": 46
+              },
+              "donor_skill_natural_level": 46,
+              "donor_skill_origin": "innata"
+            }
+          ],
+          "sources": [
+            "M01",
+            "M04",
+            "M06"
+          ],
+          "notes": [],
+          "min_level_for_listed_fusions": 50
+        }
+      ],
+      "notes": [
+        "Decarabia e Kaiwan hanno Tetrakarn dalla nascita.",
+        "Tetrakarn non è Makarakarn né Tetra Break.",
+        "Registra prima Neko Shogun/Yatsufusa se li consumi."
+      ],
+      "level": 50,
+      "arcana": "Star",
+      "special_unlock": null
+    },
+    {
+      "rank": 10,
+      "name": "Trumpeter",
+      "skill": "Mind Charge",
+      "recipes": [
+        {
+          "name": "Taotie 38: consigliata",
+          "steps": [
+            {
+              "ingredients": [
+                "Matador",
+                "White Rider",
+                "Daisoujou",
+                "Pabilsag",
+                "Taotie",
+                "Taowu"
+              ],
+              "result": "Trumpeter",
+              "inherit": "Mind Charge",
+              "donor": "Taotie",
+              "donor_level": 38,
+              "notes": "Seleziona esplicitamente l’abilità richiesta nell’eredità. Ingredienti fissi: non sostituirli.",
+              "kind": "special",
+              "result_base_level": 67,
+              "ingredient_base_levels": {
+                "Matador": 24,
+                "White Rider": 58,
+                "Daisoujou": 60,
+                "Pabilsag": 51,
+                "Taotie": 35,
+                "Taowu": 56
+              },
+              "donor_skill_natural_level": 38,
+              "donor_skill_origin": "appresa salendo di livello"
+            }
+          ],
+          "sources": [
+            "M01",
+            "M02",
+            "M03",
+            "M10",
+            "M12",
+            "M06"
+          ],
+          "notes": [],
+          "min_level_for_listed_fusions": 67
+        },
+        {
+          "name": "Jack Frost → Matador: alternativa calcolata",
+          "steps": [
+            {
+              "ingredients": [
+                "Jack Frost",
+                "Queen Mab"
+              ],
+              "result": "Matador",
+              "inherit": "Mind Charge",
+              "donor": "Jack Frost",
+              "donor_level": 25,
+              "notes": "",
+              "kind": "normal",
+              "result_base_level": 24,
+              "ingredient_base_levels": {
+                "Jack Frost": 16,
+                "Queen Mab": 25
+              },
+              "donor_skill_natural_level": 25,
+              "donor_skill_origin": "appresa salendo di livello"
+            },
+            {
+              "ingredients": [
+                "Matador",
+                "White Rider",
+                "Daisoujou",
+                "Pabilsag",
+                "Taotie",
+                "Taowu"
+              ],
+              "result": "Trumpeter",
+              "inherit": "Mind Charge",
+              "donor": "Matador",
+              "donor_level": 24,
+              "notes": "Seleziona esplicitamente l’abilità richiesta nell’eredità. Ingredienti fissi: non sostituirli.",
+              "kind": "special",
+              "result_base_level": 67,
+              "ingredient_base_levels": {
+                "Matador": 24,
+                "White Rider": 58,
+                "Daisoujou": 60,
+                "Pabilsag": 51,
+                "Taotie": 35,
+                "Taowu": 56
+              },
+              "donor_skill_natural_level": null,
+              "donor_skill_origin": "ereditata in un passaggio precedente"
+            }
+          ],
+          "sources": [
+            "M06",
+            "M07"
+          ],
+          "notes": [
+            "Jack Frost impara Mind Charge al 25. Questa catena è verificata tramite dataset Golden e algoritmo; la fusione finale resta identica.",
+            "Per questa richiesta Matador deve avere Mind Charge; non serve mantenere Mahama se la richiesta di rango 3 è già stata consegnata."
+          ],
+          "min_level_for_listed_fusions": 67
+        }
+      ],
+      "notes": [
+        "Hexagon Spread: sempre gli stessi sei ingredienti. Non esistono ricette dirette alternative a 2 o 3 ingredienti per creare Trumpeter.",
+        "Taotie impara Mind Charge al 38; Trumpeter non nasce con l’abilità richiesta.",
+        "Se lo hai già registrato nel Compendium con Mind Charge, richiamalo senza rifondere tutto."
+      ],
+      "level": 67,
+      "arcana": "Judgement",
+      "special_unlock": "07-10"
+    }
+  ],
+  "checks": {
+    "steps_verified": 41,
+    "failures": [],
+    "cases": [
+      {
+        "target": "Ippon-Datara",
+        "route": "Sylph + Cu Sith",
+        "result": "Ippon-Datara",
+        "actual": "Ippon-Datara",
+        "pass": true
+      },
+      {
+        "target": "Ippon-Datara",
+        "route": "Sylph + Archangel",
+        "result": "Ippon-Datara",
+        "actual": "Ippon-Datara",
+        "pass": true
+      },
+      {
+        "target": "Ippon-Datara",
+        "route": "Sylph + Lilim",
+        "result": "Ippon-Datara",
+        "actual": "Ippon-Datara",
+        "pass": true
+      },
+      {
+        "target": "Ippon-Datara",
+        "route": "Angel + Sarasvati",
+        "result": "Ippon-Datara",
+        "actual": "Ippon-Datara",
+        "pass": true
+      },
+      {
+        "target": "Ippon-Datara",
+        "route": "Obariyon + Ghoul",
+        "result": "Ippon-Datara",
+        "actual": "Ippon-Datara",
+        "pass": true
+      },
+      {
+        "target": "Matador",
+        "route": "Anzu + Berith: consigliata",
+        "result": "Matador",
+        "actual": "Matador",
+        "pass": true
+      },
+      {
+        "target": "Matador",
+        "route": "Principality + Oberon + Saki Mitama",
+        "result": "Matador",
+        "actual": "Matador",
+        "pass": true
+      },
+      {
+        "target": "Matador",
+        "route": "Power + Oberon + Saki Mitama",
+        "result": "Matador",
+        "actual": "Matador",
+        "pass": true
+      },
+      {
+        "target": "Matador",
+        "route": "Anzu + Queen Mab: alternativa calcolata",
+        "result": "Matador",
+        "actual": "Matador",
+        "pass": true
+      },
+      {
+        "target": "Gdon",
+        "route": "Riusa Matador + Ippon-Datara",
+        "result": "Gdon",
+        "actual": "Gdon",
+        "pass": true
+      },
+      {
+        "target": "Gdon",
+        "route": "Ippon-Datara 21 + Matador",
+        "result": "Gdon",
+        "actual": "Gdon",
+        "pass": true
+      },
+      {
+        "target": "Gdon",
+        "route": "Xiezhai + Kusi Mitama",
+        "result": "Gdon",
+        "actual": "Gdon",
+        "pass": true
+      },
+      {
+        "target": "Gdon",
+        "route": "Ares + Shiisaa",
+        "result": "Gdon",
+        "actual": "Gdon",
+        "pass": true
+      },
+      {
+        "target": "Gdon",
+        "route": "Legion + Ares",
+        "result": "Gdon",
+        "actual": "Gdon",
+        "pass": true
+      },
+      {
+        "target": "Neko Shogun",
+        "route": "Bufula tramite Kusi Mitama: consigliata",
+        "result": "Kusi Mitama",
+        "actual": "Kusi Mitama",
+        "pass": true
+      },
+      {
+        "target": "Neko Shogun",
+        "route": "Bufula tramite Kusi Mitama: consigliata",
+        "result": "Neko Shogun",
+        "actual": "Neko Shogun",
+        "pass": true
+      },
+      {
+        "target": "Neko Shogun",
+        "route": "Bufula tramite Nigi Mitama",
+        "result": "Pazuzu",
+        "actual": "Pazuzu",
+        "pass": true
+      },
+      {
+        "target": "Neko Shogun",
+        "route": "Bufula tramite Nigi Mitama",
+        "result": "Nigi Mitama",
+        "actual": "Nigi Mitama",
+        "pass": true
+      },
+      {
+        "target": "Neko Shogun",
+        "route": "Bufula tramite Nigi Mitama",
+        "result": "Neko Shogun",
+        "actual": "Neko Shogun",
+        "pass": true
+      },
+      {
+        "target": "Black Frost",
+        "route": "Anzu + Apsaras → Jack Frost",
+        "result": "Jack Frost",
+        "actual": "Jack Frost",
+        "pass": true
+      },
+      {
+        "target": "Black Frost",
+        "route": "Anzu + Apsaras → Jack Frost",
+        "result": "Black Frost",
+        "actual": "Black Frost",
+        "pass": true
+      },
+      {
+        "target": "Black Frost",
+        "route": "Anzu + Sylph → Jack Frost",
+        "result": "Jack Frost",
+        "actual": "Jack Frost",
+        "pass": true
+      },
+      {
+        "target": "Black Frost",
+        "route": "Anzu + Sylph → Jack Frost",
+        "result": "Black Frost",
+        "actual": "Black Frost",
+        "pass": true
+      },
+      {
+        "target": "Black Frost",
+        "route": "Ose + Oni → Pyro Jack",
+        "result": "Pyro Jack",
+        "actual": "Pyro Jack",
+        "pass": true
+      },
+      {
+        "target": "Black Frost",
+        "route": "Ose + Oni → Pyro Jack",
+        "result": "Black Frost",
+        "actual": "Black Frost",
+        "pass": true
+      },
+      {
+        "target": "Yatagarasu",
+        "route": "Taotie → Ares → Yatagarasu",
+        "result": "Ares",
+        "actual": "Ares",
+        "pass": true
+      },
+      {
+        "target": "Yatagarasu",
+        "route": "Taotie → Ares → Yatagarasu",
+        "result": "Yatagarasu",
+        "actual": "Yatagarasu",
+        "pass": true
+      },
+      {
+        "target": "Yatagarasu",
+        "route": "Samael + Mothman: una fusione",
+        "result": "Yatagarasu",
+        "actual": "Yatagarasu",
+        "pass": true
+      },
+      {
+        "target": "Yatagarasu",
+        "route": "Samael + Lamia: alternativa calcolata",
+        "result": "Yatagarasu",
+        "actual": "Yatagarasu",
+        "pass": true
+      },
+      {
+        "target": "Yatagarasu",
+        "route": "Thoth + Nigi Mitama: alternativa calcolata",
+        "result": "Yatagarasu",
+        "actual": "Yatagarasu",
+        "pass": true
+      },
+      {
+        "target": "Yatsufusa",
+        "route": "Thoth 47: consigliata",
+        "result": "Yatsufusa",
+        "actual": "Yatsufusa",
+        "pass": true
+      },
+      {
+        "target": "Yatsufusa",
+        "route": "Alraune + Triglav → Narasimha",
+        "result": "Narasimha",
+        "actual": "Narasimha",
+        "pass": true
+      },
+      {
+        "target": "Yatsufusa",
+        "route": "Alraune + Triglav → Narasimha",
+        "result": "Yatsufusa",
+        "actual": "Yatsufusa",
+        "pass": true
+      },
+      {
+        "target": "Yatsufusa",
+        "route": "Kushinada-Hime → Narasimha",
+        "result": "Narasimha",
+        "actual": "Narasimha",
+        "pass": true
+      },
+      {
+        "target": "Yatsufusa",
+        "route": "Kushinada-Hime → Narasimha",
+        "result": "Yatsufusa",
+        "actual": "Yatsufusa",
+        "pass": true
+      },
+      {
+        "target": "Ganesha",
+        "route": "Decarabia + Cu Chulainn: consigliata",
+        "result": "Ganesha",
+        "actual": "Ganesha",
+        "pass": true
+      },
+      {
+        "target": "Ganesha",
+        "route": "Kaiwan + Neko Shogun + Fuu-Ki",
+        "result": "Ganesha",
+        "actual": "Ganesha",
+        "pass": true
+      },
+      {
+        "target": "Ganesha",
+        "route": "Mithra + Yatsufusa + Decarabia",
+        "result": "Ganesha",
+        "actual": "Ganesha",
+        "pass": true
+      },
+      {
+        "target": "Trumpeter",
+        "route": "Taotie 38: consigliata",
+        "result": "Trumpeter",
+        "actual": "Trumpeter",
+        "pass": true
+      },
+      {
+        "target": "Trumpeter",
+        "route": "Jack Frost → Matador: alternativa calcolata",
+        "result": "Matador",
+        "actual": "Matador",
+        "pass": true
+      },
+      {
+        "target": "Trumpeter",
+        "route": "Jack Frost → Matador: alternativa calcolata",
+        "result": "Trumpeter",
+        "actual": "Trumpeter",
+        "pass": true
+      }
+    ]
+  },
+  "limitations": [
+    "Verifica tramite guide, dataset e simulazione del modello; queste fusioni non sono state eseguite nel gioco durante questa ricerca.",
+    "Le ricette marcate «calcolata» derivano dal dataset e dall’algoritmo P4G; sono distinte dalle ricette documentate da walkthrough indipendenti.",
+    "Il costo dipende dalle versioni registrate, dalle statistiche e dagli sconti Compendium. Non viene promesso un prezzo fisso.",
+    "Tutte le possibili catene non hanno un unico elenco finito utile: molte abilità possono essere ereditate per passaggi arbitrari, insegnate con carte o ottenute da forecast. Il catalogo completo riguarda le combinazioni dirette sotto una configurazione esplicita dei livelli."
+  ]
+}

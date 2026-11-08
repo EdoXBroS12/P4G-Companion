@@ -1,0 +1,170 @@
+[
+  {
+    "id": "A",
+    "slot": 4,
+    "color": "#8B2440",
+    "when": "3 dicembre dopo l'esame, prompt di salvataggio prima della storia",
+    "where": "Prompt del gioco",
+    "route": "Comune",
+    "recovers": [
+      "bad1",
+      "bad2",
+      "tutti i rami successivi"
+    ],
+    "reload": "Solo errore all'ospedale o ripetizione facoltativa dei Bad già visti",
+    "lost": "Tutto ciò che è stato fatto dopo il 3 dicembre.",
+    "sources": [
+      "E03",
+      "E05"
+    ]
+  },
+  {
+    "id": "B",
+    "slot": 5,
+    "color": "#E44335",
+    "when": "5 dicembre durante l'indagine, prima dell'ultimo NPC richiesto",
+    "where": "Farfalla blu nel distretto commerciale; meglio salvare appena ottenuto il controllo",
+    "route": "Comune",
+    "recovers": [
+      "bad3",
+      "accomplice",
+      "normal",
+      "true",
+      "golden"
+    ],
+    "reload": "Dopo Bad 3 e dopo Complice",
+    "lost": "Progresso successivo al save del 5 dicembre.",
+    "sources": [
+      "E03",
+      "E05"
+    ]
+  },
+  {
+    "id": "C",
+    "slot": 6,
+    "color": "#9C69CB",
+    "when": "2 gennaio di giorno, prima della conversazione con Margaret",
+    "where": "Farfalla blu Shopping District South, prima della Velvet Room",
+    "route": "Separazione True/Golden",
+    "recovers": [
+      "true senza Marie",
+      "golden"
+    ],
+    "reload": "Dopo True, per accettare la ricerca e percorrere il ramo finale Golden",
+    "lost": "Tutto gennaio/febbraio/marzo del ramo temporaneo, incluse quest e oggetti. Ripetere sul ramo Golden ciò che vuoi conservare.",
+    "sources": [
+      "E06",
+      "E04",
+      "E09"
+    ]
+  },
+  {
+    "id": "D-T",
+    "slot": 7,
+    "color": "#4389EF",
+    "when": "20 marzo, ramo senza ricerca Marie, prima dell'ultimo saluto",
+    "where": "Farfalla blu nel distretto commerciale; farlo prima della scena Dojima/Nanako",
+    "route": "Normal/True",
+    "recovers": [
+      "normal",
+      "true"
+    ],
+    "reload": "Dopo Normal, scegliere No e avviare l'indagine True",
+    "lost": "Saluti o preparazione successivi al save; nessun trasferimento al ramo Golden.",
+    "sources": [
+      "E03",
+      "E08"
+    ]
+  },
+  {
+    "id": "D-G",
+    "slot": 8,
+    "color": "#E9BF35",
+    "when": "20 marzo, ramo con Hollow Forest completata",
+    "where": "Farfalla blu prima dell'ultimo saluto/scena Dojima",
+    "route": "Golden",
+    "recovers": [
+      "golden",
+      "normal facoltativo"
+    ],
+    "reload": "Solo errore o recupero finale su questo ramo",
+    "lost": "Progressi del 20 marzo successivi al save.",
+    "sources": [
+      "E03",
+      "E08"
+    ]
+  },
+  {
+    "id": "E",
+    "slot": 9,
+    "color": "#DCB45C",
+    "when": "13 febbraio, prima di esplorare Hollow Forest",
+    "where": "Farfalla blu a Grave of Hollow Memories",
+    "route": "Golden",
+    "recovers": [
+      "Sicurezza gita/Hollow Forest"
+    ],
+    "reload": "Errore, preparazione o sconfitta in Hollow Forest; non usarlo per promettere True senza epilogo",
+    "lost": "Progressi di Hollow Forest successivi al salvataggio.",
+    "sources": [
+      "E07",
+      "E13"
+    ]
+  },
+  {
+    "id": "E-pre",
+    "slot": 13,
+    "color": "#DCB45C",
+    "when": "10 febbraio sera, prima della gita",
+    "where": "Calendario a Casa Dojima",
+    "route": "Golden",
+    "recovers": [
+      "Backup precedente alle scene della gita"
+    ],
+    "reload": "Solo se necessario prima dell’ingresso nella foresta. La separazione True/Golden resta C.",
+    "lost": "Scene e progressi successivi al 10 febbraio."
+  },
+  {
+    "id": "F",
+    "slot": 10,
+    "color": "#34A9C6",
+    "when": "20 marzo dopo indagine, prima dungeon; poi backup ingresso prima boss",
+    "where": "Farfalla Shopping District o hub TV; Goho-M prima boss",
+    "route": "Ramo conclusivo attualmente giocato",
+    "recovers": [
+      "Boss finale e preparazione"
+    ],
+    "reload": "Solo difficoltà o errore nella fase conclusiva; non sostituisce D-T/D-G",
+    "lost": "Esplorazione e combattimenti successivi al save.",
+    "sources": [
+      "E03",
+      "E08"
+    ]
+  },
+  {
+    "id": "LIVE",
+    "slot": 11,
+    "color": "#FFFFFF",
+    "when": "Progressione ordinaria",
+    "where": "Punti di salvataggio disponibili",
+    "route": "Ramo attivo",
+    "recovers": [
+      "Progressione recente"
+    ],
+    "reload": "Quando necessario",
+    "lost": "Progresso non salvato."
+  },
+  {
+    "id": "CLEAR",
+    "slot": 12,
+    "color": "#D5C661",
+    "when": "Dopo titoli quando il gioco chiede di salvare i dati completati",
+    "where": "Prompt finale",
+    "route": "Dati completati",
+    "recovers": [
+      "Avvio NG+ successivo"
+    ],
+    "reload": "Non ricaricare per continuare prima del finale; usare il relativo checkpoint",
+    "lost": "Il clear save non sostituisce un salvataggio di gioco prima del boss."
+  }
+]

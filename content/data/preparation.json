@@ -1,0 +1,708 @@
+{
+  "game": "Persona 4 Golden",
+  "language": "it",
+  "verification_date": "2026-11-08",
+  "current_run": {
+    "date": "22 maggio, pomeriggio",
+    "source": "Lettura in sola lettura del salvataggio locale, comunicata dall'agente principale",
+    "ng_plus": true,
+    "kanji_rescued": "Dichiarato dal giocatore; non equivale ad avere accettato le quest del dungeon",
+    "adachi_rank": 1,
+    "marie_rank": 2,
+    "margaret_rank": 2,
+    "fox_rank": 2,
+    "strength_rank": 0,
+    "sun": "Ayane, rango 1",
+    "immediate_actions": [
+      "Prima del 29 maggio avvia Strength scegliendo il club di calcio, Daisuke. Dal 19 aprile si può chiedere al docente nell'ufficio della scuola di aprire i club; poi usa l'uscita occidentale del piano terra e scegli Soccer. Con Ayane già avviata, il club culturale è già scelto, ma il club sportivo resta indipendente.",
+      "Tieni Daisuke sotto il rango 10 fino all'evento del 10 agosto: così eviti le restrizioni più complicate del basket sui tre libri.",
+      "Il 29 maggio accetta l'invito sportivo e il libro Witch Detective. Kanji deve essere già stato salvato: nella situazione comunicata lo è.",
+      "Adachi è già avviato. Controllalo il 23 maggio di giorno per il rango 2; poi le scene che portano ai ranghi 3, 4 e 5 sono notturne. Il rango 6 torna diurno.",
+      "Marie è già rango 2: portala a 4 con calma. Il passaggio a 5 aspetta il 24 luglio; questo blocco non indica un errore della partita.",
+      "Controlla il diario delle quest una per una. Aver sconfitto Shadow Kanji non accetta né completa automaticamente nessuna richiesta di oggetti."
+    ]
+  },
+  "adachi": {
+    "role": "OBBLIGATORIO per Complice; FACOLTATIVO per Normal, True e Golden",
+    "unlock": "Dal 13 maggio, parla con Adachi all'ingresso di Junes. Se non appare la possibilità, parla prima con Dojima a casa riguardo al suo collega e riprova in una data utile.",
+    "deadline": "Rango 6 entro il 1 novembre incluso. Non aspettare novembre: è l'ultimo giorno disponibile, non l'inizio di una nuova finestra.",
+    "rank_schedule": [
+      {
+        "target_rank": "1, 2, 6",
+        "time": "Pomeriggio / dopo scuola",
+        "place": "Junes, ingresso con ascensori"
+      },
+      {
+        "target_rank": "3, 4, 5",
+        "time": "Sera",
+        "place": "Shopping District South, vicino al distributore Moel"
+      }
+    ],
+    "availability": {
+      "maggio": [
+        13,
+        20,
+        23,
+        25,
+        27,
+        30
+      ],
+      "giugno": [
+        5,
+        10,
+        11,
+        15,
+        26,
+        28
+      ],
+      "luglio": [
+        2,
+        4,
+        5,
+        12,
+        14,
+        24,
+        25
+      ],
+      "agosto": [
+        23,
+        25
+      ],
+      "settembre": [
+        1,
+        19,
+        20,
+        21,
+        23,
+        24,
+        27,
+        30
+      ],
+      "ottobre": [
+        6,
+        12,
+        21,
+        24,
+        26
+      ],
+      "novembre": [
+        1
+      ]
+    },
+    "night_only_dates": [
+      "15 giugno",
+      "23 agosto",
+      "1 settembre",
+      "6 ottobre"
+    ],
+    "availability_rules": [
+      "Il calendario indica finestre possibili; un'indagine con una vittima ancora da salvare può renderlo occupato. Completa il salvataggio della vittima e torna a una data utile.",
+      "Le scene dipendono dal rango da ottenere, non dal solo giorno. Dopo aver raggiunto il rango 2 non aspettarti un secondo avanzamento la stessa sera.",
+      "Porta una Persona Jester negli incontri fino al rango 6. Per un incontro che non sale di rango serve prima accumulare affinità: programma margine, senza contare ogni data come un rango garantito.",
+      "Se la sera dice di essere impegnato benché la data sia giusta, possono mancare punti: usa un incontro diurno di affinità a Junes o una relazione al santuario quando disponibile."
+    ],
+    "rank_tips": [
+      {
+        "rank": 2,
+        "en": "That does sound annoying.",
+        "it": "Sembra davvero seccante.",
+        "context": "Quando si lamenta della donna che parla troppo"
+      },
+      {
+        "rank": 3,
+        "en": "Why don't you come over for real?",
+        "it": "Perché non vieni davvero a trovarci?",
+        "context": "Quando ti ringrazia per avergli retto il gioco"
+      },
+      {
+        "rank": 3,
+        "en": "I'm a good cook.",
+        "it": "Sono bravo a cucinare.",
+        "context": "Quando trova strano venire senza Dojima"
+      },
+      {
+        "rank": 4,
+        "en": "Nope.",
+        "it": "No.",
+        "context": "Quando chiede se Dojima ti dice quanto sei utile"
+      },
+      {
+        "rank": 4,
+        "en": "That was a surprise.",
+        "it": "È stata una sorpresa.",
+        "context": "Dopo il trucco che stupisce Nanako"
+      },
+      {
+        "rank": 5,
+        "en": "You're right.",
+        "it": "Hai ragione.",
+        "context": "Quando parla di essere efficienti"
+      },
+      {
+        "rank": 6,
+        "en": "That's true.",
+        "it": "È vero.",
+        "context": "Quando spiega che stare da solo gli permette di fare ciò che vuole"
+      }
+    ],
+    "next_steps_example": "Dal tuo rango 1: 23 maggio di giorno → prova rango 2; 25/27/30 maggio di sera → prova ranghi 3/4/5; 5 giugno di giorno → prova rango 6. È un obiettivo anticipato, NON una promessa di rango a ogni visita: affinità e attività già svolte possono richiedere date aggiuntive.",
+    "story": [
+      {
+        "date": "Dopo Heaven",
+        "effect": "Con rango 6 già raggiunto, il rango 7 avanza con la storia."
+      },
+      {
+        "date": "3 dicembre",
+        "effect": "La sequenza corretta in ospedale conserva il proseguimento e porta il link alla fase di rango 8."
+      },
+      {
+        "date": "5 dicembre",
+        "effect": "Identifica Adachi. Proteggerlo apre Complice; comunicare i sospetti agli amici conserva la route principale. Il rango 6 entro 1 novembre è il requisito manuale preparatorio della diramazione Complice."
+      },
+      {
+        "date": "7 dicembre, sera",
+        "effect": "Nella route principale, scegli Go see him alone (Vai a incontrarlo da solo). Il link diventa Hunger. Rifiutare non blocca True/Golden, ma interrompe questa prosecuzione del suo Social Link."
+      },
+      {
+        "date": "Dopo Magatsu Inaba / 20 marzo",
+        "effect": "Gli ultimi avanzamenti di Hunger dipendono dalla storia e dalla prosecuzione verso il vero finale. Non spendere pomeriggi cercandolo dopo il rango 6."
+      }
+    ],
+    "sources": [
+      "SL1",
+      "SL2",
+      "SL3",
+      "CAL1"
+    ]
+  },
+  "marie": {
+    "role": "OBBLIGATORIA a rango 10 per Hollow Forest e Golden; non richiesta per Normal o True base",
+    "unlock": "Dal 18 aprile entra nella Velvet Room del Shopping District South e parla con Marie / controlla le richieste degli abitanti. Se un evento diverso occupa la visita, esci e rientra.",
+    "schedule": "Mercoledì, sabato, domenica e festività, senza pioggia. Dall'8 dicembre, se non è già al massimo, la disponibilità si amplia quotidianamente fino al completamento del link o del dungeon di dicembre.",
+    "rank_gate": "Rango 5 non prima del 24 luglio, con Rise ormai nella squadra.",
+    "safe_plan": "Punta al rango 10 entro il 21 dicembre, poi sconfiggi Adachi e Ameno-sagiri il 22 dicembre. È un margine operativo: il vero vincolo è completare Marie PRIMA della vittoria finale a Magatsu Inaba; la data limite estrema è riportata in modo discordante dalle guide.",
+    "time_skip_warning": "Vincere il boss di dicembre chiude i giorni rimanenti. Entrare nel dungeon, esplorarlo e tornare non causa da solo il salto; lo causa il completamento. Puoi preparare la scalata prima e rinviare il boss finale al 22.",
+    "rank10_steps": [
+      "Porta una Persona Aeon negli incontri. Se il messaggio dice che il legame non crescerà ancora, occorre un incontro di affinità: non aspettare l'ultimo giorno.",
+      "Dal tuo rango 2, arriva al rango 4 prima dell'estate; il blocco successivo si rimuove il 24 luglio.",
+      "Da luglio a novembre sfrutta le giornate utili; tieni dicembre come recupero, non come unica opportunità.",
+      "Al rango 9 puoi scegliere amicizia o relazione: EN Because you're my friend. / IT Perché sei mia amica. mantiene la route amichevole. Il Golden non richiede la romance.",
+      "Verifica nel menu il rango 10 / MAX e l'oggetto Old Bamboo Comb prima del boss di dicembre.",
+      "Il 2 gennaio la ricerca di Marie va attivata con Margaret: il solo rango 10 non basta. Il Social Link Empress di Margaret non deve essere massimo per questo evento."
+    ],
+    "golden_blockers": [
+      "Marie non massimizzata prima del boss di dicembre",
+      "Ricerca con Margaret non attivata il 2 gennaio",
+      "Marie non salvata in Hollow Forest il 13 febbraio",
+      "Il 20 marzo si torna a casa senza completare l'indagine di Izanami"
+    ],
+    "sources": [
+      "SL4",
+      "SL2",
+      "CAL2",
+      "DUN1"
+    ]
+  },
+  "social_link_categories": [
+    {
+      "category": "OBBLIGATORIO per uno specifico finale",
+      "links": "Adachi rango 6 entro 1 novembre per Complice; Marie rango 10 prima del boss di dicembre per Golden."
+    },
+    {
+      "category": "FACOLTATIVO utile alle quest",
+      "links": "Hermit: le richieste del santuario sono parte del catalogo quest e riducono i costi di recupero SP. Strength: avvialo per i tre libri a data fissa; non serve massimizzarlo."
+    },
+    {
+      "category": "FACOLTATIVO per contenuti NG+",
+      "links": "Margaret / Empress MAX e sei boss opzionali per la sua sfida. La massimizzazione non è requisito per Hollow Forest o per alcun finale."
+    },
+    {
+      "category": "FACOLTATIVO per combattimento e scene",
+      "links": "Rise e compagni: supporto, abilità e trasformazioni. Con link MAX, gennaio offre un ulteriore incontro per l'evoluzione finale dei compagni. Non serve portare tutta la squadra a MAX per gli ending."
+    },
+    {
+      "category": "NON necessario agli ending",
+      "links": "Gli altri Social Link, romance, tutti i libri e tutte le quest. Sceglili per i contenuti che vuoi vedere; non sacrificare Adachi o Marie per un requisito inesistente di tutti i link al massimo."
+    }
+  ],
+  "books": [
+    {
+      "name": "Witch Detective",
+      "it": "La strega detective",
+      "date": "29 maggio",
+      "tag": "MANCABILE",
+      "action": "Accetta l'invito di Kou/Daisuke e poi il libro. Kanji deve essere salvato prima dell'evento.",
+      "soccer": "Strength avviato e sotto rango 10.",
+      "basketball": "Procedura prudente: resta al rango 1–3; le guide discordano su eccezioni al rango MAX.",
+      "run_note": "Nel tuo salvataggio del 22 maggio è ancora recuperabile; avvia subito il calcio.",
+      "sources": [
+        "BOOK1",
+        "BOOK2",
+        "CAL1"
+      ]
+    },
+    {
+      "name": "Poly-land",
+      "it": "Il mondo dei poligoni",
+      "date": "15 luglio sera: invito; 17 luglio: consegna",
+      "tag": "MANCABILE",
+      "action": "Il 15 luglio entra nella tua camera PRIMA di consumare la serata; accetta la telefonata per domenica 17. All'uscita seleziona la risposta che dice che sei allergico alla matematica e ricevi il libro.",
+      "soccer": "Non raggiungere MAX prima della telefonata.",
+      "basketball": "Evita i ranghi 5, 6 e MAX. Il piano più prudente è restare al rango 4.",
+      "sources": [
+        "BOOK1",
+        "BOOK2",
+        "BOOK3"
+      ]
+    },
+    {
+      "name": "The O-Cha Way",
+      "it": "La via del tè",
+      "date": "10 agosto",
+      "tag": "MANCABILE",
+      "action": "Accetta l'invito sportivo e il libro durante l'uscita.",
+      "soccer": "Resta sotto MAX fino a questa uscita.",
+      "basketball": "Evita i ranghi 5, 6 e MAX; il rango 4 resta la scelta prudente.",
+      "sources": [
+        "BOOK1",
+        "BOOK2",
+        "BOOK3"
+      ]
+    },
+    {
+      "name": "The Divine Way",
+      "it": "La via divina",
+      "date": "21 agosto",
+      "tag": "MANCABILE",
+      "action": "Vai al festival con una ragazza e accetta il libro a fine evento. La scelta sicura senza imporre una romance è l'invito di Rise. Non scegliere di restare a casa o andare da solo.",
+      "sources": [
+        "BOOK1",
+        "BOOK4",
+        "BOOK5"
+      ]
+    },
+    {
+      "name": "Hyperspeed Reading",
+      "it": "Lettura ad alta velocità",
+      "date": "Dal 4 agosto, libreria Yomenaido",
+      "tag": "FACOLTATIVO UTILE",
+      "action": "Compralo e finiscilo presto: permette due capitoli per sessione, risparmiando serate per gli altri libri.",
+      "sources": [
+        "BOOK1",
+        "BOOK2"
+      ]
+    },
+    {
+      "name": "The Ramen Way",
+      "it": "La via del ramen",
+      "date": "Dopo otto pasti da Aiya, prima della fine del tempo libero",
+      "tag": "FACOLTATIVO",
+      "action": "Conta otto visite con pasto da Aiya. Non è un libro da un unico evento di calendario; consuma però tempo e va pianificato.",
+      "sources": [
+        "BOOK1",
+        "BOOK2"
+      ]
+    },
+    {
+      "name": "Libri dalle quest",
+      "it": "Catena del lettore",
+      "date": "Sblocchi progressivi",
+      "tag": "QUEST",
+      "action": "Completa 18 → 20 → 34 → 40 → 45: The Gentle Way, The Punk's Way, Guide to Pests, Picross Rules!, Who Am I?. Compra anche i libri di negozio prima di esaurire il tempo libero. Il trofeo lettore conta tutti i 32 libri letti nella stessa run, non la somma di caricamenti alternativi.",
+      "sources": [
+        "BOOK1",
+        "BOOK2"
+      ]
+    }
+  ],
+  "hollow_forest": {
+    "entry_date": "13 febbraio: devi salvare Marie in questo giorno",
+    "preceding_event": "Durante la gita sulla neve dell'11–12 febbraio, con ricerca attiva, la scena nella baita del 12 febbraio rivela l'accesso; il 13 il gruppo torna per il salvataggio.",
+    "hub": "Grave of Hollow Memories: scegli il party prima di inoltrarti. Sono presenti farfalla blu per salvare, Velvet Room e Fox. Crea E in uno slot dedicato qui.",
+    "shopping": "Interagisci con i televisori dell'hub e scegli di andare a fare acquisti; puoi accedere a Daidara/Shiroku e al mondo TV ordinario. Questo non equivale a terminare il giorno. Non selezionare l'abbandono definitivo del salvataggio.",
+    "rules": [
+      "Nella foresta armi, armature, accessori, inventario ordinario e denaro vengono sostituiti temporaneamente. Tornando all'hub riottieni le tue normali risorse; non sono cancellate dal salvataggio.",
+      "Le risorse trovate dentro sono specifiche della foresta. Non basare il piano su una scorta di Soma o Goho-M comprata in città.",
+      "Dopo i combattimenti gli SP residui vengono dimezzati. Le abilità di recupero a fine battaglia si applicano prima del dimezzamento: perfino Victory Cry non lascia automaticamente SP pieni.",
+      "Invigorate, magie di recupero e attacchi di più elementi sui Persona restano utili. Un Persona soltanto fisico è una scelta insufficiente per i boss conclusivi.",
+      "Raccogli accessori che rigenerano SP per turno, consumabili di recupero e oggetti Break; conserva gli ultimi soprattutto per il boss.",
+      "Per rientrare usa gli oggetti Branch trovati qui. Traesto, Goho-M e Return Daikon ordinari non sono la via d'uscita interna.",
+      "Ai piani 1, 4 e 7 le corde/porte possono avviare incontri non visibili. Gli altri piani hanno Shadow visibili. Non spendere tutti gli SP per eliminare ogni nemico."
+    ],
+    "floors": [
+      {
+        "floor": "1–3",
+        "action": "Raccogli equipaggiamento locale e recuperi; controlla i forzieri. Conserva almeno una Branch per tornare a salvare."
+      },
+      {
+        "floor": "4",
+        "action": "Gorgeous King: debole al fisico, ma può applicare Tetrakarn. Controlla le barriere prima di colpirlo; elimina le evocazioni sfruttandone le debolezze."
+      },
+      {
+        "floor": "5–6",
+        "action": "Aggiorna gli accessori SP e conserva oggetti Break. Rientra all'hub per una copia di sicurezza se necessario."
+      },
+      {
+        "floor": "7",
+        "action": "Heaven's Giant: annulla gli elementi e resiste al fisico. Usa Break dell'elemento scelto, poi magie corrispondenti; puoi usare danno Almighty per aggirare le affinità, considerando il costo SP."
+      },
+      {
+        "floor": "8–9",
+        "action": "Prepara recuperi e Break per due battaglie consecutive. Salva all'hub prima dell'ultima sequenza mantenendo E iniziale intatto."
+      },
+      {
+        "floor": "10",
+        "action": "Marie, poi Kusumi-no-Okami. Nessun recupero gratuito e SP dimezzati anche tra le due battaglie: prepara la seconda prima di concludere la prima."
+      }
+    ],
+    "boss": [
+      "Marie resiste al fisico e Alienation Wall lo riflette: usa magie elementali e guarisci. Difendi dopo Mind Charge. Quando usa Shell/Shield of Denial, la fase diventa un'attesa prestabilita: difendi e cura finché il dialogo fa proseguire; non cercare di forzare la barriera con Almighty.",
+      "Kusumi-no-Okami riflette gli elementi: applica Fire/Ice/Elec/Wind Break, o l'oggetto locale equivalente, e attacca con quell'elemento. Ripeti il Break quando la protezione torna.",
+      "Mantieni una riserva di recuperi SP contro Draining Fog. Cura, buff e debuff sono più affidabili di tentare attacchi alla cieca contro le riflessioni.",
+      "Dopo il salvataggio di Marie, prosegui a marzo: per l'epilogo devi ancora completare tutta la route True e sconfiggere Izanami. Hollow Forest da solo non sostituisce il finale True."
+    ],
+    "sources": [
+      "DUN2",
+      "DUN3",
+      "DUN4",
+      "DUN5"
+    ]
+  },
+  "optional_ngplus": {
+    "margaret": {
+      "tag": "FACOLTATIVO / MANCABILE",
+      "requirements": "NG+, Empress MAX e sei boss opzionali di ritorno nei dungeon. Non occorre completare tutti i Social Link, né Marie, né tutte le quest.",
+      "conservative_deadline": "Completa Empress e i sei boss entro il 22 dicembre PRIMA del boss finale di Magatsu. Alcune fonti consentono gennaio/primi febbraio; anticipare elimina il rischio senza togliere contenuti.",
+      "bosses": [
+        {
+          "name": "Contrarian King",
+          "dungeon": "Yukiko's Castle",
+          "floor": "8F"
+        },
+        {
+          "name": "Intolerant Officer",
+          "dungeon": "Steamy Bathhouse",
+          "floor": "11F"
+        },
+        {
+          "name": "Momentary Child",
+          "dungeon": "Marukyu Striptease",
+          "floor": "11F"
+        },
+        {
+          "name": "Escapist Soldier",
+          "dungeon": "Void Quest",
+          "floor": "10F"
+        },
+        {
+          "name": "Extreme Vessel",
+          "dungeon": "Secret Laboratory",
+          "floor": "B9F"
+        },
+        {
+          "name": "Lost Okina",
+          "dungeon": "Heaven",
+          "floor": "10F"
+        }
+      ],
+      "march20": "Dopo aver ottenuto Orb of Sight da Igor, esci e rientra SUBITO nella Velvet Room, prima del benzinaio. Ricevi la lettera d'invito. Completa l'indagine e, prima del boss finale di Yomotsu Hirasaka, raggiungi Heaven 10F per Margaret. Conserva un salvataggio all'hub.",
+      "battle_note": "È il contenuto opzionale più impegnativo: preparazione alta, cura affidabile, buff/debuff, protezione delle debolezze. Non equipaggiare Omnipotent Orb. Non è necessario vincerla per ottenere alcun finale.",
+      "previous_ending_note": "In Golden il requisito è NG+; non classificare come bloccata la battaglia solo perché la prima run è finita male. La richiesta del True nella run precedente è frequentemente importata dalle guide PS2.",
+      "sources": [
+        "DUN1",
+        "NG1",
+        "NG2",
+        "NG3"
+      ]
+    },
+    "izanagi_no_okami": {
+      "tag": "PLATINO FUTURO",
+      "note": "La fusione richiede una nuova partita avviata da clear data del True/Golden. Se l'attuale NG+ deriva da un Bad, vedere il True e poi ricaricare uno slot precedente NON aggiorna retroattivamente la partita corrente. Conserva clear data True/Golden per una run futura. Non serve fondere questo Persona per vedere True o Golden.",
+      "sources": [
+        "NG2"
+      ]
+    },
+    "nanako_hospital": {
+      "tag": "FACOLTATIVO / MANCABILE",
+      "note": "Per Big Bro is Worried visita Nanako tre volte. Sequenza semplice: 22 novembre Yosuke in aula 2-2; 23 novembre Chie a Shopping District North; 24 novembre Rise nel Classroom Building 1F. Sono tre pomeriggi: falli nella linea principale per conservarne gli eventi, oppure usa una copia e ricarica solo dopo avere verificato l'achievement registrato da Steam.",
+      "sources": [
+        "OPT1",
+        "OPT2"
+      ]
+    }
+  },
+  "calendar": [
+    {
+      "date": "22–28 maggio",
+      "kind": "MANCABILE",
+      "task": "Avvia Daisuke / calcio e tienilo sotto MAX; prepara l'invito del 29 maggio. Accetta le quest ora disponibili prima del prossimo ritorno nei dungeon."
+    },
+    {
+      "date": "23, 25, 27, 30 maggio",
+      "kind": "OBBLIGATORIO COMPLICE",
+      "task": "Prime date utili per alzare Adachi dal rango 1. Rango2 diurno; ranghi3–5 serali. Non sacrificare l'invito sportivo del29."
+    },
+    {
+      "date": "29 maggio",
+      "kind": "MANCABILE",
+      "task": "Witch Detective: accetta invito sportivo e libro. Kanji già salvato."
+    },
+    {
+      "date": "4 giugno",
+      "kind": "STORIA",
+      "task": "Scadenza Steamy Bathhouse: già superata in sicurezza nella tua situazione perché Kanji è stato salvato."
+    },
+    {
+      "date": "Dal 9 giugno",
+      "kind": "FACOLTATIVO UTILE",
+      "task": "Avvia Kanji se desideri i suoi contenuti; usa scooter e cattura insetti per preparare pesca e quest. Alcuni vecchi dungeon ora hanno boss opzionali di ritorno."
+    },
+    {
+      "date": "9 luglio",
+      "kind": "OBBLIGATORIO",
+      "task": "Ultimo giorno per salvare Rise a Marukyu Striptease. Completa prima se vuoi liberare i giorni per Adachi e compagni."
+    },
+    {
+      "date": "15 luglio, sera",
+      "kind": "MANCABILE",
+      "task": "Entra in camera prima di spendere la serata; accetta l'uscita sportiva del17."
+    },
+    {
+      "date": "17 luglio",
+      "kind": "MANCABILE",
+      "task": "Poly-land: esci con Kou/Daisuke e dichiara l'allergia alla matematica."
+    },
+    {
+      "date": "Entro 25 luglio",
+      "kind": "SCADENZA PRUDENZIALE",
+      "task": "Consegna Quest5 Acquire a Demon Statue prima delle ferie; non confondere il suo sblocco del2maggio con il limite. Se è già completata, spunta la checklist."
+    },
+    {
+      "date": "Dal 24 luglio",
+      "kind": "OBBLIGATORIO GOLDEN",
+      "task": "Puoi riprendere Marie oltre il rango4. Prima era un blocco di trama."
+    },
+    {
+      "date": "4 agosto",
+      "kind": "FACOLTATIVO UTILE",
+      "task": "Compra e leggi Hyperspeed Reading se vuoi leggere tanti libri."
+    },
+    {
+      "date": "10 agosto",
+      "kind": "MANCABILE",
+      "task": "Accetta l'uscita sportiva e The O-Cha Way. Solo dopo puoi massimizzare Daisuke senza compromettere altri libri sportivi."
+    },
+    {
+      "date": "12 agosto",
+      "kind": "OBBLIGATORIO",
+      "task": "Deadline Void Quest / Mitsuo."
+    },
+    {
+      "date": "21 agosto",
+      "kind": "MANCABILE",
+      "task": "Accetta un invito al festival con una ragazza; Rise è la soluzione senza necessità di romance. Ricevi The Divine Way."
+    },
+    {
+      "date": "22 agosto",
+      "kind": "FACOLTATIVO UTILE",
+      "task": "Il teleacquisto propone Genji Beetle: comprarli facilita la futura pesca del Sea Guardian, ma non è l'unico metodo per averli."
+    },
+    {
+      "date": "5 ottobre",
+      "kind": "OBBLIGATORIO",
+      "task": "Deadline Secret Laboratory / Naoto."
+    },
+    {
+      "date": "1 novembre",
+      "kind": "SCADENZA OBBLIGATORIA COMPLICE",
+      "task": "Ultima data di Adachi: devi avere rango6. Nel piano consigliato lo completi molti mesi prima."
+    },
+    {
+      "date": "Entro 16 novembre",
+      "kind": "MANCABILE",
+      "task": "Completa catena gemelle:30→35→36→52 e30→43; poi43+52 aprono53. Non rimandare i primi cinque incarichi oltre questa data."
+    },
+    {
+      "date": "20 novembre",
+      "kind": "OBBLIGATORIO",
+      "task": "Deadline Heaven / Nanako. La vittoria non accetta automaticamente le nuove quest di materiali."
+    },
+    {
+      "date": "22–24 novembre",
+      "kind": "FACOLTATIVO / MANCABILE",
+      "task": "Tre visite a Nanako per Big Bro is Worried; verifica anche le nuove quest sbloccate dal22."
+    },
+    {
+      "date": "3 e 5 dicembre",
+      "kind": "SALVATAGGIO / BIVI",
+      "task": "Proteggi checkpointA eB; consulta le pagine dei dialoghi prima di scegliere. Non accettare di sovrascriverli con clear data."
+    },
+    {
+      "date": "7 dicembre, sera",
+      "kind": "FACOLTATIVO SOCIAL LINK",
+      "task": "Nella route principale visita Adachi da solo per continuare Hunger."
+    },
+    {
+      "date": "8–21 dicembre",
+      "kind": "OBBLIGATORIO GOLDEN / QUEST",
+      "task": "Termina Marie10; accetta e consegna le quest possibili. Puoi esplorare Magatsu senza uccidere il boss finale. Conserva Orichalcum×1 e Golden Chains×3 per quest di gennaio; non vendere tutto automaticamente."
+    },
+    {
+      "date": "22 dicembre",
+      "kind": "PIANO SICURO",
+      "task": "Completa il boss di Magatsu Inaba dopo Marie10 e le attività desiderate. Il salto porta al23 e conserva la telefonata di Natale. EmpressMAX e sei boss opzionali già fatti se vuoi Margaret."
+    },
+    {
+      "date": "24 dicembre",
+      "kind": "LIMITE ASSOLUTO",
+      "task": "Ultima data del dungeon di dicembre; NON è la data raccomandata. Finirlo il23/24 perde la sequenza natalizia disponibile con completamento entro22."
+    },
+    {
+      "date": "2 gennaio",
+      "kind": "BIVIO / SALVATAGGIO",
+      "task": "ProteggiC prima di Margaret. La ricerca di Marie deve essere attivata esplicitamente per Golden."
+    },
+    {
+      "date": "Gennaio – 5 febbraio",
+      "kind": "QUEST / FACOLTATIVO",
+      "task": "Concludi le nuove quest, le catene di più giorni, la pesca e i libri. Il5feb è l'ultimo normale tempo libero: non garantisce presenza di ogni NPC, quindi chiudi prima le consegne scolastiche."
+    },
+    {
+      "date": "13 febbraio",
+      "kind": "OBBLIGATORIO GOLDEN / SALVATAGGIO",
+      "task": "E alla farfalla blu dell'hub di Hollow Forest; completa il dungeon e salva Marie nello stesso giorno."
+    },
+    {
+      "date": "20 marzo",
+      "kind": "SALVATAGGIO / PUNTO DI NON RITORNO",
+      "task": "D prima di tornare a casa; per True/Golden prosegui l'indagine. Per Margaret rientra in Velvet Room subito dopo Orb of Sight e prima del benzinaio. F all'hub TV prima della fase conclusiva."
+    }
+  ],
+  "sources": [
+    {
+      "id": "SL1",
+      "title": "RPG Site — Adachi Social Link",
+      "url": "https://www.rpgsite.net/feature/9830-persona-4-golden-adachi-social-link-choices-unlock-guide"
+    },
+    {
+      "id": "SL2",
+      "title": "GameFAQs / Hurricanehaon — Social Links",
+      "url": "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/social-links"
+    },
+    {
+      "id": "SL3",
+      "title": "Megami Tensei Wiki — Gameplay:Tohru Adachi",
+      "url": "https://megatenwiki.com/wiki/Gameplay:Tohru_Adachi"
+    },
+    {
+      "id": "SL4",
+      "title": "RPG Site — Marie / Aeon",
+      "url": "https://www.rpgsite.net/feature/9849-persona-4-golden-marie-aeon-social-link-choices-unlock-guide"
+    },
+    {
+      "id": "CAL1",
+      "title": "GameFAQs / Hurricanehaon — Walkthrough",
+      "url": "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/walkthrough"
+    },
+    {
+      "id": "CAL2",
+      "title": "GameFAQs / TenSquare3 — January",
+      "url": "https://gamefaqs.gamespot.com/xbox-series-x/370653-persona-4-golden/faqs/81937/january"
+    },
+    {
+      "id": "BOOK1",
+      "title": "RPG Site — Books",
+      "url": "https://www.rpgsite.net/feature/9851-persona-4-golden-books-how-to-get-every-book-for-the-compulsive-reader-achievement"
+    },
+    {
+      "id": "BOOK2",
+      "title": "Neoseeker — Achievement Guide",
+      "url": "https://www.neoseeker.com/p4golden/Achievement_Guide"
+    },
+    {
+      "id": "BOOK3",
+      "title": "PSTHC — Guide des trophées Vita",
+      "url": "https://www.psthc.fr/unjeu/persona4-the-goldenv/guide-trophees.htm"
+    },
+    {
+      "id": "BOOK4",
+      "title": "Samurai Gamers — August",
+      "url": "https://samurai-gamers.com/persona-4-golden/p4g-august-walkthrough/"
+    },
+    {
+      "id": "BOOK5",
+      "title": "GameFAQs / TenSquare3 — August",
+      "url": "https://gamefaqs.gamespot.com/switch/371758-persona-4-golden/faqs/81937/august"
+    },
+    {
+      "id": "DUN1",
+      "title": "GameFAQs / Hurricanehaon — Dungeons",
+      "url": "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/dungeons"
+    },
+    {
+      "id": "DUN2",
+      "title": "hXcHector — Hollow Forest",
+      "url": "https://www.hxchector.com/persona-4-golden-walkthrough/hollow-forest/"
+    },
+    {
+      "id": "DUN3",
+      "title": "GameFAQs / TenSquare3 — February",
+      "url": "https://gamefaqs.gamespot.com/xbox-series-x/370653-persona-4-golden/faqs/81937/february"
+    },
+    {
+      "id": "DUN4",
+      "title": "GameWith — Hollow Forest",
+      "url": "https://gamewith.jp/persona4/538284"
+    },
+    {
+      "id": "DUN5",
+      "title": "Neoseeker — Hollow Forest",
+      "url": "https://www.neoseeker.com/p4golden/Hollow_Forest"
+    },
+    {
+      "id": "NG1",
+      "title": "Privespa — Margaret, Golden",
+      "url": "https://privespa.org/p4g/extra/margaret.html"
+    },
+    {
+      "id": "NG2",
+      "title": "Omoteura — P4G clear data / NG+",
+      "url": "https://omoteura.com/persona4/p4g/chart_clear.html"
+    },
+    {
+      "id": "NG3",
+      "title": "Neoseeker — Margaret",
+      "url": "https://www.neoseeker.com/p4golden/Margaret"
+    },
+    {
+      "id": "OPT1",
+      "title": "PlayStationTrophies — Big Bro is Worried",
+      "url": "https://www.playstationtrophies.org/game/persona-4-golden-eu/trophy/60858-big-bro-is-worried.html"
+    },
+    {
+      "id": "OPT2",
+      "title": "TrueTrophies — Big Bro is Worried",
+      "url": "https://www.truetrophies.com/t52112/big-bro-is-worried-trophy"
+    },
+    {
+      "id": "SL5",
+      "title": "RPG Site — Strength / Athletes",
+      "url": "https://www.rpgsite.net/feature/9831-persona-4-golden-athletes-strength-social-link-choices-unlock-guide"
+    },
+    {
+      "id": "FISH1",
+      "title": "GameFAQs / TenSquare3 — Bugs, Fishing and Shiroku Pub",
+      "url": "https://gamefaqs.gamespot.com/xbox-series-x/370653-persona-4-golden/faqs/81937/bugs-fishing-and-shiroku-pub"
+    },
+    {
+      "id": "FISH2",
+      "title": "Twinfinite — Sea Guardian",
+      "url": "https://twinfinite.net/guides/persona-4-golden-how-to-catch-the-sea-guardian/"
+    },
+    {
+      "id": "FISH3",
+      "title": "Megami Tensei Wiki — Fishing",
+      "url": "https://megatenwiki.com/wiki/Fishing"
+    }
+  ]
+}

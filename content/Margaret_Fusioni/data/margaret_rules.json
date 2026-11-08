@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "game": "Persona 4 Golden",
+  "verified_on": "2026-11-08",
+  "scope": "Regole del Social Link Empress, requisiti e alternative con Skill Card. Ricette di fusione verificate separatamente dal coordinatore.",
+  "current_run": {
+    "known_from_prior_read_only_check": "22 maggio, NG+, Margaret rango 2",
+    "next_request": "Rango 3: Matador con Mahama",
+    "warning": "Non presumere che il Compendium contenga già tutte le richieste: controllare Persona e abilità registrate nella partita reale."
+  },
+  "sources": {
+    "MR01": "https://www.rpgsite.net/feature/9837-persona-4-golden-fusion-solutions-for-the-empress-social-link-margaret",
+    "MR02": "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/76145/social-links",
+    "MR03": "https://gamefaqs.gamespot.com/pc/293013-persona-4-golden/faqs/79084/empress-social-link",
+    "MR04": "https://gamefaqs.gamespot.com/xbox-series-x/370653-persona-4-golden/faqs/81937/may-ng-plus-",
+    "MR05": "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/65282",
+    "MR06": "https://gamefaqs.gamespot.com/xbox-series-x/370653-persona-4-golden/faqs/81937/july",
+    "MR07": "https://www.neoseeker.com/p4golden/Achievement_Guide",
+    "MR08": "https://megatenwiki.com/wiki/Skill_Cards_in_Persona_4_Golden",
+    "MR09": "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/82141/physical",
+    "MR10": "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/82141/magic",
+    "MR11": "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/82141/support",
+    "MR12": "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/82141/auto",
+    "MR13": "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/82141/basics",
+    "MR14": "https://gamefaqs.gamespot.com/vita/641695-persona-4-golden/faqs/82141/card-lists",
+    "MR15": "https://megatenwiki.com/wiki/Chagall_Cafe",
+    "MR16": "https://megatenwiki.com/wiki/Gameplay:Margaret",
+    "MR17": "https://steamcommunity.com/sharedfiles/filedetails/?id=2172991467",
+    "MR18": "https://www.playstationtrophies.org/game/persona-4-golden-na/trophy/56373-card-collector.html",
+    "MR19": "https://steamcommunity.com/app/1113000/discussions/0/2516897767691529381/",
+    "MR20": "https://megatenwiki.com/wiki/Skill_Card"
+  },
+  "unlock": {
+    "date": "19 maggio",
+    "knowledge_rank": 3,
+    "knowledge_name_en": "Expert",
+    "knowledge_name_it": "Esperto",
+    "place": "Velvet Room; accesso dal Shopping District South",
+    "action": "Entra nella Velvet Room dal 19 maggio con Knowledge almeno 3. La scena con Margaret avvia Empress rango 1.",
+    "persona_for_rank_1": null,
+    "sources": ["MR01", "MR02", "MR04"]
+  },
+  "progression": {
+    "ranks": 10,
+    "fusion_requests": 9,
+    "calendar_time_cost_rankup": 0,
+    "matching_empress_persona_required": false,
+    "affinity_points_required": false,
+    "procedure": [
+      "Controlla il rango corrente: la richiesta da soddisfare è quella che porta al rango successivo.",
+      "Ottieni la Persona richiesta e verifica che conosca esattamente l'abilità inglese indicata, tramite fusione, registrazione precedente o Skill Card.",
+      "Tieni la Persona nella scorta attuale. Averla soltanto nel Compendium non basta: evocala.",
+      "Esci e rientra nella Velvet Room per far riconoscere la richiesta. Ripeti dopo ogni aumento di rango.",
+      "Registra la versione con l'abilità corretta prima di riutilizzarla in una fusione. Controlla la scheda registrata: un'abilità appresa dopo la registrazione non viene aggiunta retroattivamente."
+    ],
+    "exact_skill_note": "Non sostituire una richiesta con la versione apparentemente più forte: Sukukaja è diversa da Auto-Sukukaja; Mahama da Mahamaon; Megido da Megidola; Mediarama da Mediarahan; Mind Charge da Power Charge.",
+    "rankup_time_note": "Si possono completare più richieste nello stesso momento di calendario. Allenamento, ingresso nei dungeon e visite al café possono invece consumare tempo.",
+    "sources": ["MR02", "MR03", "MR04", "MR16"]
+  },
+  "level_and_ng_plus": {
+    "normal_rule": "Il livello base della Persona finale non può superare il livello di Yu quando la crei con una nuova fusione. I livelli elencati sono soglie della Persona richiesta, non una garanzia che qualsiasi ricetta alternativa sia eseguibile a quel livello: possono esserci ingredienti più alti.",
+    "ng_plus_compendium": "Le Persona registrate possono essere evocate dal Compendium anche sopra il livello attuale di Yu, pagando il costo richiesto. Il limite di livello resta valido per le nuove fusioni.",
+    "ng_plus_fast_path": "Se le nove Persona con le nove abilità richieste erano già registrate, puoi evocarle in ordine e massimizzare Empress già dal 19 maggio, senza aspettare luglio né raggiungere il livello 67.",
+    "skill_cards_carried_over": "In NG+ rimane il catalogo delle Skill Card registrate. Non presumere che gli esemplari non registrati dell'inventario precedente siano stati conservati.",
+    "wallet_note": "Il prezzo di evocazione varia con lo stato registrato e gli sconti del Compendium: leggere il prezzo nel menu, non usare un preventivo fisso.",
+    "sources": ["MR04", "MR05"]
+  },
+  "special_fusions": {
+    "unlock_date": "10 luglio",
+    "types": [
+      {"ingredients": 4, "name_en": "Cross Spread", "used_for": "Neko Shogun"},
+      {"ingredients": 5, "name_en": "Pentagon Spread", "used_for": "Black Frost e Yatsufusa"},
+      {"ingredients": 6, "name_en": "Hexagon Spread", "used_for": "Trumpeter"}
+    ],
+    "critical_note": "RPG Site indica 20 luglio in alcune istruzioni: la data adottata è 10 luglio, confermata dal calendario Golden di TenSquare3, dalla guida PC di Lukaight e da Neoseeker. Non chiamare Black Frost una fusione a sei: usa cinque ingredienti.",
+    "ng_plus_exception": "Il vincolo riguarda creare una nuova Persona con fusione speciale, non evocare una Persona già registrata nel Compendium.",
+    "sources": ["MR03", "MR04", "MR06", "MR07"]
+  },
+  "skill_card_workflow": {
+    "applies_to_all_nine": true,
+    "steps": [
+      "Ottieni una copia della Persona richiesta senza doverle trasmettere l'abilità durante la fusione, oppure evocala dal Compendium.",
+      "Controlla se la Skill Card è già acquistabile nel catalogo della Velvet Room. In NG+ questo può evitare dungeon e café.",
+      "Usa la Skill Card dal menu oggetti sulla Persona richiesta. Se ha otto abilità, sostituisci un'abilità non necessaria; non cancellare quella appena richiesta.",
+      "Controlla nome della Persona e abilità, aggiorna il Compendium, poi esci e rientra nella Velvet Room."
+    ],
+    "registration": "Registrare una carta a Marie consuma una copia e permette di comprarne altre. Se vuoi conservarla per future run, registrala prima di usarla e prevedi il prezzo per riacquistarla. Non viene promessa una copia gratuita.",
+    "time": "Usare la carta e gestire il Compendium non richiede un pomeriggio. Ottenere una nuova carta al Chagall Café sì.",
+    "sources": ["MR02", "MR03", "MR04", "MR17", "MR18", "MR19", "MR20"]
+  },
+  "chagall": {
+    "place": "Chagall Café, lato sinistro di Okina City",
+    "unlock": "Sblocca Okina compiendo tre giri locali con lo scooter dopo averlo ottenuto. Non confondere lo sblocco della città con la data in cui una guida sceglie di andarci.",
+    "visit_cost_yen": 5000,
+    "consumes_time": true,
+    "first_visit": "La prima visita dà sempre Dia e rende visibili le icone delle Skill Card sulle Persona. Non usarla come se fosse già l'estrazione della carta desiderata.",
+    "subsequent_visits": "Dalla seconda visita, equipaggia prima la Persona donatrice. La skill giusta deve essere stata appresa e avere l'icona della carta accanto al nome. Possederla soltanto nella scorta non basta.",
+    "one_extract_per_instance": "L'icona scompare dopo l'estrazione. Per ripetere conserva prima nel Compendium una versione con l'icona ancora presente, oppure acquista la carta già registrata.",
+    "important": "Il livello della tabella café è quello necessario alla Persona donatrice per avere la skill; non è un livello minimo aggiuntivo di Yu quando quella Persona è evocabile dal Compendium.",
+    "sources": ["MR13", "MR15", "MR17"]
+  },
+  "shuffle_time": {
+    "selection": "Scegli le carte Spada, che danno Skill Card. Il rango della carta limita il gruppo di abilità possibili; la singola abilità resta casuale.",
+    "not_magician": "La carta Magician modifica un'abilità: non equivale alla carta Spada e non è un metodo deterministico per ottenere la richiesta.",
+    "dungeon_ranges": [
+      {"dungeon": "Yukiko's Castle", "min_rank": 1, "max_rank": 2},
+      {"dungeon": "Steamy Bathhouse", "min_rank": 1, "max_rank": 3},
+      {"dungeon": "Marukyu Striptease", "min_rank": 2, "max_rank": 4},
+      {"dungeon": "Void Quest", "min_rank": 3, "max_rank": 6},
+      {"dungeon": "Secret Laboratory", "min_rank": 3, "max_rank": 7},
+      {"dungeon": "Heaven", "min_rank": 4, "max_rank": 9},
+      {"dungeon": "Magatsu Inaba", "min_rank": 4, "max_rank": 10},
+      {"dungeon": "Yomotsu Hirasaka", "min_rank": 5, "max_rank": 10}
+    ],
+    "hollow_forest": "Non proporre Hollow Forest come luogo per farmare Skill Card: la guida specifica di Raidramon0 lo esclude. Una tabella generica di TenSquare3 lo include erroneamente.",
+    "floor_warning": "Gli intervalli descrivono il dungeon nel suo complesso, non garantiscono il rango desiderato su ogni piano o ogni battaglia. Nessun piano preciso viene inventato.",
+    "sources": ["MR14", "MR17", "MR20"]
+  },
+  "requests": [
+    {"rank": 1, "persona": null, "skill": null, "min_yu_level_for_new_fusion": null, "note": "Avvio del link: Knowledge 3 dal 19 maggio. Nessuna fusione richiesta.", "sources": ["MR01", "MR02", "MR04"]},
+    {"rank": 2, "persona": "Ippon-Datara", "arcana": "Hermit", "skill": "Sukukaja", "min_yu_level_for_new_fusion": 17, "special_fusion_required": false, "card": {"sword_rank": 1, "first_dungeon_with_suitable_rank": "Yukiko's Castle", "chagall_persona": "Ghoul", "donor_arcana": "Death", "donor_level": 10, "registered_copy_price_yen": 5000}, "sources": ["MR01", "MR03", "MR08", "MR11"]},
+    {"rank": 3, "persona": "Matador", "arcana": "Death", "skill": "Mahama", "min_yu_level_for_new_fusion": 24, "special_fusion_required": false, "card": {"sword_rank": 3, "first_dungeon_with_suitable_rank": "Steamy Bathhouse", "chagall_persona": "Virtue", "donor_arcana": "Justice", "donor_level": 33, "donor_skill_innate": true, "registered_copy_price_yen": 15000}, "sources": ["MR01", "MR03", "MR08", "MR10"]},
+    {"rank": 4, "persona": "Gdon", "arcana": "Sun", "skill": "Rampage", "min_yu_level_for_new_fusion": 31, "special_fusion_required": false, "card": {"sword_rank": 3, "first_dungeon_with_suitable_rank": "Steamy Bathhouse", "chagall_persona": "Matador", "donor_arcana": "Death", "donor_level": 27, "registered_copy_price_yen": 15000}, "sources": ["MR01", "MR03", "MR08", "MR09"]},
+    {"rank": 5, "persona": "Neko Shogun", "arcana": "Star", "skill": "Bufula", "min_yu_level_for_new_fusion": 32, "special_fusion_required": true, "special_ingredients": 4, "card": {"sword_rank": 3, "first_dungeon_with_suitable_rank": "Steamy Bathhouse", "chagall_persona": "Ganga", "donor_arcana": "Priestess", "donor_level": 29, "donor_skill_innate": true, "registered_copy_price_yen": 15000}, "sources": ["MR01", "MR03", "MR08", "MR10"]},
+    {"rank": 6, "persona": "Black Frost", "arcana": "Fool", "skill": "Auto-Sukukaja", "min_yu_level_for_new_fusion": 38, "special_fusion_required": true, "special_ingredients": 5, "card": {"sword_rank": 7, "first_dungeon_with_suitable_rank": "Secret Laboratory", "chagall_persona": "Makami", "donor_arcana": "Hanged Man", "donor_level": 29, "registered_copy_price_yen": 60000}, "sources": ["MR01", "MR03", "MR08", "MR12"]},
+    {"rank": 7, "persona": "Yatagarasu", "arcana": "Sun", "skill": "Megido", "min_yu_level_for_new_fusion": 40, "special_fusion_required": false, "card": {"sword_rank": 4, "first_dungeon_with_suitable_rank": "Marukyu Striptease", "chagall_persona": "Thoth", "donor_arcana": "Emperor", "donor_level": 45, "donor_skill_innate": true, "registered_copy_price_yen": 25000}, "sources": ["MR01", "MR03", "MR08", "MR10"]},
+    {"rank": 8, "persona": "Yatsufusa", "arcana": "Hanged Man", "skill": "Mediarama", "min_yu_level_for_new_fusion": 49, "special_fusion_required": true, "special_ingredients": 5, "card": {"sword_rank": 6, "first_dungeon_with_suitable_rank": "Void Quest", "chagall_persona": "Undine", "donor_arcana": "Lovers", "donor_level": 36, "registered_copy_price_yen": 70000}, "sources": ["MR01", "MR03", "MR08", "MR11"]},
+    {"rank": 9, "persona": "Ganesha", "arcana": "Star", "skill": "Tetrakarn", "min_yu_level_for_new_fusion": 50, "special_fusion_required": false, "card": {"sword_rank": 9, "first_dungeon_with_suitable_rank": "Heaven", "chagall_persona": "Arahabaki", "donor_arcana": "Hermit", "donor_level": 76, "registered_copy_price_yen": 80000}, "sources": ["MR01", "MR03", "MR08", "MR11"]},
+    {"rank": 10, "persona": "Trumpeter", "arcana": "Judgement", "skill": "Mind Charge", "min_yu_level_for_new_fusion": 67, "special_fusion_required": true, "special_ingredients": 6, "card": {"sword_rank": 8, "first_dungeon_with_suitable_rank": "Heaven", "chagall_persona": "Alice", "donor_arcana": "Death", "donor_level": 77, "registered_copy_price_yen": 90000}, "sources": ["MR01", "MR03", "MR08", "MR11"]}
+  ],
+  "reward": {
+    "rank_10": "Spiral Brooch: sblocca la fusione di Isis. Torna a parlare con Margaret per i Deep Blue Clothes.",
+    "ending_requirement": "Empress MAX non è richiesto per Normal, True o Golden. È uno dei requisiti della sfida opzionale di Margaret in NG+.",
+    "planning": "Per restare coerente con il piano prudente della guida principale, termina Empress prima del boss di dicembre se vuoi preparare anche la sfida NG+. Non presentare questa scelta come la scadenza naturale obbligatoria del Social Link.",
+    "sources": ["MR01", "MR02", "MR16"]
+  },
+  "resolved_conflicts": [
+    {"topic": "Avvio", "rejected": "3 maggio nella pagina hXcHector Empress", "adopted": "19 maggio + Knowledge 3, riscontri MR01/MR02/MR04"},
+    {"topic": "Fusioni avanzate", "rejected": "20 luglio in RPG Site", "adopted": "10 luglio in Golden, riscontri MR03/MR06/MR07"},
+    {"topic": "Compendium NG+", "rejected": "Serve sempre Yu 67 per mostrare Trumpeter", "adopted": "67 per nuova fusione; evocazione precedente consentita sopra il livello di Yu, MR04/MR05"},
+    {"topic": "Hollow Forest", "rejected": "Farm Skill Card nell'intervallo 4–10 della tabella generica81937", "adopted": "Escluderlo dal piano Skill Card, guida specifica82141/card-lists"},
+    {"topic": "Grafia", "rejected": "Tetrakarm nella tabella82141/support", "adopted": "Tetrakarn, concordanzaMR01/MR03/MR08"}
+  ]
+}

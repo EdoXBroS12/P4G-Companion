@@ -1,0 +1,202 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-11-07T23:55:29.064Z",
+  "upstream_commit": "0b207612f6cdcff092e62af16f5c355271a1d892",
+  "persona_count": 205,
+  "pairsChecked": 20910,
+  "triplesChecked": 1414910,
+  "raised_current_level_triples_checked": 1414910,
+  "counts": [
+    {
+      "name": "Ippon-Datara",
+      "normal": 75,
+      "triple": 240,
+      "special": 0
+    },
+    {
+      "name": "Matador",
+      "normal": 117,
+      "triple": 1801,
+      "special": 0
+    },
+    {
+      "name": "Gdon",
+      "normal": 194,
+      "triple": 5446,
+      "special": 0
+    },
+    {
+      "name": "Neko Shogun",
+      "normal": 0,
+      "triple": 0,
+      "special": 1
+    },
+    {
+      "name": "Black Frost",
+      "normal": 0,
+      "triple": 0,
+      "special": 1
+    },
+    {
+      "name": "Yatagarasu",
+      "normal": 213,
+      "triple": 11783,
+      "special": 0
+    },
+    {
+      "name": "Yatsufusa",
+      "normal": 0,
+      "triple": 0,
+      "special": 1
+    },
+    {
+      "name": "Ganesha",
+      "normal": 137,
+      "triple": 10506,
+      "special": 0
+    },
+    {
+      "name": "Trumpeter",
+      "normal": 0,
+      "triple": 0,
+      "special": 1
+    }
+  ],
+  "checks": [
+    {
+      "name": "All target-producing pairs at base levels",
+      "pass": true,
+      "count": 0,
+      "examples": []
+    },
+    {
+      "name": "All target-producing triples at base levels",
+      "pass": true,
+      "count": 0,
+      "examples": []
+    },
+    {
+      "name": "All target-producing triples with varied current levels and cross-arcana ties",
+      "pass": true,
+      "count": 0,
+      "examples": []
+    },
+    {
+      "name": "Normal fixture Girimehkala+Mithra",
+      "pass": true,
+      "expected": "Taowu",
+      "actual": "Taowu"
+    },
+    {
+      "name": "Normal fixture Belial+Nebiros",
+      "pass": true,
+      "expected": "Alice",
+      "actual": "Alice"
+    },
+    {
+      "name": "Normal fixture Rangda+Barong",
+      "pass": true,
+      "expected": "Shiva",
+      "actual": "Shiva"
+    },
+    {
+      "name": "Normal fixture Parvati+Shiva",
+      "pass": true,
+      "expected": "Ardha",
+      "actual": "Ardha"
+    },
+    {
+      "name": "Normal fixture Izanagi+Legion",
+      "pass": true,
+      "expected": "Yomotsu-Shikome",
+      "actual": "Yomotsu-Shikome"
+    },
+    {
+      "name": "Three same-arcana ingredients rank upwards",
+      "pass": true,
+      "actual": "Legion"
+    },
+    {
+      "name": "Published current-level tie fixture",
+      "pass": true,
+      "actual": "Decarabia"
+    },
+    {
+      "name": "Same-arcana highest-current-level tie is order invariant",
+      "pass": true,
+      "results": [
+        "Ose",
+        "Ose",
+        "Ose",
+        "Ose",
+        "Ose",
+        "Ose"
+      ]
+    },
+    {
+      "name": "Ippon-Datara may inherit Sukukaja",
+      "pass": true
+    },
+    {
+      "name": "Matador may inherit Mahama",
+      "pass": true
+    },
+    {
+      "name": "Gdon may inherit Rampage",
+      "pass": true
+    },
+    {
+      "name": "Neko Shogun may inherit Bufula",
+      "pass": true
+    },
+    {
+      "name": "Black Frost may inherit Auto-Sukukaja",
+      "pass": true
+    },
+    {
+      "name": "Yatagarasu may inherit Megido",
+      "pass": true
+    },
+    {
+      "name": "Yatsufusa may inherit Mediarama",
+      "pass": true
+    },
+    {
+      "name": "Ganesha may inherit Tetrakarn",
+      "pass": true
+    },
+    {
+      "name": "Trumpeter may inherit Mind Charge",
+      "pass": true
+    },
+    {
+      "name": "Dark target cannot inherit light spell",
+      "pass": true
+    },
+    {
+      "name": "Repeated identical ingredients rejected",
+      "pass": true
+    },
+    {
+      "name": "Exact fixed special recipe: Neko Shogun",
+      "pass": true
+    },
+    {
+      "name": "Exact fixed special recipe: Black Frost",
+      "pass": true
+    },
+    {
+      "name": "Exact fixed special recipe: Yatsufusa",
+      "pass": true
+    },
+    {
+      "name": "Exact fixed special recipe: Trumpeter",
+      "pass": true
+    }
+  ],
+  "failures": [],
+  "warnings": [],
+  "pair_mismatches": [],
+  "triple_mismatches": [],
+  "raised_current_level_mismatches": []
+}
