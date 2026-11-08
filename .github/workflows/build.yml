@@ -37,7 +37,29 @@ jobs:
         run: npm ci
 
       - name: Ensure the official Electron runtime is installed
-        run: node node_modules/electron/install.js
+        shell: pwsh
+        timeout-minutes: 10
+        run: |
+          $runtimeReady = $false
+          for ($attempt = 1; $attempt -le 3; $attempt++) {
+            Write-Host "Installing the official Electron runtime (attempt $attempt of 3)."
+            try {
+              & node node_modules/electron/install.js
+              if ($LASTEXITCODE -eq 0) {
+                $runtimeReady = $true
+                break
+              }
+            } catch {
+              Write-Warning $_.Exception.Message
+            }
+            if ($attempt -lt 3) {
+              Write-Warning 'Electron download failed; retrying the same official download.'
+              Start-Sleep -Seconds (20 * $attempt)
+            }
+          }
+          if (-not $runtimeReady) {
+            throw 'The official Electron runtime could not be installed after 3 attempts.'
+          }
 
       - name: Run unit and content checks
         run: npm test
@@ -67,41 +89,5 @@ jobs:
           compression-level: 0
           retention-days: 14
 
-  release:
-    needs: windows
-    if: ${{ startsWith(github.ref, 'refs/tags/') }}
-    runs-on: ubuntu-latest
-    timeout-minutes: 15
-    permissions:
-      contents: write
-    steps:
-      - name: Download the verified Windows build
-        uses: actions/download-artifact@v7
-        with:
-          name: P4G-Companion-windows-x64-${{ github.sha }}
-          path: release-artifact
-
-      - name: Publish the tagged Windows startup fix
-        shell: bash
-        working-directory: release-artifact
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          set -euo pipefail
-          test -f P4G_Companion.exe
-          test -f SHA256SUMS.txt
-          sha256sum --check SHA256SUMS.txt
-          cat > "$RUNNER_TEMP/p4g-release-notes.md" <<'NOTES'
-          Windows startup packaging fix for P4G Companion 1.2.0.
-
-          The bundled upstream Electron runtime is preserved byte-for-byte. Electron fuses and Windows security settings are unchanged. Native and portable startup were verified on the tested Windows system with Smart App Control enabled.
-
-          Download P4G_Companion.exe and use SHA256SUMS.txt to verify it. The app remains unsigned; acceptance can vary between Windows systems.
-          NOTES
-          gh release create "$GITHUB_REF_NAME" \
-            P4G_Companion.exe SHA256SUMS.txt \
-            --repo "$GITHUB_REPOSITORY" \
-            --verify-tag \
-            --title 'P4G Companion 1.2.0 — Windows startup fix' \
-            --notes-file "$RUNNER_TEMP/p4g-release-notes.md" \
-            --latest
+# Public releases use the exact portable artifact checked on the target Windows PC.
+# CI builds remain downloadable review artifacts; they do not replace release assets.
