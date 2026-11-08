@@ -17,6 +17,7 @@ function setMousePassthrough(value){
  mousePassthrough=compact&&Boolean(value);win.setIgnoreMouseEvents(mousePassthrough,{forward:true});win.setFocusable(!mousePassthrough);
  if(!mousePassthrough&&compact)win.focus();notify();
 }
+function applyPin(){win.setAlwaysOnTop(pinned,process.platform==='win32'?'pop-up-menu':'floating');}
 function toggleCompact(){
  if(!win)return;
  if(!compact){
@@ -26,14 +27,14 @@ function toggleCompact(){
   win.setMinimumSize(360,280);
   const wanted=overlayBounds||{x:area.x+area.width-460,y:area.y+35,width:440,height:Math.min(area.height-70,600)};
   win.setBounds({x:Math.max(area.x,Math.min(wanted.x,area.x+area.width-360)),y:Math.max(area.y,Math.min(wanted.y,area.y+area.height-280)),width:Math.min(wanted.width,area.width),height:Math.min(wanted.height,area.height)});
-  pinned=true;win.setAlwaysOnTop(true,'floating');
+  pinned=true;applyPin();
  }else{
-  overlayBounds=win.getBounds();setMousePassthrough(false);compact=false;pinned=pinBeforeCompact;win.setAlwaysOnTop(pinned,'floating');
+  overlayBounds=win.getBounds();setMousePassthrough(false);compact=false;pinned=pinBeforeCompact;applyPin();
   win.setMinimumSize(980,650);win.setBounds(normalBounds||{width:1360,height:900});if(wasMaximized)win.maximize();win.show();win.focus();
  }
  notify();
 }
-function togglePin(){pinned=!pinned;win.setAlwaysOnTop(pinned,'floating');notify();}
+function togglePin(){pinned=!pinned;applyPin();notify();}
 function toggleVisible(){if(win.isVisible()&&!win.isMinimized())win.hide();else{win.showInactive();if(win.isMinimized())win.restore();}notify();}
 const safeRelative=p=>{if(typeof p!=='string'||p.includes('\0'))throw Error('Percorso non valido');const full=path.resolve(CONTENT,p);if(!full.startsWith(CONTENT+path.sep))throw Error('Percorso esterno alla guida');return full;};
 function createWindow(){

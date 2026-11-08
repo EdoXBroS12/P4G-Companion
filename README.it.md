@@ -4,13 +4,15 @@
 
 Un’app Windows offline per **Persona 4 Golden**: segui i percorsi dei finali, registra le quest e prepara le richieste di fusione di Margaret. Scegli gli obiettivi prima di giocare e tieni accanto al gioco una piccola lista sempre in primo piano. L’interfaccia e le guide testuali sono disponibili in italiano e inglese.
 
-**Spoiler integrali della storia.** È un progetto indipendente realizzato da fan, senza affiliazione o approvazione di ATLUS o SEGA. Versione **1.4.0**.
+**Spoiler integrali della storia.** È un progetto indipendente realizzato da fan, senza affiliazione o approvazione di ATLUS o SEGA. Versione **1.4.1**.
 
-La versione 1.4.0 aggiunge il piano della sessione, un overlay dedicato alla lista e una navigazione più chiara, con grafica gialla e nera ispirata alle TV di Persona 4. I contenuti della guida di gioco restano quelli della versione 1.2.0.
+La versione 1.4.1 aggiunge il piano della sessione, un overlay dedicato alla lista e una navigazione più chiara, con grafica gialla e nera ispirata alle TV di Persona 4. I contenuti della guida di gioco restano quelli della versione 1.2.0.
 
 ![P4G Companion](docs/screenshots/home-en.png)
 
 ## Novità della 1.4
+
+Corretto anche il livello di primo piano dell’overlay su Windows.
 
 - Home più semplice: segui una guida oppure prepara la sessione.
 - Quest in pagine da 12; la ricerca considera comunque tutte le 69 richieste.

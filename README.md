@@ -4,13 +4,15 @@
 
 An offline Windows companion for **Persona 4 Golden**: follow ending routes, track side quests and prepare Margaret’s fusion requests. Choose your goals before playing, then keep a small, always-on-top checklist beside the game. The interface and textual guides are available in Italian and English.
 
-**Full story spoilers.** This is an independent fan project, with no affiliation with or endorsement by ATLUS or SEGA. Version **1.4.0**.
+**Full story spoilers.** This is an independent fan project, with no affiliation with or endorsement by ATLUS or SEGA. Version **1.4.1**.
 
-Version 1.4.0 adds a session planner, a dedicated checklist overlay and clearer navigation in a yellow-and-black TV-inspired interface. The gameplay guide content is unchanged from 1.2.0.
+Version 1.4.1 adds a session planner, a dedicated checklist overlay and clearer navigation in a yellow-and-black TV-inspired interface. The gameplay guide content is unchanged from 1.2.0.
 
 ![P4G Companion in English](docs/screenshots/home-en.png)
 
 ## What changed in 1.4
+
+The Windows overlay also uses a verified always-on-top level.
 
 - A simpler home screen with two main actions: follow a guide or prepare your session.
 - Quests in pages of 12; search still covers all 69 quests.
