@@ -3,6 +3,7 @@ name: Build portable Windows app
 on:
   push:
     branches: [main]
+    tags: ['v*']
   pull_request:
   workflow_dispatch:
 
@@ -66,4 +67,41 @@ jobs:
           compression-level: 0
           retention-days: 14
 
-      # Release publication is intentionally a separate, manual maintainer step.
+  release:
+    needs: windows
+    if: ${{ startsWith(github.ref, 'refs/tags/') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - name: Download the verified Windows build
+        uses: actions/download-artifact@v7
+        with:
+          name: P4G-Companion-windows-x64-${{ github.sha }}
+          path: release-artifact
+
+      - name: Publish the tagged Windows startup fix
+        shell: bash
+        working-directory: release-artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          test -f P4G_Companion.exe
+          test -f SHA256SUMS.txt
+          sha256sum --check SHA256SUMS.txt
+          cat > "$RUNNER_TEMP/p4g-release-notes.md" <<'NOTES'
+          Windows startup packaging fix for P4G Companion 1.2.0.
+
+          The bundled upstream Electron runtime is preserved byte-for-byte. Electron fuses and Windows security settings are unchanged. Native and portable startup were verified on the tested Windows system with Smart App Control enabled.
+
+          Download P4G_Companion.exe and use SHA256SUMS.txt to verify it. The app remains unsigned; acceptance can vary between Windows systems.
+          NOTES
+          gh release create "$GITHUB_REF_NAME" \
+            P4G_Companion.exe SHA256SUMS.txt \
+            --repo "$GITHUB_REPOSITORY" \
+            --verify-tag \
+            --title 'P4G Companion 1.2.0 — Windows startup fix' \
+            --notes-file "$RUNNER_TEMP/p4g-release-notes.md" \
+            --latest
