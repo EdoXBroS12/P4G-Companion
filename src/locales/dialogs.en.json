@@ -1,0 +1,23 @@
+{
+  "Crea un ramo del diario": "Create a journal branch",
+  "Un ramo è una copia del registro dell’app. Usalo per tenere separati i progressi associati a salvataggi diversi della partita.": "A branch is a copy of the app’s journal. Use it to keep progress for different game saves separate.",
+  "Copia da": "Copy from",
+  "Ramo attuale": "Current branch",
+  "Cosa viene copiato": "What gets copied",
+  "Stato delle quest": "Quest status",
+  "Spunte delle guide": "Guide checkmarks",
+  "Appunti": "Notes",
+  "Lista di oggi": "Today’s checklist",
+  "Livelli delle Persona": "Persona levels",
+  "I finali già visti restano comuni a tutti i rami.": "The history of endings you have seen is shared across all branches.",
+  "Nome del nuovo ramo": "New branch name",
+  "Es. Golden · dal 2 gennaio": "E.g. Golden · from January 2",
+  "Scegli un nome che ti aiuti a riconoscere il salvataggio che stai seguendo.": "Choose a name that helps you recognise the game save you are following.",
+  "Il gioco resta invariato: nessun salvataggio viene creato o caricato.": "The game stays unchanged: no game save is created or loaded.",
+  "Quando usarlo": "When to use it",
+  "Per esempio, prima di passare dal ramo True al Golden: scegli poi nell’app il ramo che corrisponde al salvataggio caricato nel gioco.": "For example, before switching from the True route to Golden: select the app branch that matches the save you load in the game.",
+  "Annulla": "Cancel",
+  "Crea e passa al ramo": "Create and switch to this branch",
+  "Inserisci un nome per il nuovo ramo.": "Enter a name for the new branch.",
+  "Il nome può contenere al massimo 70 caratteri.": "The name can contain up to 70 characters."
+}

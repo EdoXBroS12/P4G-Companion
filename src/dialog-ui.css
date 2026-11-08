@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+/* Shared dialog rhythm: one heading, one reading column, deliberate actions. */
+.modal { padding: 24px; background: #070910c9; backdrop-filter: blur(5px); }
+.modal-card { width: min(680px, 100%); max-height: calc(100dvh - 48px); padding: 27px 30px 24px; overflow-x: hidden; overflow-y: auto; border: 1px solid #48505e; border-top: 4px solid #ffdf09; border-radius: 16px; background: #191d25; box-shadow: 0 28px 90px #0009; scrollbar-width: thin; scrollbar-color: #535f72 #191d25; overscroll-behavior: contain; }
+.modal-card .modal-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 20px; margin: 0 0 22px; padding: 0 0 20px; border-bottom: 1px solid #353d4a; background: transparent; }
+.modal-card .modal-top h2 { flex: 1; min-width: 0; margin: 0; color: #fafaf5; font-size: 27px; font-weight: 800; line-height: 1.25; letter-spacing: -.035em; text-wrap: pretty; }
+.modal-top > .btn.icon { flex: 0 0 35px; width: 35px; min-width: 35px; min-height: 35px; margin: 0; padding: 0; border: 1px solid #485261; border-radius: 8px; background: #252c37; color: #dce3ee; font-size: 23px; line-height: 1; }
+.modal-top > .btn.icon:hover { background: #343e4d; color: #fff; }
+.modal-body { min-width: 0; }
+.modal-body > :first-child { margin-top: 0; }
+.modal-body > :last-child { margin-bottom: 0; }
+.modal-card :is(button, input, summary):focus-visible { outline: 3px solid #ffe97b; outline-offset: 3px; }
+.branch-modal #new-profile-name:focus-visible { outline-offset: -3px; }
+.modal-card .dialog-actions { display: flex; align-items: stretch; justify-content: flex-end; flex-wrap: wrap; gap: 11px; margin: 4px 0 0; padding: 20px 0 0; border-top: 1px solid #3a424f; }
+.dialog-actions > .btn { min-height: 46px; padding: 11px 18px; font-size: 16px; font-weight: 650; line-height: 1.4; }
+.dialog-actions > .primary { border-color: #ffdf09; background: #ffdf09; color: #13170d; font-weight: 800; }
+.dialog-actions > .primary:hover { border-color: #ffed83; background: #ffed83; }
+.dialog-actions > .dialog-cancel { border-color: #4c5665; background: #252c36; color: #e2e7f0; }
+
+.branch-dialog { display: grid; grid-template-columns: minmax(0, 1fr); gap: 21px; min-width: 0; margin: 0; }
+.branch-dialog p { margin: 0; }
+.branch-dialog .dialog-purpose { color: #d3dbe8; font-size: 17px; line-height: 1.65; }
+.dialog-source-card { display: flex; align-items: center; gap: 14px; min-width: 0; padding: 15px 18px; border: 1px solid #3d4654; border-radius: 10px; background: #222a35; }
+.dialog-source-icon { display: grid; place-items: center; flex: 0 0 35px; width: 35px; height: 35px; border: 1px solid #786d32; border-radius: 8px; background: #39351d; color: #ffe471; font-size: 23px; line-height: 1; }
+.dialog-source-card > div { min-width: 0; }
+.dialog-caption { display: block; margin-bottom: 4px; color: #aebbcf; font-size: 12px; font-weight: 650; line-height: 1.4; }
+.dialog-profile-name { display: block; overflow-wrap: anywhere; color: #f5f6f0; font-size: 17px; font-weight: 700; line-height: 1.45; }
+.dialog-copy-summary > summary { width: fit-content; margin: 0; padding: 3px 0; color: #d8e1ef; font-size: 15px; font-weight: 650; line-height: 1.5; cursor: pointer; }
+.dialog-copy-summary[open] > summary { margin-bottom: 12px; }
+.dialog-copy-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 18px; list-style: none; margin: 0; padding: 0; }
+.dialog-copy-list li { position: relative; margin: 0; padding-left: 16px; color: #cbd5e4; font-size: 15px; line-height: 1.5; }
+.dialog-copy-list li::before { content: ""; position: absolute; top: .58em; left: 0; width: 5px; height: 5px; border-radius: 50%; background: #ffdf09; }
+.branch-dialog .dialog-shared-note { margin-top: 12px; color: #aebbd0; font-size: 13px; line-height: 1.6; }
+.dialog-field { display: grid; grid-template-columns: minmax(0, 1fr); gap: 9px; min-width: 0; }
+.dialog-field > label { display: block; margin: 0; color: #fff9de; font-size: 17px; font-weight: 750; line-height: 1.45; }
+.modal-card .dialog-field > input { display: block; box-sizing: border-box; width: 100%; max-width: 100%; min-width: 0; min-height: 49px; margin: 0; padding: 12px 14px; border: 1px solid #778295; border-radius: 8px; background: #11161e; color: #f3f6fc; font-size: 17px; line-height: 1.4; }
+.modal-card .dialog-field > input::placeholder { color: #9daac0; opacity: 1; }
+.modal-card .dialog-field > input:focus { border-color: #ffdf09; box-shadow: 0 0 0 3px #ffdf091a; }
+.modal-card .dialog-field > input[aria-invalid="true"] { border-color: #f7909e; box-shadow: 0 0 0 2px #f7909e19; }
+.branch-dialog .dialog-field-help { color: #aebbd0; font-size: 13px; line-height: 1.55; }
+.branch-dialog .dialog-field-error { min-height: 0; color: #ffadb9; font-size: 14px; font-weight: 650; line-height: 1.55; }
+.dialog-field-error:empty { margin-top: -9px; }
+.branch-dialog .dialog-game-note { display: flex; align-items: flex-start; gap: 11px; padding: 12px 14px; border: 1px solid #4a4938; border-radius: 9px; background: #28271e; color: #e0d8af; font-size: 14px; line-height: 1.55; }
+.dialog-game-note > span:first-child { display: grid; place-items: center; flex: 0 0 18px; width: 18px; height: 18px; margin-top: 2px; border: 1px solid #9d8d45; border-radius: 50%; color: #ffe780; font-size: 12px; font-weight: 800; }
+.dialog-help { min-width: 0; margin: -5px 0 0; }
+.dialog-help > summary { width: fit-content; padding: 3px 0; color: #b8c6da; font-size: 14px; font-weight: 650; line-height: 1.5; cursor: pointer; }
+.dialog-help[open] > summary { margin-bottom: 9px; }
+.branch-dialog .dialog-help > p { color: #aebbd0; font-size: 14px; line-height: 1.65; }
+
+/* Keep branch actions visible while only the explanatory form content scrolls. */
+.modal-card.branch-modal { display: flex; flex-direction: column; max-height: calc(100dvh - 48px); overflow: hidden; }
+.branch-modal > .modal-top { flex: 0 0 auto; gap: 16px; margin-bottom: 16px; padding-bottom: 16px; }
+.branch-modal > .modal-body { display: flex; flex-direction: column; flex: 1 1 auto; min-height: 0; overflow: hidden; }
+.branch-modal #branch-form { flex: 1 1 auto; min-height: 0; align-content: start; gap: 15px; padding: 0 7px 0 0; overflow-x: hidden; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin; scrollbar-color: #535f72 #191d25; }
+.branch-modal .dialog-purpose { font-size: 16px; }
+.branch-modal .dialog-source-card { padding: 12px; }
+.branch-modal .modal-body > .dialog-actions { flex: 0 0 auto; margin: 16px 0 0; padding-top: 16px; background: #191d25; }
+
+@media (max-width: 540px) {
+  .modal { padding: 12px; }
+  .modal-card { max-height: calc(100dvh - 24px); padding: 21px 19px 18px; border-radius: 12px; }
+  .modal-card.branch-modal { max-height: calc(100dvh - 24px); }
+  .modal-card .modal-top { gap: 12px; margin-bottom: 19px; padding-bottom: 17px; }
+  .modal-card .modal-top h2 { font-size: 23px; }
+  .branch-dialog { gap: 19px; }
+  .branch-dialog .dialog-purpose { font-size: 16px; }
+  .dialog-source-card { gap: 11px; padding: 13px; }
+  .dialog-profile-name { font-size: 16px; }
+  .dialog-copy-list { gap: 7px 13px; }
+  .dialog-copy-list li { font-size: 14px; }
+  .modal-card .dialog-actions { flex-direction: column-reverse; gap: 9px; padding-top: 17px; }
+  .dialog-actions > .btn { width: 100%; }
+}
+@media (max-height: 600px) {
+  .modal { align-items: flex-start; }
+  .modal-card { margin: 0 auto; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .modal-card { animation: none; }
+}
